@@ -117,23 +117,23 @@
     },
     {
       "klic": "spol",
-      "popis": "Společenská místnost",
-      "foto": "/foto/spol.jpg"
+      "popis": "Společenská místnost (nová fotka)",
+      "foto": "/foto/spol1.jpg"
     },
     {
       "klic": "wcspol",
-      "popis": "Společné WC",
-      "foto": "/foto/wcspol.jpg"
+      "popis": "Společné WC (nová fotka)",
+      "foto": "/foto/wcspol1.jpg"
     },
     {
       "klic": "koupelna",
-      "popis": "Koupelna",
-      "foto": "/foto/koupelna.jpg"
+      "popis": "Koupelna (nová fotka)",
+      "foto": "/foto/sprcha1.jpg"
     },
     {
       "klic": "wc",
-      "popis": "WC",
-      "foto": "/foto/wc.jpg"
+      "popis": "WC (nová fotka)",
+      "foto": "/foto/wc1.jpg"
     },
     {
       "klic": "sofa",
@@ -199,6 +199,86 @@
       "klic": "terasa3",
       "popis": "Terasa 3 (obchod)",
       "foto": "/foto/terasa3.jpg"
+    },
+    {
+      "klic": "sprcha1",
+      "popis": "Apartmán – sprchový kout 1",
+      "foto": "/foto/sprcha1.jpg"
+    },
+    {
+      "klic": "sprcha2",
+      "popis": "Apartmán – sprchový kout 2",
+      "foto": "/foto/sprcha2.jpg"
+    },
+    {
+      "klic": "sprcha3",
+      "popis": "Apartmán – sprchový kout 3",
+      "foto": "/foto/sprcha3.jpg"
+    },
+    {
+      "klic": "wc1",
+      "popis": "Apartmán – WC 1",
+      "foto": "/foto/wc1.jpg"
+    },
+    {
+      "klic": "wc2",
+      "popis": "Apartmán – WC 2",
+      "foto": "/foto/wc2.jpg"
+    },
+    {
+      "klic": "wc3",
+      "popis": "Apartmán – WC 3",
+      "foto": "/foto/wc3.jpg"
+    },
+    {
+      "klic": "wcspol1",
+      "popis": "Společné WC – ženy",
+      "foto": "/foto/wcspol1.jpg"
+    },
+    {
+      "klic": "wcspol2",
+      "popis": "Společné WC – muži",
+      "foto": "/foto/wcspol2.jpg"
+    },
+    {
+      "klic": "spol1",
+      "popis": "Společenská místnost – bar a TV",
+      "foto": "/foto/spol1.jpg"
+    },
+    {
+      "klic": "spol2",
+      "popis": "Společenská místnost – celkový pohled",
+      "foto": "/foto/spol2.jpg"
+    },
+    {
+      "klic": "spol3",
+      "popis": "Společenská místnost – krb",
+      "foto": "/foto/spol3.jpg"
+    },
+    {
+      "klic": "spol4",
+      "popis": "Společenská místnost – dlouhý stůl",
+      "foto": "/foto/spol4.jpg"
+    },
+    {
+      "klic": "spol5",
+      "popis": "Společenská místnost – bar s pípou",
+      "foto": "/foto/spol5.jpg"
+    },
+    {
+      "klic": "spol6",
+      "popis": "Společenská místnost – bar a lavice",
+      "foto": "/foto/spol6.jpg"
+    },
+    {
+      "klic": "spol7",
+      "popis": "Společenská místnost – kuchyňské zázemí",
+      "foto": "/foto/spol7.jpg"
+    },
+    {
+      "klic": "spol8",
+      "popis": "Společenská místnost – sporák a sklo",
+      "foto": "/foto/spol8.jpg"
     }
   ]
 }
