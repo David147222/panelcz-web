@@ -3,7 +3,7 @@ backend:
   name: github
   repo: David147222/panelcz-web
   branch: main
-  base_url: https://novy.panelcz.cz
+  base_url: https://panelcz.cz
   auth_endpoint: admin/auth.php
   auth_scope: public_repo
   commit_messages:
@@ -12,8 +12,8 @@ backend:
 locale: cs
 media_folder: public/foto
 public_folder: /foto
-site_url: https://novy.panelcz.cz
-display_url: https://novy.panelcz.cz
+site_url: https://panelcz.cz
+display_url: https://panelcz.cz
 
 collections:
   - name: fotky
