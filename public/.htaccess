@@ -16,6 +16,8 @@ ExpiresByType application/javascript "access plus 30 days"
 <Files "oauth-config.php">
 Require all denied
 </Files>
+# Zaloha stareho WordPressu neni verejne pristupna
+RewriteRule ^_stary-web(/|$) - [F,L]
 # Presmerovani starych adres puvodniho webu panelcz.cz (stav 3. 11. 2026)
 RewriteRule ^ubytovani/informace-pro-ubytovane/?$ https://%{HTTP_HOST}/informace/ [R=301,L]
 RewriteRule ^ubytovani/?$ https://%{HTTP_HOST}/apartmany/ [R=301,L]
