@@ -47,7 +47,12 @@
     window.bookingEngineConfig = window.bookingEngineConfig || [];
     boxes.forEach(function (el) {
       var id = el.id.replace('previo-booking-engine-', '');
-      window.bookingEngineConfig.push({ id: id, customSelector: el.id, lang: lang, currency: cur });
+      var cfg = { id: id, customSelector: el.id, lang: lang, currency: cur };
+      // Volitelný výchozí termín (data-prijezd / data-odjezd, RRRR-MM-DD), např. začátek letní sezóny.
+      // Použije se jen dokud je příjezd v budoucnu.
+      var a = el.getAttribute('data-prijezd'), d = el.getAttribute('data-odjezd');
+      if (a && d && new Date(a + 'T12:00:00') > new Date()) { cfg.arrival = a; cfg.departure = d; }
+      window.bookingEngineConfig.push(cfg);
       new MutationObserver(function () {
         if (el.children.length) el.closest('.rplus').classList.add('loaded');
       }).observe(el, { childList: true });
