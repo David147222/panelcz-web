@@ -110,7 +110,7 @@ footer h3{font-size:1.05rem;margin-bottom:8px}footer p{margin:0;opacity:.92}foot
 .rplus{border:2px dashed var(--lake2);border-radius:14px;min-height:280px;background:#fff;display:grid;place-items:center;padding:30px 20px;text-align:center}.rplus .rph h3{font-size:1.3rem;margin-top:8px}.rplus .rph p{color:var(--muted);max-width:56ch;margin:8px auto 18px}
 .rplus.loaded{border:0;padding:0;display:block;min-height:0;background:none;text-align:left}.rplus.loaded .rph{display:none}
 /* Formulář Previo R+ přes celou šířku (Previo jinak nastaví pevných 300 px) */
-.rplus [id^="previo-booking-engine-"]{width:100%!important;max-width:none!important}
+html body .rplus [id^="previo-booking-engine-"]:not(#_a):not(#_b){width:100%!important;max-width:none!important}
 .cookie .btn{padding:9px 18px;font-size:.9rem}
 footer a{color:#fff}
 .lang a{border:1px solid rgba(255,255,255,.35);color:#fff;border-radius:5px;padding:2px 7px;font:600 .8rem var(--b);text-decoration:none}.lang a.on{background:#fff;color:var(--lake)}
