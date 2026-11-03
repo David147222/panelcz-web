@@ -1,0 +1,71 @@
+# Administrace webu panelcz.cz (Decap CMS). Změny se uloží na GitHub a web se za 1–2 minuty sám nahraje na Wedos.
+backend:
+  name: github
+  repo: David147222/panelcz-web
+  branch: main
+  base_url: https://novy.panelcz.cz
+  auth_endpoint: admin/auth.php
+  auth_scope: public_repo
+  commit_messages:
+    update: "Úprava: {{collection}} – {{slug}}"
+    uploadMedia: "Nová fotka: {{path}}"
+locale: cs
+media_folder: public/foto
+public_folder: /foto
+site_url: https://novy.panelcz.cz
+display_url: https://novy.panelcz.cz
+
+collections:
+  - name: fotky
+    label: Fotky webu
+    description: Každá fotka je na webu použitá na jednom nebo více místech. Když ji tady vyměníte, změní se všude.
+    files:
+      - name: fotky
+        label: Všechny fotky
+        file: content/fotky.json
+        fields:
+          - name: fotky
+            label: Fotky
+            widget: list
+            allow_add: false
+            allow_remove: false
+            allow_reorder: false
+            summary: "{{fields.popis}}"
+            fields:
+              - { name: klic, label: "Kód fotky (neměnit)", widget: string }
+              - { name: popis, label: "Kde je použitá", widget: string }
+              - { name: foto, label: "Fotka", widget: image, choose_url: false }
+
+  - name: nastaveni
+    label: Kontakty a nastavení
+    files:
+      - name: nastaveni
+        label: Kontakty, patička, upozornění
+        file: content/nastaveni.json
+        fields:
+          - { name: nazev, label: "Název", widget: string }
+          - { name: podnazev, label: "Podnázev v hlavičce", widget: string }
+          - { name: domena, label: "Adresa webu", widget: string }
+          - { name: adresa, label: "Adresa (HTML, řádky oddělte <br>)", widget: string }
+          - { name: gps, label: "GPS", widget: string }
+          - { name: telefon_ubytovani, label: "Telefon – ubytování", widget: string }
+          - { name: telefon_provoz, label: "Telefon – provoz", widget: string }
+          - { name: email, label: "E-mail", widget: string }
+          - { name: facebook, label: "Facebook", widget: string }
+          - { name: instagram, label: "Instagram", widget: string }
+          - { name: provozovatel, label: "Provozovatel (HTML)", widget: string }
+          - { name: upozorneni, label: "Upozornění nahoře na webu (prázdné = nezobrazí se)", widget: string, required: false }
+
+  - name: stranky
+    label: Stránky
+    folder: content/stranky
+    format: json
+    extension: json
+    create: false
+    delete: false
+    identifier_field: nadpis
+    summary: "{{nadpis}}"
+    fields:
+      - { name: nadpis, label: "Název stránky (v záložce prohlížeče a ve vyhledávání)", widget: string }
+      - { name: popis, label: "Popis pro Google (1–2 věty)", widget: text, required: false }
+      - { name: obsah, label: "Obsah stránky (HTML)", widget: code, default_language: html, output_code_only: true, allow_language_selection: false }
