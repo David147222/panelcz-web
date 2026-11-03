@@ -117,4 +117,8 @@ footer a{color:#fff}
 .tr-note{background:var(--sand);border-radius:8px;padding:10px 14px;font-size:.92rem}
 
 /* Info o ceně za celý objekt a kapacitě nad formulářem */
-.cap{background:#fff6e5;border:1px solid #efcf98;border-radius:12px;padding:18px 22px;margin:0 0 18px}.cap h3{font-size:1.2rem;margin:0 0 6px}.cap p{margin:0 0 8px}.cap .cap-t{font-weight:600;margin-top:10px}.cap ul{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:8px}.cap li{background:#fff;border:1px solid #efcf98;border-radius:999px;padding:4px 12px;font-size:.95rem}
+.cap{background:#fff6e5;border:1px solid #efcf98;border-radius:12px;padding:20px 22px;margin:0 0 20px}.cap h3{font-size:1.25rem;margin:0 0 6px}.cap p{margin:0 0 8px}.cap .cap-t{font-weight:700;margin-top:12px}
+.cap-g{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px;margin-top:8px}
+.cap-a{background:#fff;border:1px solid #efcf98;border-radius:10px;padding:12px 14px;display:flex;flex-direction:column;gap:2px}
+.cap-a b{font-family:var(--d);color:var(--lake)}.cap-a .cap-n{font-weight:700;color:var(--sun)}.cap-a small{color:var(--muted);font-size:.85rem;line-height:1.35;margin-top:4px}
+.cap .cap-m{margin:12px 0 0;font-size:.95rem}
