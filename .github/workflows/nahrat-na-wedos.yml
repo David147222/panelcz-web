@@ -1,0 +1,42 @@
+# Po každé změně (z administrace nebo z počítače) sestaví web a nahraje ho na Wedos přes FTP.
+# Potřebné údaje v Settings → Secrets and variables → Actions:
+#   FTP_SERVER, FTP_USERNAME, FTP_PASSWORD, FTP_DIR, OAUTH_CLIENT_ID, OAUTH_CLIENT_SECRET
+name: Nahrát web na Wedos
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: wedos-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Sestavit web
+        run: node build.js
+      - name: Zmenšit velké fotky (max. 2000 px)
+        run: |
+          sudo apt-get install -y -q imagemagick >/dev/null
+          find dist/foto -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) -exec mogrify -resize '2000x2000>' -quality 82 {} +
+      - name: Přístup do administrace (oauth-config.php)
+        env:
+          CID: ${{ secrets.OAUTH_CLIENT_ID }}
+          CSEC: ${{ secrets.OAUTH_CLIENT_SECRET }}
+        run: |
+          printf '<?php\n$CLIENT_ID = %s;\n$CLIENT_SECRET = %s;\n' "$(php -r 'echo var_export(getenv("CID"), true);')" "$(php -r 'echo var_export(getenv("CSEC"), true);')" > dist/admin/oauth-config.php
+      - name: Nahrát na Wedos (FTP)
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: ${{ secrets.FTP_DIR }}
+          local-dir: ./dist/
+          protocol: ftps
