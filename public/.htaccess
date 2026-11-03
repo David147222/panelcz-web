@@ -33,3 +33,10 @@ RewriteRule ^wellness/finska-sauna/?$ https://%{HTTP_HOST}/sauna/ [R=301,L]
 RewriteRule ^wellness/(masaze/?)?$ https://%{HTTP_HOST}/areal/ [R=301,L]
 RewriteRule ^contact/?$ https://%{HTTP_HOST}/kontakt/ [R=301,L]
 RewriteRule ^wp-(content|admin|includes)/ https://%{HTTP_HOST}/ [R=301,L]
+
+# Fotky webu smí načíst i jiné weby (např. Previo při nahrávání galerií)
+<IfModule mod_headers.c>
+<FilesMatch "\.(jpe?g|png|webp)$">
+Header set Access-Control-Allow-Origin "*"
+</FilesMatch>
+</IfModule>
