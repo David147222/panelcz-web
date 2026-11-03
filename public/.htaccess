@@ -17,17 +17,17 @@ ExpiresByType application/javascript "access plus 30 days"
 Require all denied
 </Files>
 # Presmerovani starych adres puvodniho webu panelcz.cz (stav 3. 11. 2026)
-RedirectMatch 301 ^/ubytovani/informace-pro-ubytovane/?$ /informace/
-RedirectMatch 301 ^/ubytovani/?$ /apartmany/
-RedirectMatch 301 ^/tipy-na-vylety/?$ /vylety/
-RedirectMatch 301 ^/areal/stanek/?$ /bufet/
-RedirectMatch 301 ^/areal/zabavy/?$ /hry/
-RedirectMatch 301 ^/areal/obchod/?$ /obchod/
-RedirectMatch 301 ^/areal/pujcovna/?$ /pujcovna/
-RedirectMatch 301 ^/sluzby-2/svatby/?$ /svatby/
-RedirectMatch 301 ^/sluzby-2/?$ /balicky/
-RedirectMatch 301 ^/wellness/bazen/?$ /bazen/
-RedirectMatch 301 ^/wellness/finska-sauna/?$ /sauna/
-RedirectMatch 301 ^/wellness/(masaze/?)?$ /areal/
-RedirectMatch 301 ^/contact/?$ /kontakt/
-RedirectMatch 301 ^/wp-(content|admin|includes)/ /
+RewriteRule ^ubytovani/informace-pro-ubytovane/?$ https://%{HTTP_HOST}/informace/ [R=301,L]
+RewriteRule ^ubytovani/?$ https://%{HTTP_HOST}/apartmany/ [R=301,L]
+RewriteRule ^tipy-na-vylety/?$ https://%{HTTP_HOST}/vylety/ [R=301,L]
+RewriteRule ^areal/stanek/?$ https://%{HTTP_HOST}/bufet/ [R=301,L]
+RewriteRule ^areal/zabavy/?$ https://%{HTTP_HOST}/hry/ [R=301,L]
+RewriteRule ^areal/obchod/?$ https://%{HTTP_HOST}/obchod/ [R=301,L]
+RewriteRule ^areal/pujcovna/?$ https://%{HTTP_HOST}/pujcovna/ [R=301,L]
+RewriteRule ^sluzby-2/svatby/?$ https://%{HTTP_HOST}/svatby/ [R=301,L]
+RewriteRule ^sluzby-2/?$ https://%{HTTP_HOST}/balicky/ [R=301,L]
+RewriteRule ^wellness/bazen/?$ https://%{HTTP_HOST}/bazen/ [R=301,L]
+RewriteRule ^wellness/finska-sauna/?$ https://%{HTTP_HOST}/sauna/ [R=301,L]
+RewriteRule ^wellness/(masaze/?)?$ https://%{HTTP_HOST}/areal/ [R=301,L]
+RewriteRule ^contact/?$ https://%{HTTP_HOST}/kontakt/ [R=301,L]
+RewriteRule ^wp-(content|admin|includes)/ https://%{HTTP_HOST}/ [R=301,L]
