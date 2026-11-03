@@ -279,6 +279,31 @@
       "klic": "spol8",
       "popis": "Společenská místnost – sporák a sklo",
       "foto": "/foto/spol8.jpg"
+    },
+    {
+      "klic": "plan_ap1",
+      "popis": "Plánek – Apartmán 1 (výřez z plánku areálu)",
+      "foto": "/foto/plan_ap1.jpg"
+    },
+    {
+      "klic": "plan_ap2",
+      "popis": "Plánek – Apartmán 2 (výřez z plánku areálu)",
+      "foto": "/foto/plan_ap2.jpg"
+    },
+    {
+      "klic": "plan_ap3",
+      "popis": "Plánek – Apartmán 3 (výřez z plánku areálu)",
+      "foto": "/foto/plan_ap3.jpg"
+    },
+    {
+      "klic": "plan_ap4",
+      "popis": "Plánek – Apartmán 4 (výřez z plánku areálu)",
+      "foto": "/foto/plan_ap4.jpg"
+    },
+    {
+      "klic": "plan_ap5",
+      "popis": "Plánek – Apartmán 5 (výřez z plánku areálu)",
+      "foto": "/foto/plan_ap5.jpg"
     }
   ]
 }
