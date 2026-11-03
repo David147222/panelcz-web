@@ -1,5 +1,8 @@
 # Panel Chmelnice - nastaveni pro Wedos (Apache)
 RewriteEngine On
+# www.panelcz.cz -> panelcz.cz
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^ https://%1%{REQUEST_URI} [L,R=301]
 RewriteCond %{HTTPS} !=on
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 ErrorDocument 404 /index.html
@@ -13,5 +16,18 @@ ExpiresByType application/javascript "access plus 30 days"
 <Files "oauth-config.php">
 Require all denied
 </Files>
-# Presmerovani starych adres (doplnime podle soucasneho webu):
-# Redirect 301 /stara-adresa/ /nova-adresa/
+# Presmerovani starych adres puvodniho webu panelcz.cz (stav 3. 11. 2026)
+RedirectMatch 301 ^/ubytovani/informace-pro-ubytovane/?$ /informace/
+RedirectMatch 301 ^/ubytovani/?$ /apartmany/
+RedirectMatch 301 ^/tipy-na-vylety/?$ /vylety/
+RedirectMatch 301 ^/areal/stanek/?$ /bufet/
+RedirectMatch 301 ^/areal/zabavy/?$ /hry/
+RedirectMatch 301 ^/areal/obchod/?$ /obchod/
+RedirectMatch 301 ^/areal/pujcovna/?$ /pujcovna/
+RedirectMatch 301 ^/sluzby-2/svatby/?$ /svatby/
+RedirectMatch 301 ^/sluzby-2/?$ /balicky/
+RedirectMatch 301 ^/wellness/bazen/?$ /bazen/
+RedirectMatch 301 ^/wellness/finska-sauna/?$ /sauna/
+RedirectMatch 301 ^/wellness/(masaze/?)?$ /areal/
+RedirectMatch 301 ^/contact/?$ /kontakt/
+RedirectMatch 301 ^/wp-(content|admin|includes)/ /
