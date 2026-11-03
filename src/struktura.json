@@ -1,0 +1,204 @@
+{
+ "menu": [
+  [
+   "uvod",
+   "Úvod"
+  ],
+  [
+   "cely-objekt",
+   "Ubytování",
+   [
+    [
+     "cely-objekt",
+     "Pronájem celého objektu"
+    ],
+    [
+     "apartmany",
+     "Apartmány"
+    ],
+    [
+     "informace",
+     "Informace pro ubytované"
+    ],
+    [
+     "jak-k-nam",
+     "Jak k nám"
+    ],
+    [
+     "vylety",
+     "Tipy na výlety"
+    ]
+   ]
+  ],
+  [
+   "areal",
+   "Areál a wellness",
+   [
+    [
+     "spolecenska",
+     "Společenská místnost"
+    ],
+    [
+     "terasa",
+     "Krytá terasa"
+    ],
+    [
+     "ohniste",
+     "Ohniště s grilem"
+    ],
+    [
+     "automat",
+     "Automat na terase"
+    ],
+    [
+     "hry",
+     "Šipky a fotbálek"
+    ],
+    [
+     "pramice",
+     "Pramice"
+    ],
+    [
+     "virivka",
+     "Vířivka a pódium"
+    ],
+    [
+     "sauna",
+     "Finská sauna"
+    ],
+    [
+     "infrasauna",
+     "Infrasauna"
+    ],
+    [
+     "odpocivarna",
+     "Odpočívárna"
+    ],
+    [
+     "bazen",
+     "Bazén"
+    ],
+    [
+     "hriste",
+     "Dětské hřiště"
+    ]
+   ]
+  ],
+  [
+   "bufet",
+   "Sezónní provoz",
+   [
+    [
+     "bufet",
+     "Bufet a terasa"
+    ],
+    [
+     "akce",
+     "Akce na Panelu"
+    ],
+    [
+     "obchod",
+     "Obchod"
+    ],
+    [
+     "pujcovna",
+     "Půjčovna"
+    ]
+   ]
+  ],
+  [
+   "balicky",
+   "Balíčky a oslavy",
+   [
+    [
+     "balicky",
+     "Balíčky pobytů"
+    ],
+    [
+     "svatby",
+     "Svatby"
+    ],
+    [
+     "poukazy",
+     "Dárkové poukazy"
+    ]
+   ]
+  ],
+  [
+   "cenik",
+   "Ceník"
+  ],
+  [
+   "rezervace",
+   "Rezervace"
+  ],
+  [
+   "kontakt",
+   "Kontakt",
+   [
+    [
+     "kontakt",
+     "Kontakt"
+    ],
+    [
+     "jak-k-nam",
+     "Jak k nám"
+    ],
+    [
+     "faq",
+     "Časté dotazy"
+    ]
+   ]
+  ]
+ ],
+ "parent": {
+  "cely-objekt": "cely-objekt",
+  "apartmany": "cely-objekt",
+  "informace": "cely-objekt",
+  "jak-k-nam": "kontakt",
+  "vylety": "cely-objekt",
+  "spolecenska": "areal",
+  "terasa": "areal",
+  "ohniste": "areal",
+  "automat": "areal",
+  "hry": "areal",
+  "pramice": "areal",
+  "virivka": "areal",
+  "sauna": "areal",
+  "infrasauna": "areal",
+  "odpocivarna": "areal",
+  "bazen": "areal",
+  "hriste": "areal",
+  "bufet": "bufet",
+  "akce": "bufet",
+  "obchod": "bufet",
+  "pujcovna": "bufet",
+  "balicky": "balicky",
+  "svatby": "balicky",
+  "poukazy": "balicky",
+  "kontakt": "kontakt",
+  "faq": "kontakt"
+ },
+ "rp": {
+  "panel": [
+   "01a1a149-c8ab-73eb-9112-7178a56e721d",
+   "Celý Panel (mimo léto)"
+  ],
+  "leto": [
+   "01a1a14a-eab3-719a-a68a-e6f5f340dd50",
+   "Léto – apartmány 1–4"
+  ],
+  "svatby": [
+   "01a1a14c-9e5a-71a2-b712-8ce15c396ccb",
+   "Svatby (balíčky)"
+  ],
+  "akce": [
+   "01a1a14e-1435-7089-981d-2fcdca631628",
+   "Akce a pobyty (balíčky)"
+  ],
+  "poukazy": [
+   "01a1a14e-83ee-726b-adde-b43d1c65a574",
+   "Dárkové poukazy"
+  ]
+ }
+}
