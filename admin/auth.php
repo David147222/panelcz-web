@@ -16,7 +16,7 @@ if (!isset($_GET['code'])) {
   exit;
 }
 
-$status = 'error'; $content = ['message' => 'Přihlášení se nezdařilo'];
+$status = 'error'; $duvod = 'neplatný stav přihlášení (session)';
 if (!empty($_SESSION['oauth_state']) && hash_equals($_SESSION['oauth_state'], $_GET['state'] ?? '')) {
   $ch = curl_init('https://github.com/login/oauth/access_token');
   curl_setopt_array($ch, [
@@ -26,9 +26,12 @@ if (!empty($_SESSION['oauth_state']) && hash_equals($_SESSION['oauth_state'], $_
       'client_id' => $CLIENT_ID, 'client_secret' => $CLIENT_SECRET, 'code' => $_GET['code'], 'redirect_uri' => $self,
     ]),
   ]);
-  $res = json_decode(curl_exec($ch), true); curl_close($ch);
+  $raw = curl_exec($ch); $cerr = curl_error($ch); curl_close($ch);
+  $res = json_decode((string)$raw, true);
   if (!empty($res['access_token'])) { $status = 'success'; $content = ['token' => $res['access_token'], 'provider' => 'github']; }
+  else $duvod = $cerr ? 'spojení s GitHubem: ' . $cerr : 'GitHub: ' . ($res['error'] ?? 'neznámá odpověď') . (isset($res['error_description']) ? ' – ' . $res['error_description'] : '');
 }
+if ($status !== 'success') $content = ['message' => 'Přihlášení se nezdařilo (' . $duvod . ')'];
 unset($_SESSION['oauth_state']);
 $msg = 'authorization:github:' . $status . ':' . json_encode($content);
 $origin = 'https://' . $_SERVER['HTTP_HOST'];
@@ -42,4 +45,4 @@ $origin = 'https://' . $_SERVER['HTTP_HOST'];
   });
   window.opener.postMessage('authorizing:github', origin);
 })();
-</script><p>Přihlašuji…</p></body></html>
+</script><p>Přihlašuji…</p><?php if ($status !== 'success') echo '<p>' . htmlspecialchars($content['message']) . '</p>'; ?></body></html>
