@@ -1,0 +1,204 @@
+{
+  "fotky": [
+    {
+      "klic": "plan",
+      "popis": "Plánek areálu",
+      "foto": "/foto/plan.jpg"
+    },
+    {
+      "klic": "sv_obrad",
+      "popis": "Svatba – obřad",
+      "foto": "/foto/sv_obrad.jpg"
+    },
+    {
+      "klic": "sv_pano",
+      "popis": "Svatba – panorama terasy",
+      "foto": "/foto/sv_pano.jpg"
+    },
+    {
+      "klic": "sv_stoly",
+      "popis": "Svatba – stoly na terase",
+      "foto": "/foto/sv_stoly.jpg"
+    },
+    {
+      "klic": "sv_hlavni",
+      "popis": "Svatba – hlavní stůl",
+      "foto": "/foto/sv_hlavni.jpg"
+    },
+    {
+      "klic": "infra",
+      "popis": "Infrasauna",
+      "foto": "/foto/infra.jpg"
+    },
+    {
+      "klic": "hero",
+      "popis": "Úvodní fotka (velká)",
+      "foto": "/foto/hero.jpg"
+    },
+    {
+      "klic": "bazen",
+      "popis": "Bazén",
+      "foto": "/foto/bazen.jpg"
+    },
+    {
+      "klic": "budova",
+      "popis": "Budova",
+      "foto": "/foto/budova.jpg"
+    },
+    {
+      "klic": "dvur",
+      "popis": "Dvůr (pozadí výzev)",
+      "foto": "/foto/dvur.jpg"
+    },
+    {
+      "klic": "dvur2",
+      "popis": "Dvůr 2",
+      "foto": "/foto/dvur2.jpg"
+    },
+    {
+      "klic": "ohniste",
+      "popis": "Ohniště",
+      "foto": "/foto/ohniste.jpg"
+    },
+    {
+      "klic": "obyvak",
+      "popis": "Apartmán – obývák",
+      "foto": "/foto/obyvak.jpg"
+    },
+    {
+      "klic": "kuchyn",
+      "popis": "Apartmán – kuchyňka",
+      "foto": "/foto/kuchyn.jpg"
+    },
+    {
+      "klic": "loznice",
+      "popis": "Apartmán – ložnice",
+      "foto": "/foto/loznice.jpg"
+    },
+    {
+      "klic": "pokoj",
+      "popis": "Apartmán – pokoj",
+      "foto": "/foto/pokoj.jpg"
+    },
+    {
+      "klic": "sauna1",
+      "popis": "Sauna 1",
+      "foto": "/foto/sauna1.jpg"
+    },
+    {
+      "klic": "sauna2",
+      "popis": "Sauna 2",
+      "foto": "/foto/sauna2.jpg"
+    },
+    {
+      "klic": "sauna3",
+      "popis": "Sauna 3",
+      "foto": "/foto/sauna3.jpg"
+    },
+    {
+      "klic": "terasa1",
+      "popis": "Terasa 1",
+      "foto": "/foto/terasa1.jpg"
+    },
+    {
+      "klic": "terasa2",
+      "popis": "Terasa 2 (akce)",
+      "foto": "/foto/terasa2.jpg"
+    },
+    {
+      "klic": "bufet",
+      "popis": "Bufet",
+      "foto": "/foto/bufet.jpg"
+    },
+    {
+      "klic": "hriste",
+      "popis": "Dětské hřiště",
+      "foto": "/foto/hriste.jpg"
+    },
+    {
+      "klic": "spol",
+      "popis": "Společenská místnost",
+      "foto": "/foto/spol.jpg"
+    },
+    {
+      "klic": "wcspol",
+      "popis": "Společné WC",
+      "foto": "/foto/wcspol.jpg"
+    },
+    {
+      "klic": "koupelna",
+      "popis": "Koupelna",
+      "foto": "/foto/koupelna.jpg"
+    },
+    {
+      "klic": "wc",
+      "popis": "WC",
+      "foto": "/foto/wc.jpg"
+    },
+    {
+      "klic": "sofa",
+      "popis": "Apartmán 5 – sedačka",
+      "foto": "/foto/sofa.jpg"
+    },
+    {
+      "klic": "apano",
+      "popis": "Apartmán – panorama",
+      "foto": "/foto/apano.jpg"
+    },
+    {
+      "klic": "ap1",
+      "popis": "Apartmán 1",
+      "foto": "/foto/ap1.jpg"
+    },
+    {
+      "klic": "budova2",
+      "popis": "Budova 2",
+      "foto": "/foto/budova2.jpg"
+    },
+    {
+      "klic": "park",
+      "popis": "Parkování",
+      "foto": "/foto/park.jpg"
+    },
+    {
+      "klic": "bus",
+      "popis": "Autobus / doprava",
+      "foto": "/foto/bus.jpg"
+    },
+    {
+      "klic": "pram1",
+      "popis": "Pramice 1",
+      "foto": "/foto/pram1.jpg"
+    },
+    {
+      "klic": "pram2",
+      "popis": "Pramice 2",
+      "foto": "/foto/pram2.jpg"
+    },
+    {
+      "klic": "zima1",
+      "popis": "Zima 1",
+      "foto": "/foto/zima1.jpg"
+    },
+    {
+      "klic": "zima2",
+      "popis": "Zima 2",
+      "foto": "/foto/zima2.jpg"
+    },
+    {
+      "klic": "podium",
+      "popis": "Pódium",
+      "foto": "/foto/podium.jpg"
+    },
+    {
+      "klic": "terasa",
+      "popis": "Krytá terasa",
+      "foto": "/foto/terasa.jpg"
+    },
+    {
+      "klic": "terasa3",
+      "popis": "Terasa 3 (obchod)",
+      "foto": "/foto/terasa3.jpg"
+    }
+  ]
+}
