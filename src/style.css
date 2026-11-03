@@ -122,3 +122,4 @@ footer a{color:#fff}
 .cap-a{background:#fff;border:1px solid #efcf98;border-radius:10px;padding:12px 14px;display:flex;flex-direction:column;gap:2px}
 .cap-a b{font-family:var(--d);color:var(--lake)}.cap-a .cap-n{font-weight:700;color:var(--sun)}.cap-a small{color:var(--muted);font-size:.85rem;line-height:1.35;margin-top:4px}
 .cap .cap-m{margin:12px 0 0;font-size:.95rem}
+.cap.sez{background:#e8f3f5;border-color:#9cc7d0}
