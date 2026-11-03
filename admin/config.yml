@@ -69,3 +69,31 @@ collections:
       - { name: nadpis, label: "Název stránky (v záložce prohlížeče a ve vyhledávání)", widget: string }
       - { name: popis, label: "Popis pro Google (1–2 věty)", widget: text, required: false }
       - { name: obsah, label: "Obsah stránky (HTML)", widget: code, default_language: html, output_code_only: true, allow_language_selection: false }
+
+  - name: stranky_de
+    label: Stránky – německy (DE)
+    folder: content/de/stranky
+    format: json
+    extension: json
+    create: false
+    delete: false
+    identifier_field: nadpis
+    summary: "{{nadpis}}"
+    fields:
+      - { name: nadpis, label: "Název stránky (v záložce prohlížeče a ve vyhledávání)", widget: string }
+      - { name: popis, label: "Popis pro Google (1–2 věty)", widget: text, required: false }
+      - { name: obsah, label: "Obsah stránky (HTML)", widget: code, default_language: html, output_code_only: true, allow_language_selection: false }
+
+  - name: stranky_en
+    label: Stránky – anglicky (EN)
+    folder: content/en/stranky
+    format: json
+    extension: json
+    create: false
+    delete: false
+    identifier_field: nadpis
+    summary: "{{nadpis}}"
+    fields:
+      - { name: nadpis, label: "Název stránky (v záložce prohlížeče a ve vyhledávání)", widget: string }
+      - { name: popis, label: "Popis pro Google (1–2 věty)", widget: text, required: false }
+      - { name: obsah, label: "Obsah stránky (HTML)", widget: code, default_language: html, output_code_only: true, allow_language_selection: false }
