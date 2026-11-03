@@ -115,3 +115,6 @@ html body .rplus [id^="previo-booking-engine-"]:not(#_a):not(#_b){width:100%!imp
 footer a{color:#fff}
 .lang a{border:1px solid rgba(255,255,255,.35);color:#fff;border-radius:5px;padding:2px 7px;font:600 .8rem var(--b);text-decoration:none}.lang a.on{background:#fff;color:var(--lake)}
 .tr-note{background:var(--sand);border-radius:8px;padding:10px 14px;font-size:.92rem}
+
+/* Info o ceně za celý objekt a kapacitě nad formulářem */
+.cap{background:#fff6e5;border:1px solid #efcf98;border-radius:12px;padding:18px 22px;margin:0 0 18px}.cap h3{font-size:1.2rem;margin:0 0 6px}.cap p{margin:0 0 8px}.cap .cap-t{font-weight:600;margin-top:10px}.cap ul{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:8px}.cap li{background:#fff;border:1px solid #efcf98;border-radius:999px;padding:4px 12px;font-size:.95rem}
