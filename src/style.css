@@ -111,3 +111,5 @@ footer h3{font-size:1.05rem;margin-bottom:8px}footer p{margin:0;opacity:.92}foot
 .rplus.loaded{border:0;padding:0;display:block;min-height:0;background:none;text-align:left}.rplus.loaded .rph{display:none}
 .cookie .btn{padding:9px 18px;font-size:.9rem}
 footer a{color:#fff}
+.lang a{border:1px solid rgba(255,255,255,.35);color:#fff;border-radius:5px;padding:2px 7px;font:600 .8rem var(--b);text-decoration:none}.lang a.on{background:#fff;color:var(--lake)}
+.tr-note{background:var(--sand);border-radius:8px;padding:10px 14px;font-size:.92rem}

@@ -1,0 +1,24 @@
+{
+  "de": {
+    "menu": {"Akce na Panelu":"Events im Panel","Apartmány":"Apartments","Areál a wellness":"Anlage und Wellness","Automat na terase":"Automat auf der Terrasse","Balíčky a oslavy":"Pakete und Feiern","Balíčky pobytů":"Aufenthaltspakete","Bazén":"Pool","Bufet a terasa":"Imbiss und Terrasse","Ceník":"Preise","Dárkové poukazy":"Geschenkgutscheine","Dětské hřiště":"Kinderspielplatz","Finská sauna":"Finnische Sauna","Informace pro ubytované":"Informationen für Gäste","Infrasauna":"Infrarotsauna","Jak k nám":"Anfahrt","Kontakt":"Kontakt","Krytá terasa":"Überdachte Terrasse","Obchod":"Laden","Odpočívárna":"Ruheraum","Ohniště s grilem":"Feuerstelle mit Grill","Pramice":"Ruderboote","Pronájem celého objektu":"Ganzes Objekt mieten","Půjčovna":"Verleih","Rezervace":"Buchung","Sezónní provoz":"Saisonbetrieb","Společenská místnost":"Gemeinschaftsraum","Svatby":"Hochzeiten","Tipy na výlety":"Ausflugstipps","Ubytování":"Unterkunft","Vířivka a pódium":"Whirlpool und Bühne","Úvod":"Startseite","Časté dotazy":"Häufige Fragen","Šipky a fotbálek":"Darts und Tischfußball"},
+    "podnazev": "Chmelnice · Stausee Vranov",
+    "adresa": "Oslnovice ev. č. 52<br>671 07 Uherčice (Chmelnice), Tschechien",
+    "provozovatel": "Dajpr s.r.o.<br>Nové Syrovice 141, 675 41, Tschechien",
+    "kde": "So finden Sie uns", "kontakt": "Kontakt", "ubytovani": "Unterkunft", "provoz": "Betrieb", "email": "E-Mail",
+    "sledujte": "Folgen Sie uns", "provozovatel_h": "Betreiber",
+    "paticka": [["podminky","Geschäfts- und Stornobedingungen"],["rad","Haus- und Betriebsordnung"],["gdpr","Datenschutz"],["cookies","Cookies"],["faq","Häufige Fragen"],["poukazy","Geschenkgutscheine"]],
+    "cookie": "Wir verwenden nur notwendige Cookies. Das Buchungsformular von Previo und die Karte können eigene Cookies speichern.",
+    "vice": "Mehr erfahren", "rozumim": "Verstanden", "jazyk": "Sprache"
+  },
+  "en": {
+    "menu": {"Akce na Panelu":"Events at Panel","Apartmány":"Apartments","Areál a wellness":"Grounds and wellness","Automat na terase":"Terrace vending machine","Balíčky a oslavy":"Packages and celebrations","Balíčky pobytů":"Stay packages","Bazén":"Pool","Bufet a terasa":"Snack bar and terrace","Ceník":"Prices","Dárkové poukazy":"Gift vouchers","Dětské hřiště":"Children's playground","Finská sauna":"Finnish sauna","Informace pro ubytované":"Guest information","Infrasauna":"Infrared sauna","Jak k nám":"Getting here","Kontakt":"Contact","Krytá terasa":"Covered terrace","Obchod":"Shop","Odpočívárna":"Relaxation room","Ohniště s grilem":"Fire pit with grill","Pramice":"Rowing boats","Pronájem celého objektu":"Whole-property rental","Půjčovna":"Rentals","Rezervace":"Booking","Sezónní provoz":"Seasonal services","Společenská místnost":"Common room","Svatby":"Weddings","Tipy na výlety":"Day trips","Ubytování":"Accommodation","Vířivka a pódium":"Hot tub and stage","Úvod":"Home","Časté dotazy":"FAQ","Šipky a fotbálek":"Darts and table football"},
+    "podnazev": "Chmelnice · Vranov reservoir",
+    "adresa": "Oslnovice ev. č. 52<br>671 07 Uherčice (Chmelnice), Czech Republic",
+    "provozovatel": "Dajpr s.r.o.<br>Nové Syrovice 141, 675 41, Czech Republic",
+    "kde": "Where to find us", "kontakt": "Contact us", "ubytovani": "Accommodation", "provoz": "Operations", "email": "E-mail",
+    "sledujte": "Follow us", "provozovatel_h": "Operator",
+    "paticka": [["podminky","Terms and cancellation policy"],["rad","House rules"],["gdpr","Privacy policy"],["cookies","Cookies"],["faq","FAQ"],["poukazy","Gift vouchers"]],
+    "cookie": "We only use essential cookies. The Previo booking form and the map may store their own cookies.",
+    "vice": "More information", "rozumim": "Got it", "jazyk": "Language"
+  }
+}

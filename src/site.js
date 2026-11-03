@@ -10,7 +10,7 @@
     d.className = 'lb';
     d.onclick = function () { d.remove(); };
     if (src) { var i = document.createElement('img'); i.src = src; i.alt = ''; d.appendChild(i); }
-    else { var p = document.createElement('div'); p.className = 'phb'; p.textContent = (label || '') + ' – doplníme'; d.appendChild(p); }
+    else { var p = document.createElement('div'); p.className = 'phb'; p.textContent = (label || '') + ({ de: ' – folgt', en: ' – coming soon' }[document.documentElement.lang] || ' – doplníme'); d.appendChild(p); }
     document.body.appendChild(d);
   };
   window.toast = function (t) {
@@ -39,12 +39,15 @@
   }, 3500);
 
   // Reservation+ (Previo): najde všechna místa pro formulář a načte je
+  // Jazyk formuláře podle jazyka stránky; cizincům ceny v eurech
+  var lang = (document.documentElement.lang || 'cs').slice(0, 2);
+  var cur = lang === 'cs' ? 'CZK' : 'EUR';
   var boxes = document.querySelectorAll('[id^="previo-booking-engine-"]');
   if (boxes.length) {
     window.bookingEngineConfig = window.bookingEngineConfig || [];
     boxes.forEach(function (el) {
       var id = el.id.replace('previo-booking-engine-', '');
-      window.bookingEngineConfig.push({ id: id, customSelector: el.id, lang: 'cs', currency: 'CZK' });
+      window.bookingEngineConfig.push({ id: id, customSelector: el.id, lang: lang, currency: cur });
       new MutationObserver(function () {
         if (el.children.length) el.closest('.rplus').classList.add('loaded');
       }).observe(el, { childList: true });
