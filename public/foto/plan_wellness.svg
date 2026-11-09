@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 971 945" width="971" height="945" role="img" aria-labelledby="t d">
+<title id="t">Wellness – půdorys</title>
+<desc id="d">Půdorys wellness ve sklepě: infrasauna, odpočívárna, převlékárna se sprchou a WC.</desc>
+<defs>
+    <pattern id="dlazba" width="9" height="9" patternUnits="userSpaceOnUse"><path d="M9,0 V9 M0,9 H9" stroke="#b9cdd8" stroke-width=".7" fill="none"/></pattern>
+    <pattern id="prkna" width="7" height="7" patternUnits="userSpaceOnUse"><line x1="0" y1="0.5" x2="7" y2="0.5" stroke="#cdb894" stroke-width="1"/></pattern>
+    <marker id="sipka" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#1f1f1d"/></marker></defs>
+<style>
+    text{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;fill:#1f1f1d}
+    .naz{font-size:15px;font-weight:700;letter-spacing:1.4px}
+    .naz-s{font-size:11px;font-weight:700;letter-spacing:.9px}
+    .naz-m{font-size:9px;font-weight:700;letter-spacing:.6px}
+    .plo{font-size:11.5px;fill:#3d3d3a}
+    .pozn{font-size:10px;fill:#6b6b67;font-style:italic}
+    .mal{font-size:9.5px;fill:#4a4a47}
+    .kt{font-size:10px;fill:#3a3a38}
+    .h1{font-size:24px;font-weight:700;letter-spacing:3px}
+    .h2{font-size:13px;fill:#3d3d3a;letter-spacing:.6px}
+    .tb{font-size:11px}
+    .tb-h{font-size:9px;fill:#6b6b67;letter-spacing:1px;font-weight:700}
+    .vchod{font-size:14px;font-weight:700;letter-spacing:.6px}
+    .vchod-pod{font-size:11.5px;fill:#3d3d3a}
+  </style>
+<rect width="971" height="1571" fill="#ffffff"/>
+<g id="pudorys">
+<g id="zaklad">
+<polygon points="256.9,49 630.4,49 630.4,562 502.6,562 502.6,157.9 256.9,157.9" fill="#efece6"/>
+<polygon points="145.3,166.9 466.6,166.9 466.6,562 49,562 49,376.6 145.3,376.6" fill="#f3eee4"/>
+<polygon points="769,49 922,49 922,292 639.4,292 639.4,139 769,139" fill="#e8eff3"/>
+<polygon points="639.4,49 761.8,49 761.8,131.8 639.4,131.8" fill="#e8eff3"/>
+<polygon points="639.4,301 922,301 922,533.2 639.4,533.2" fill="#f4ece0"/>
+<rect x="795.1" y="301" width="126.9" height="165.6" fill="#e3d2b2"/>
+<rect x="795.1" y="301" width="126.9" height="165.6" fill="url(#prkna)"/>
+<g fill="#ffffff" stroke="#5b5b58" stroke-width="1"><rect x="649.3" y="49" width="41.4" height="28.8" rx="3"/><ellipse cx="670" cy="65.2" rx="14.4" ry="9"/><circle cx="670" cy="53.5" r="2"/><rect x="747.4" y="67.9" width="14.4" height="45" fill="#e4e4e0"/><ellipse cx="723.1" cy="90.4" rx="24.3" ry="16.2"/><ellipse cx="721.3" cy="90.4" rx="15.3" ry="9.9"/><rect x="641.2" y="259.6" width="98.1" height="32.4" rx="3"/><ellipse cx="688.9" cy="274" rx="18" ry="10.799999999999999"/><circle cx="688.9" cy="286.6" r="2.2"/><circle cx="751.9" cy="277.6" r="12.600000000000001"/><rect x="882.4" y="488.2" width="36.9" height="37.8" rx="6"/><rect x="879.7" y="306.4" width="40.5" height="156.6" rx="3" fill="#efe2c6"/><line x1="879.7" y1="358.6" x2="920.2" y2="358.6"/><line x1="879.7" y1="410.8" x2="920.2" y2="410.8"/><rect x="169.15" y="193" width="58.5" height="171" rx="7"/><line x1="169.15" y1="248.8" x2="227.65" y2="248.8"/><rect x="180.4" y="202" width="36" height="19.8" rx="5"/><rect x="254.65" y="193" width="58.5" height="171" rx="7"/><line x1="254.65" y1="248.8" x2="313.15" y2="248.8"/><rect x="265.9" y="202" width="36" height="19.8" rx="5"/><rect x="344.65" y="193" width="58.5" height="171" rx="7"/><line x1="344.65" y1="248.8" x2="403.15" y2="248.8"/><rect x="355.9" y="202" width="36" height="19.8" rx="5"/><rect x="49" y="385.6" width="43.2" height="167.4" rx="2" fill="#f7f1e6"/></g>
+<rect x="791.5" y="301" width="3.6" height="75.6" fill="#dfeef3" stroke="#1f1f1d" stroke-width="1"/>
+<rect x="791.5" y="430.6" width="3.6" height="39.6" fill="#dfeef3" stroke="#1f1f1d" stroke-width="1"/>
+<rect x="791.5" y="466.6" width="130.5" height="3.6" fill="#6b5a3e"/>
+<rect x="922" y="328" width="9" height="126.9" fill="#ffffff" stroke="#1f1f1d" stroke-width="1"/>
+<line x1="926.5" y1="328" x2="926.5" y2="454.9" stroke="#1f1f1d" stroke-width="1"/>
+<path d="M256.9,40H931V49H256.9ZM922,40H931V328H922ZM922,454.9H931V542.2H922ZM630.4,533.2H931V542.2H630.4ZM630.4,40H639.4V67H630.4ZM630.4,130H639.4V150.7H630.4ZM630.4,222.7H639.4V470.2H630.4ZM630.4,533.2H639.4V571H630.4ZM639.4,292H922V301H639.4ZM136.3,157.9H502.6V166.9H136.3ZM466.6,157.9H502.6V292H466.6ZM466.6,364H502.6V571H466.6ZM136.3,157.9H145.3V376.6H136.3ZM40,367.6H145.3V376.6H40ZM40,367.6H49V571H40ZM40,562H528.7V571H40ZM600.7,562H639.4V571H600.7Z" fill="#1f1f1d"/>
+<path d="M761.8,49H769V139H761.8ZM639.4,131.8H769V139H639.4Z" fill="#4a4a48"/>
+<path d="M567.4,67 A62.99999999999999,62.99999999999999 0 0 0 630.4,130" fill="none" stroke="#8a8a86" stroke-width="0.9"/>
+<line x1="630.4" y1="67" x2="567.4" y2="67" stroke="#1f1f1d" stroke-width="2.4"/>
+<path d="M558.4,150.7 A72,72 0 0 0 630.4,222.7" fill="none" stroke="#8a8a86" stroke-width="0.9"/>
+<line x1="630.4" y1="150.7" x2="558.4" y2="150.7" stroke="#1f1f1d" stroke-width="2.4"/>
+<path d="M574.6,292 A72,72 0 0 1 502.6,364" fill="none" stroke="#8a8a86" stroke-width="0.9"/>
+<line x1="502.6" y1="292" x2="574.6" y2="292" stroke="#1f1f1d" stroke-width="2.4"/>
+<path d="M702.4,533.2 A62.99999999999999,62.99999999999999 0 0 0 639.4,470.2" fill="none" stroke="#8a8a86" stroke-width="0.9"/>
+<line x1="639.4" y1="533.2" x2="702.4" y2="533.2" stroke="#1f1f1d" stroke-width="2.4"/>
+<path d="M528.7,643 A72,72 0 0 0 600.7,571" fill="none" stroke="#8a8a86" stroke-width="0.9"/>
+<line x1="528.7" y1="571" x2="528.7" y2="643" stroke="#1f1f1d" stroke-width="2.4"/>
+<path d="M737.5,376.6 A54,54 0 0 0 791.5,430.6" fill="none" stroke="#8a8a86" stroke-width="0.9"/>
+<line x1="791.5" y1="376.6" x2="737.5" y2="376.6" stroke="#5f8fa6" stroke-width="3"/>
+<line x1="256.9" y1="49" x2="256.9" y2="157.9" stroke="#8a8a86" stroke-width="1.2" stroke-dasharray="6 4"/>
+<text x="432.4" y="99.4" text-anchor="middle" class="naz" >CHODBA</text>
+<text x="432.4" y="99.4" text-anchor="middle" class="plo" dy="17">11,4 m²</text>
+<text x="306.4" y="440.5" text-anchor="middle" class="naz" >ODPOČÍVÁRNA</text>
+<text x="306.4" y="440.5" text-anchor="middle" class="plo" dy="17">17,9 m²</text>
+<text x="283.9" y="389.2" text-anchor="middle" class="pozn" >3 lehátka</text>
+<text x="672.7" y="108.4" text-anchor="middle" class="naz-s" >WC</text>
+<text x="672.7" y="108.4" text-anchor="middle" class="mal" dy="13">1,3 m²</text>
+<text x="690.7" y="254.2" text-anchor="middle" class="mal" style="font-size:8.5px">umyvadlo</text>
+<text x="751.9" y="256" text-anchor="middle" class="mal" style="font-size:8.5px">koš</text>
+<text x="714.1" y="332.5" text-anchor="middle" class="naz-s" >MÍSTNOST</text>
+<text x="714.1" y="332.5" text-anchor="middle" class="plo" dy="15">8,1 m²</text>
+<text x="836.5" y="380.2" text-anchor="middle" class="naz-s" style="font-size:10px;letter-spacing:.4px">INFRASAUNA</text>
+<text x="836.5" y="380.2" text-anchor="middle" class="mal" dy="13" style="font-size:9.5px">pro 3 osoby</text>
+<text x="900.4" y="515.2" text-anchor="middle" class="mal" style="font-size:8px">prádlo</text>
+<text x="70.6" y="469.3" transform="rotate(-90 70.6 469.3)" text-anchor="middle" class="naz-m">SOLNÝ PULT · VŮNĚ</text>
+<circle cx="219.1" cy="99.4" r="12" fill="#b3261e"/><rect x="211.6" y="97.2" width="15" height="4.4" fill="#ffffff"/>
+<text x="186.7" y="97.4" text-anchor="end" class="vchod">ZÁZEMÍ</text>
+<text x="186.7" y="112.4" text-anchor="end" class="vchod-pod">vstup zakázán</text>
+</g>
+<g id="mistnost"><rect x="769" y="202" width="153" height="90" fill="url(#dlazba)"/><g fill="#ffffff" stroke="#5b5b58" stroke-width="1"><rect x="884.2" y="50.8" width="36" height="54" rx="2" fill="#f7f3ea"/><line x1="886" y1="52.6" x2="886" y2="103"/><rect x="863.5" y="129.1" width="37.8" height="37.8" rx="4"/><rect x="897.7" y="130.9" width="6.3" height="34.2" rx="2" fill="#e4e4e0"/><rect x="850.9" y="202" width="45" height="10.8" fill="#ffffff"/></g><rect x="769" y="62.5" width="7.2" height="63" fill="#ffffff" stroke="#1f1f1d" stroke-width="1"/><line x1="769" y1="68.8" x2="776.2" y2="68.8" stroke="#5b5b58" stroke-width=".7"/><line x1="769" y1="76" x2="776.2" y2="76" stroke="#5b5b58" stroke-width=".7"/><line x1="769" y1="83.2" x2="776.2" y2="83.2" stroke="#5b5b58" stroke-width=".7"/><line x1="769" y1="90.4" x2="776.2" y2="90.4" stroke="#5b5b58" stroke-width=".7"/><line x1="769" y1="97.6" x2="776.2" y2="97.6" stroke="#5b5b58" stroke-width=".7"/><line x1="769" y1="104.8" x2="776.2" y2="104.8" stroke="#5b5b58" stroke-width=".7"/><line x1="769" y1="112" x2="776.2" y2="112" stroke="#5b5b58" stroke-width=".7"/><line x1="769" y1="119.2" x2="776.2" y2="119.2" stroke="#5b5b58" stroke-width=".7"/><circle cx="795.1" cy="53.5" r="2.6" fill="#5b5b58"/><circle cx="816.7" cy="53.5" r="2.6" fill="#5b5b58"/><circle cx="838.3" cy="53.5" r="2.6" fill="#5b5b58"/><circle cx="859.9" cy="53.5" r="2.6" fill="#5b5b58"/><path d="M832,196.6H922V202H832Z" fill="#4a4a48"/><rect x="767.2" y="202" width="3.6" height="90" fill="#dfeef3" stroke="#1f1f1d" stroke-width="1.2"/><path d="M769,139 V202" fill="none" stroke="#1f1f1d" stroke-width="1.8" stroke-dasharray="2 3"/><rect x="913" y="209.2" width="5.4" height="75.6" fill="#9fb2bd" stroke="#5b5b58" stroke-width=".6"/><circle cx="897.7" cy="247" r="8" fill="#ffffff" stroke="#5b5b58"/><path d="M892.1,241.4 L903.3000000000001,252.6 M903.3000000000001,241.4 L892.1,252.6" stroke="#5b5b58"/><text x="838.3" y="112" text-anchor="middle" class="naz-s" style="letter-spacing:.5px">PŘEVLÉKÁRNA</text><text x="827.5" y="67.9" text-anchor="middle" class="mal" style="font-size:8px">věšáky</text><text x="784.3" y="94" transform="rotate(-90 784.3 94)" text-anchor="middle" class="mal" style="font-size:7.5px">topný žebřík</text><text x="895.9" y="77.8" transform="rotate(-90 895.9 77.8)" text-anchor="middle" class="mal" style="font-size:7.5px">ručníky</text><text x="882.4" y="150.7" text-anchor="middle" class="mal" style="font-size:7.5px">židle</text><text x="761.8" y="170.5" transform="rotate(-90 761.8 170.5)" text-anchor="middle" class="mal" style="font-size:7.5px;font-weight:700">závěs 70 cm</text><text x="800.5" y="215.5" text-anchor="middle" class="mal" style="font-size:7.5px;font-weight:700">vstup 70 cm</text><text x="846.4" y="241.6" text-anchor="middle" class="naz-m" >SPRCHA</text><text x="846.4" y="241.6" text-anchor="middle" class="mal" dy="11" style="font-size:8px">170 × 100</text><text x="778" y="247" transform="rotate(-90 778 247)" text-anchor="middle" class="mal" style="font-size:7.5px">sklo 100 cm</text><text x="873.4" y="222.7" text-anchor="middle" class="mal" style="font-size:7px">polička</text><text x="907.6" y="274" transform="rotate(-90 907.6 274)" text-anchor="middle" class="mal" style="font-size:7px">žlab</text></g>
+</g>
+<rect x="191.2" y="578.2" width="297.9" height="94.5" fill="#ffffff" stroke="#5b5b58" stroke-width="1"/>
+<line x1="216.4" y1="578.2" x2="216.4" y2="672.7" stroke="#5b5b58" stroke-width="1"/>
+<line x1="241.6" y1="578.2" x2="241.6" y2="672.7" stroke="#5b5b58" stroke-width="1"/>
+<line x1="266.8" y1="578.2" x2="266.8" y2="672.7" stroke="#5b5b58" stroke-width="1"/>
+<line x1="292" y1="578.2" x2="292" y2="672.7" stroke="#5b5b58" stroke-width="1"/>
+<line x1="317.2" y1="578.2" x2="317.2" y2="672.7" stroke="#5b5b58" stroke-width="1"/>
+<line x1="342.4" y1="578.2" x2="342.4" y2="672.7" stroke="#5b5b58" stroke-width="1"/>
+<line x1="367.6" y1="578.2" x2="367.6" y2="672.7" stroke="#5b5b58" stroke-width="1"/>
+<line x1="392.8" y1="578.2" x2="392.8" y2="672.7" stroke="#5b5b58" stroke-width="1"/>
+<line x1="418" y1="578.2" x2="418" y2="672.7" stroke="#5b5b58" stroke-width="1"/>
+<line x1="443.2" y1="578.2" x2="443.2" y2="672.7" stroke="#5b5b58" stroke-width="1"/>
+<line x1="468.4" y1="578.2" x2="468.4" y2="672.7" stroke="#5b5b58" stroke-width="1"/>
+<circle cx="475.6" cy="625.45" r="3" fill="#1f1f1d"/><line x1="475.6" y1="625.45" x2="204.7" y2="625.45" stroke="#1f1f1d" stroke-width="1.4" marker-end="url(#sipka)"/>
+<rect x="228.14999999999998" y="676.7" width="224" height="36" rx="3" fill="#ffffff"/>
+<text x="340.15" y="691.7" text-anchor="middle" class="vchod">SCHODIŠTĚ DO SKLEPA</text>
+<text x="340.15" y="706.7" text-anchor="middle" class="vchod-pod">příchod od finské sauny</text>
+<rect x="530.7" y="650" width="68" height="64.20000000000005" fill="#ffffff"/>
+<line x1="564.7" y1="695.2" x2="564.7" y2="656" stroke="#1f1f1d" stroke-width="2" marker-end="url(#sipka)"/>
+<text x="564.7" y="711.2" text-anchor="middle" class="vchod">VSTUP</text>
+<line x1="40" y1="752" x2="931" y2="752" stroke="#c9c9c4" stroke-width="1"/>
+<text x="40" y="792" class="h1">PŮDORYS WELLNESS</text>
+<text x="40" y="814" class="h2">Infrasauna · odpočívárna · převlékárna se sprchou</text>
+<text x="40" y="836" class="pozn" style="font-style:normal">plochy jsou podlahové plochy místností</text>
+<rect x="40" y="870" width="90" height="7" fill="#1f1f1d" stroke="#1f1f1d" stroke-width="1"/>
+<rect x="130" y="870" width="90" height="7" fill="#ffffff" stroke="#1f1f1d" stroke-width="1"/>
+<rect x="220" y="870" width="90" height="7" fill="#1f1f1d" stroke="#1f1f1d" stroke-width="1"/>
+<rect x="310" y="870" width="90" height="7" fill="#ffffff" stroke="#1f1f1d" stroke-width="1"/>
+<rect x="400" y="870" width="90" height="7" fill="#1f1f1d" stroke="#1f1f1d" stroke-width="1"/>
+<text x="40" y="892" text-anchor="middle" class="kt">0</text>
+<text x="130" y="892" text-anchor="middle" class="kt">1</text>
+<text x="220" y="892" text-anchor="middle" class="kt">2</text>
+<text x="310" y="892" text-anchor="middle" class="kt">3</text>
+<text x="400" y="892" text-anchor="middle" class="kt">4</text>
+<text x="490" y="892" text-anchor="middle" class="kt">5 m</text>
+<text x="571" y="778" class="tb-h">MÍSTNOST</text><text x="931" y="778" text-anchor="end" class="tb-h">PLOCHA</text>
+<line x1="571" y1="785" x2="931" y2="785" stroke="#1f1f1d" stroke-width="1"/>
+<rect x="571" y="794" width="9" height="9" fill="#efece6" stroke="#b9b9b3" stroke-width="0.6"/>
+<text x="589" y="804" class="tb">Chodba</text><text x="931" y="804" text-anchor="end" class="tb">11,4 m²</text>
+<line x1="571" y1="810" x2="931" y2="810" stroke="#e2e2dd" stroke-width="0.8"/>
+<rect x="571" y="813" width="9" height="9" fill="#f3eee4" stroke="#b9b9b3" stroke-width="0.6"/>
+<text x="589" y="823" class="tb">Odpočívárna (lehátka, solný pult)</text><text x="931" y="823" text-anchor="end" class="tb">17,9 m²</text>
+<line x1="571" y1="829" x2="931" y2="829" stroke="#e2e2dd" stroke-width="0.8"/>
+<rect x="571" y="832" width="9" height="9" fill="#e8eff3" stroke="#b9b9b3" stroke-width="0.6"/>
+<text x="589" y="842" class="tb">Převlékárna, sprcha, umyvadlo</text><text x="931" y="842" text-anchor="end" class="tb">7,0 m²</text>
+<line x1="571" y1="848" x2="931" y2="848" stroke="#e2e2dd" stroke-width="0.8"/>
+<rect x="571" y="851" width="9" height="9" fill="#e8eff3" stroke="#b9b9b3" stroke-width="0.6"/>
+<text x="589" y="861" class="tb">WC</text><text x="931" y="861" text-anchor="end" class="tb">1,3 m²</text>
+<line x1="571" y1="867" x2="931" y2="867" stroke="#e2e2dd" stroke-width="0.8"/>
+<rect x="571" y="870" width="9" height="9" fill="#f4ece0" stroke="#b9b9b3" stroke-width="0.6"/>
+<text x="589" y="880" class="tb">Místnost s infrasaunou (pro 3 osoby)</text><text x="931" y="880" text-anchor="end" class="tb">8,1 m²</text>
+<line x1="571" y1="886" x2="931" y2="886" stroke="#e2e2dd" stroke-width="0.8"/>
+<text x="589" y="902" class="tb" style="font-weight:700">Celkem</text><text x="931" y="902" text-anchor="end" class="tb" style="font-weight:700">45,7 m²</text>
+<line x1="40" y1="965" x2="931" y2="965" stroke="#c9c9c4" stroke-width="1"/>
+
+
+<clipPath id="orez-detail"><rect x="625.9" y="35.5" width="310.5" height="270"/></clipPath>
+<g transform="translate(-937.44,1016.2) scale(1.6)"><g clip-path="url(#orez-detail)"><use href="#pudorys" xlink:href="#pudorys"/></g></g>
+<rect x="64" y="1073" width="496.8" height="432" fill="none" stroke="#c9c9c4" stroke-width="1"/>
+<g><line x1="79.6" y1="1051" x2="543.76" y2="1051" stroke="#3a3a38" stroke-width=".8"/><line x1="85.6" y1="1069" x2="85.6" y2="1046" stroke="#3a3a38" stroke-width=".6"/><line x1="81.6" y1="1055" x2="89.6" y2="1047" stroke="#3a3a38" stroke-width="1.3"/><line x1="281.44" y1="1069" x2="281.44" y2="1046" stroke="#3a3a38" stroke-width=".6"/><line x1="277.44" y1="1055" x2="285.44" y2="1047" stroke="#3a3a38" stroke-width="1.3"/><line x1="292.96" y1="1069" x2="292.96" y2="1046" stroke="#3a3a38" stroke-width=".6"/><line x1="288.96" y1="1055" x2="296.96" y2="1047" stroke="#3a3a38" stroke-width="1.3"/><line x1="537.76" y1="1069" x2="537.76" y2="1046" stroke="#3a3a38" stroke-width=".6"/><line x1="533.76" y1="1055" x2="541.76" y2="1047" stroke="#3a3a38" stroke-width="1.3"/><line x1="79.6" y1="1531" x2="543.76" y2="1531" stroke="#3a3a38" stroke-width=".8"/><line x1="85.6" y1="1509" x2="85.6" y2="1536" stroke="#3a3a38" stroke-width=".6"/><line x1="81.6" y1="1535" x2="89.6" y2="1527" stroke="#3a3a38" stroke-width="1.3"/><line x1="292.96" y1="1509" x2="292.96" y2="1536" stroke="#3a3a38" stroke-width=".6"/><line x1="288.96" y1="1535" x2="296.96" y2="1527" stroke="#3a3a38" stroke-width="1.3"/><line x1="393.76" y1="1509" x2="393.76" y2="1536" stroke="#3a3a38" stroke-width=".6"/><line x1="389.76" y1="1535" x2="397.76" y2="1527" stroke="#3a3a38" stroke-width="1.3"/><line x1="537.76" y1="1509" x2="537.76" y2="1536" stroke="#3a3a38" stroke-width=".6"/><line x1="533.76" y1="1535" x2="541.76" y2="1527" stroke="#3a3a38" stroke-width="1.3"/><line x1="590.8" y1="1088.6" x2="590.8" y2="1489.4" stroke="#3a3a38" stroke-width=".8"/><line x1="564.8" y1="1094.6" x2="595.8" y2="1094.6" stroke="#3a3a38" stroke-width=".6"/><line x1="586.8" y1="1098.6" x2="594.8" y2="1090.6" stroke="#3a3a38" stroke-width="1.3"/><line x1="564.8" y1="1238.6" x2="595.8" y2="1238.6" stroke="#3a3a38" stroke-width=".6"/><line x1="586.8" y1="1242.6" x2="594.8" y2="1234.6" stroke="#3a3a38" stroke-width="1.3"/><line x1="564.8" y1="1339.4" x2="595.8" y2="1339.4" stroke="#3a3a38" stroke-width=".6"/><line x1="586.8" y1="1343.4" x2="594.8" y2="1335.4" stroke="#3a3a38" stroke-width="1.3"/><line x1="564.8" y1="1483.4" x2="595.8" y2="1483.4" stroke="#3a3a38" stroke-width=".6"/><line x1="586.8" y1="1487.4" x2="594.8" y2="1479.4" stroke="#3a3a38" stroke-width="1.3"/></g>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</svg>

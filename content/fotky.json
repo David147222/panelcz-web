@@ -3,7 +3,17 @@
     {
       "klic": "plan",
       "popis": "Plánek areálu",
-      "foto": "/foto/plan.jpg"
+      "foto": "/foto/plan.svg"
+    },
+    {
+      "klic": "plan_de",
+      "popis": "Plánek areálu (německy)",
+      "foto": "/foto/plan_de.svg"
+    },
+    {
+      "klic": "plan_en",
+      "popis": "Plánek areálu (anglicky)",
+      "foto": "/foto/plan_en.svg"
     },
     {
       "klic": "sv_obrad",
@@ -282,18 +292,48 @@
     },
     {
       "klic": "plan_ap1",
-      "popis": "Plánek – Apartmán 1 (výřez z plánku areálu)",
-      "foto": "/foto/plan_ap1.jpg"
+      "popis": "Plánek – Apartmán 1",
+      "foto": "/foto/plan_ap1.svg"
+    },
+    {
+      "klic": "plan_ap1_de",
+      "popis": "Plánek – Apartmán 1 (německy)",
+      "foto": "/foto/plan_ap1_de.svg"
+    },
+    {
+      "klic": "plan_ap1_en",
+      "popis": "Plánek – Apartmán 1 (anglicky)",
+      "foto": "/foto/plan_ap1_en.svg"
     },
     {
       "klic": "plan_ap2",
-      "popis": "Plánek – Apartmán 2 (výřez z plánku areálu)",
-      "foto": "/foto/plan_ap2.jpg"
+      "popis": "Plánek – Apartmán 2",
+      "foto": "/foto/plan_ap2.svg"
+    },
+    {
+      "klic": "plan_ap2_de",
+      "popis": "Plánek – Apartmán 2 (německy)",
+      "foto": "/foto/plan_ap2_de.svg"
+    },
+    {
+      "klic": "plan_ap2_en",
+      "popis": "Plánek – Apartmán 2 (anglicky)",
+      "foto": "/foto/plan_ap2_en.svg"
     },
     {
       "klic": "plan_ap3",
-      "popis": "Plánek – Apartmán 3 (výřez z plánku areálu)",
-      "foto": "/foto/plan_ap3.jpg"
+      "popis": "Plánek – Apartmán 3",
+      "foto": "/foto/plan_ap3.svg"
+    },
+    {
+      "klic": "plan_ap3_de",
+      "popis": "Plánek – Apartmán 3 (německy)",
+      "foto": "/foto/plan_ap3_de.svg"
+    },
+    {
+      "klic": "plan_ap3_en",
+      "popis": "Plánek – Apartmán 3 (anglicky)",
+      "foto": "/foto/plan_ap3_en.svg"
     },
     {
       "klic": "plan_ap4",
@@ -302,8 +342,48 @@
     },
     {
       "klic": "plan_ap5",
-      "popis": "Plánek – Apartmán 5 (výřez z plánku areálu)",
-      "foto": "/foto/plan_ap5.jpg"
+      "popis": "Plánek – Apartmán 5",
+      "foto": "/foto/plan_ap5.svg"
+    },
+    {
+      "klic": "plan_ap5_de",
+      "popis": "Plánek – Apartmán 5 (německy)",
+      "foto": "/foto/plan_ap5_de.svg"
+    },
+    {
+      "klic": "plan_ap5_en",
+      "popis": "Plánek – Apartmán 5 (anglicky)",
+      "foto": "/foto/plan_ap5_en.svg"
+    },
+    {
+      "klic": "plan_wellness",
+      "popis": "Plánek – wellness ve sklepě",
+      "foto": "/foto/plan_wellness.svg"
+    },
+    {
+      "klic": "plan_wellness_de",
+      "popis": "Plánek – wellness ve sklepě (německy)",
+      "foto": "/foto/plan_wellness_de.svg"
+    },
+    {
+      "klic": "plan_wellness_en",
+      "popis": "Plánek – wellness ve sklepě (anglicky)",
+      "foto": "/foto/plan_wellness_en.svg"
+    },
+    {
+      "klic": "plan_terasa",
+      "popis": "Plánek – krytá terasa",
+      "foto": "/foto/plan_terasa.svg"
+    },
+    {
+      "klic": "plan_terasa_de",
+      "popis": "Plánek – krytá terasa (německy)",
+      "foto": "/foto/plan_terasa_de.svg"
+    },
+    {
+      "klic": "plan_terasa_en",
+      "popis": "Plánek – krytá terasa (anglicky)",
+      "foto": "/foto/plan_terasa_en.svg"
     }
   ]
 }

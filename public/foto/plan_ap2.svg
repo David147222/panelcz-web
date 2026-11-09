@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1144 889" width="1144" height="889" role="img" aria-labelledby="t d">
+<title id="t">Apartmán č. 2 – půdorys</title>
+<desc id="d">Půdorys apartmánu č. 2: 2 ložnice, obývací pokoj, kuchyň s jídelnou, koupelna a WC.</desc>
+<defs><pattern id="dlazba" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M8,0 V8 M0,8 H8" stroke="#b9cdd8" stroke-width=".7" fill="none"/></pattern>
+    <marker id="sipka" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#1f1f1d"/></marker></defs>
+<style>
+    text{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;fill:#1f1f1d}
+    .naz{font-size:13px;font-weight:700;letter-spacing:1.1px}
+    .naz-s{font-size:10px;font-weight:700;letter-spacing:.7px}
+    .plo{font-size:10.5px;fill:#3d3d3a}
+    .mal{font-size:8.5px;fill:#4a4a47}
+    .kt{font-size:10px;fill:#3a3a38}
+    .h1{font-size:24px;font-weight:700;letter-spacing:3px}
+    .h2{font-size:13px;fill:#3d3d3a;letter-spacing:.6px}
+    .pozn{font-size:9.5px;fill:#6b6b67;font-style:italic}
+    .tb{font-size:11px}
+    .tb-h{font-size:9px;fill:#6b6b67;letter-spacing:1px;font-weight:700}
+    .vchod{font-size:14px;font-weight:700;letter-spacing:.6px}
+    .vchod-pod{font-size:11px;fill:#3d3d3a}
+  </style>
+<rect width="1144" height="889" fill="#ffffff"/>
+<polygon points="82,58 416.4,58 416.4,298 82,298" fill="#f4eee3"/>
+<polygon points="82,298 416.4,298 416.4,306 603.6,306 603.6,551.6 82,551.6" fill="#f4eee3"/>
+<polygon points="424.4,58 603.6,58 603.6,298 424.4,298" fill="#e8eff3"/>
+<polygon points="611.6,58 736.4,58 736.4,178.8 611.6,178.8" fill="#e8eff3"/>
+<polygon points="611.6,186.8 736.4,186.8 736.4,551.6 611.6,551.6" fill="#efece6"/>
+<polygon points="744.4,58 1064.4,58 1064.4,304.4 744.4,304.4" fill="#f1eef6"/>
+<polygon points="744.4,312.4 1064.4,312.4 1064.4,551.6 744.4,551.6" fill="#f1eef6"/>
+<rect x="424.4" y="58" width="121.6" height="97.6" fill="url(#dlazba)"/>
+<g fill="#ffffff" stroke="#5b5b58" stroke-width="1"><rect x="336.4" y="59.6" width="78.4" height="164" rx="3"/><rect x="344.4" y="66" width="62.4" height="27.2" rx="5" fill="#f2efe8"/><line x1="336.4" y1="115.6" x2="414.8" y2="115.6"/><rect x="190" y="59.6" width="144" height="76.8" rx="3"/><rect x="196.4" y="67.6" width="27.2" height="60.8" rx="5" fill="#f2efe8"/><line x1="246" y1="59.6" x2="246" y2="136.4"/><rect x="218" y="166" width="76" height="58.4" rx="3"/><rect x="397.2" y="502" width="206.4" height="49.6" fill="#f7f3ea"/><rect x="534" y="509.2" width="44" height="34.4" rx="4"/><circle cx="555.6" cy="546" r="2"/><rect x="422" y="510" width="56" height="35.2" rx="3"/><circle cx="436.4" cy="527.6" r="9.6"/><circle cx="463.6" cy="527.6" r="9.6"/><rect x="551.6" y="326" width="52" height="48" /><line x1="554" y1="328.4" x2="554" y2="371.6"/><rect x="238" y="415.6" width="68" height="120" rx="3"/><rect x="202.8" y="428.4" width="33.6" height="33.6" rx="3"/><rect x="202.8" y="428.4" width="4.8" height="33.6" fill="#e4e4e0"/><rect x="202.8" y="489.2" width="33.6" height="33.6" rx="3"/><rect x="202.8" y="489.2" width="4.8" height="33.6" fill="#e4e4e0"/><rect x="307.6" y="428.4" width="33.6" height="33.6" rx="3"/><rect x="336.4" y="428.4" width="4.8" height="33.6" fill="#e4e4e0"/><rect x="307.6" y="489.2" width="33.6" height="33.6" rx="3"/><rect x="336.4" y="489.2" width="4.8" height="33.6" fill="#e4e4e0"/><rect x="255.6" y="378.8" width="33.6" height="33.6" rx="3"/><rect x="255.6" y="378.8" width="33.6" height="4.8" fill="#e4e4e0"/><rect x="424.4" y="230" width="40" height="48" rx="3"/><ellipse cx="446" cy="254" rx="12" ry="16.8"/><ellipse cx="660.4" cy="94" rx="15.2" ry="20.8"/><ellipse cx="660.4" cy="95.6" rx="9.6" ry="12.8"/><rect x="642" y="58" width="36.8" height="16" rx="3"/><rect x="706" y="86" width="30.4" height="40" rx="3"/><ellipse cx="719.6" cy="106" rx="8.8" ry="12.8"/><rect x="611.6" y="509.2" width="124.8" height="42.4" fill="#f7f3ea"/><line x1="653.2" y1="510.8" x2="653.2" y2="550"/><line x1="694.8" y1="510.8" x2="694.8" y2="550"/><rect x="902.8" y="102" width="160" height="144" rx="3"/><rect x="1029.2" y="110" width="27.2" height="60.8" rx="5" fill="#f2efe8"/><rect x="1029.2" y="177.2" width="27.2" height="60.8" rx="5" fill="#f2efe8"/><line x1="1006.8" y1="102" x2="1006.8" y2="246"/><rect x="744.4" y="58" width="48" height="104" fill="#f7f3ea"/><rect x="902.8" y="362" width="160" height="144" rx="3"/><rect x="1029.2" y="370" width="27.2" height="60.8" rx="5" fill="#f2efe8"/><rect x="1029.2" y="437.2" width="27.2" height="60.8" rx="5" fill="#f2efe8"/><line x1="1006.8" y1="362" x2="1006.8" y2="506"/><rect x="744.4" y="476.4" width="48" height="75.2" fill="#f7f3ea"/></g>
+<rect x="424.4" y="154" width="118.4" height="3.2" fill="#dfeef3" stroke="#1f1f1d" stroke-width="1"/>
+<line x1="424.4" y1="106.8" x2="431.8" y2="106.8" stroke="#5b5b58" stroke-width="1.6"/>
+<circle cx="438.8" cy="106.8" r="7" fill="#ffffff" stroke="#5b5b58"/><path d="M433.8,101.8 L443.8,111.8 M443.8,101.8 L433.8,111.8" stroke="#5b5b58"/>
+<rect x="1064.4" y="102" width="8" height="144" fill="#ffffff" stroke="#1f1f1d" stroke-width="1"/>
+<line x1="1068.4" y1="102" x2="1068.4" y2="246" stroke="#1f1f1d" stroke-width="1"/>
+<rect x="1064.4" y="362" width="8" height="144" fill="#ffffff" stroke="#1f1f1d" stroke-width="1"/>
+<line x1="1068.4" y1="362" x2="1068.4" y2="506" stroke="#1f1f1d" stroke-width="1"/>
+<rect x="74" y="62.8" width="8" height="224.8" fill="#ffffff" stroke="#1f1f1d" stroke-width="1"/>
+<line x1="78" y1="62.8" x2="78" y2="287.6" stroke="#1f1f1d" stroke-width="1"/>
+<rect x="74" y="324.4" width="8" height="222.4" fill="#ffffff" stroke="#1f1f1d" stroke-width="1"/>
+<line x1="78" y1="324.4" x2="78" y2="546.8" stroke="#1f1f1d" stroke-width="1"/>
+<path d="M74,50H1072.4V58H74ZM1064.4,50H1072.4V102H1064.4ZM1064.4,246H1072.4V362H1064.4ZM1064.4,506H1072.4V559.6H1064.4ZM74,50H82V62.8H74ZM74,287.6H82V324.4H74ZM74,546.8H82V559.6H74ZM74,551.6H120.4V559.6H74ZM188.4,551.6H1072.4V559.6H188.4ZM416.4,58H424.4V306H416.4ZM416.4,298H611.6V306H416.4ZM603.6,58H611.6V206H603.6ZM603.6,270H611.6V403.6H603.6ZM603.6,467.6H611.6V551.6H603.6ZM611.6,178.8H632.4V186.8H611.6ZM688.4,178.8H736.4V186.8H688.4ZM736.4,58H744.4V194H736.4ZM736.4,258H744.4V400.4H736.4ZM736.4,464.4H744.4V551.6H736.4ZM744.4,304.4H1064.4V312.4H744.4Z" fill="#1f1f1d"/>
+<path d="M120.4,483.6 A68,68 0 0 1 188.4,551.6" fill="none" stroke="#8a8a86" stroke-width="0.9"/>
+<line x1="120.4" y1="551.6" x2="120.4" y2="483.6" stroke="#1f1f1d" stroke-width="3"/>
+<path d="M539.6,270 A64,64 0 0 1 603.6,206" fill="none" stroke="#8a8a86" stroke-width="0.9"/>
+<line x1="603.6" y1="270" x2="539.6" y2="270" stroke="#1f1f1d" stroke-width="2.2"/>
+<path d="M632.4,122.8 A56,56 0 0 1 688.4,178.8" fill="none" stroke="#8a8a86" stroke-width="0.9"/>
+<line x1="632.4" y1="178.8" x2="632.4" y2="122.8" stroke="#1f1f1d" stroke-width="2.2"/>
+<path d="M539.6,403.6 A64,64 0 0 0 603.6,467.6" fill="none" stroke="#8a8a86" stroke-width="0.9"/>
+<line x1="603.6" y1="403.6" x2="539.6" y2="403.6" stroke="#1f1f1d" stroke-width="2.2"/>
+<path d="M808.4,258 A64,64 0 0 0 744.4,194" fill="none" stroke="#8a8a86" stroke-width="0.9"/>
+<line x1="744.4" y1="258" x2="808.4" y2="258" stroke="#1f1f1d" stroke-width="2.2"/>
+<path d="M808.4,400.4 A64,64 0 0 1 744.4,464.4" fill="none" stroke="#8a8a86" stroke-width="0.9"/>
+<line x1="744.4" y1="400.4" x2="808.4" y2="400.4" stroke="#1f1f1d" stroke-width="2.2"/>
+<text x="162" y="258" text-anchor="middle" class="naz" >OBÝVACÍ POKOJ</text>
+<text x="162" y="258" text-anchor="middle" class="plo" dy="15">12,5 m²</text>
+<text x="438" y="394" text-anchor="middle" class="naz" >KUCHYŇ A JÍDELNA</text>
+<text x="438" y="394" text-anchor="middle" class="plo" dy="15">20,4 m²</text>
+<text x="498" y="230" text-anchor="middle" class="naz-s" >KOUPELNA</text>
+<text x="498" y="230" text-anchor="middle" class="plo" dy="12">6,7 m²</text>
+<text x="712.4" y="142.8" text-anchor="middle" class="naz-s" >WC</text>
+<text x="712.4" y="142.8" text-anchor="middle" class="plo" dy="12">2,4 m²</text>
+<text x="674" y="334" text-anchor="middle" class="naz" >CHODBA</text>
+<text x="674" y="334" text-anchor="middle" class="plo" dy="15">7,1 m²</text>
+<text x="846" y="110" text-anchor="middle" class="naz" >LOŽNICE 1</text>
+<text x="846" y="110" text-anchor="middle" class="plo" dy="15">12,3 m²</text>
+<text x="846" y="366" text-anchor="middle" class="naz" >LOŽNICE 2</text>
+<text x="846" y="366" text-anchor="middle" class="plo" dy="15">12,0 m²</text>
+<text x="375.6" y="154" transform="rotate(-90 375.6 154)" text-anchor="middle" class="mal" >přistýlka</text>
+<text x="262" y="154" text-anchor="middle" class="mal" >přistýlka</text>
+<text x="256.4" y="200.4" text-anchor="middle" class="mal" >stolek</text>
+<text x="500.4" y="491.6" text-anchor="middle" class="mal" >kuchyňská linka</text>
+<text x="542.8" y="350" transform="rotate(-90 542.8 350)" text-anchor="middle" class="mal" >lednice</text>
+<text x="272.4" y="479.6" text-anchor="middle" class="mal" >jídelní stůl</text>
+<text x="485.2" y="110" text-anchor="middle" class="mal" >sprcha</text>
+<text x="483.6" y="168.4" text-anchor="middle" class="mal" style="font-size:7.5px">sklo</text>
+<text x="674" y="534.8" text-anchor="middle" class="mal" >skříň</text>
+<text x="768.4" y="110" transform="rotate(-90 768.4 110)" text-anchor="middle" class="mal" >skříň</text>
+<text x="768.4" y="514" transform="rotate(-90 768.4 514)" text-anchor="middle" class="mal" >skříň</text>
+<line x1="69.2" y1="62.8" x2="69.2" y2="287.6" stroke="#1f1f1d" stroke-width="1.4" stroke-dasharray="5 3"/>
+<text x="93.2" y="175.2" transform="rotate(-90 93.2 175.2)" text-anchor="middle" class="mal" style="font-size:8px;font-weight:700">prosklená stěna až k zemi</text>
+<text x="64.4" y="175.2" transform="rotate(-90 64.4 175.2)" text-anchor="middle" class="mal" style="font-size:8px">venkovní elektrické rolety</text>
+<line x1="69.2" y1="324.4" x2="69.2" y2="546.8" stroke="#1f1f1d" stroke-width="1.4" stroke-dasharray="5 3"/>
+<text x="93.2" y="435.6" transform="rotate(-90 93.2 435.6)" text-anchor="middle" class="mal" style="font-size:8px;font-weight:700">prosklená stěna až k zemi</text>
+<text x="64.4" y="435.6" transform="rotate(-90 64.4 435.6)" text-anchor="middle" class="mal" style="font-size:8px">venkovní elektrické rolety</text>
+<text x="843.6" y="190" text-anchor="middle" class="mal" >manželská postel</text>
+<text x="843.6" y="422" text-anchor="middle" class="mal" >manželská postel</text>
+<rect x="84.4" y="603.6" width="140" height="40" rx="3" fill="#ffffff"/>
+<line x1="154.4" y1="607.6" x2="154.4" y2="563.6" stroke="#1f1f1d" stroke-width="2" marker-end="url(#sipka)"/>
+<text x="154.4" y="623.6" text-anchor="middle" class="vchod">VCHOD</text><text x="154.4" y="637.6" text-anchor="middle" class="vchod-pod">apartmán č. 2</text>
+<line x1="30" y1="680" x2="1094" y2="680" stroke="#c9c9c4" stroke-width="1"/>
+<text x="30" y="720" class="h1">APARTMÁN Č. 2</text>
+<text x="30" y="742" class="h2">2 ložnice · obývací pokoj · kuchyň s jídelnou · koupelna · WC</text>
+<text x="30" y="762" class="h2">lůžka: 2 manželské postele + 2 přistýlky v obývacím pokoji</text>
+<text x="30" y="782" class="h2">obývací pokoj i jídelna: prosklené stěny až k zemi na terasu, venkovní elektrické rolety</text>
+<text x="30" y="802" class="pozn" style="font-style:normal">plochy jsou podlahové plochy místností</text>
+<rect x="30" y="830" width="80" height="7" fill="#1f1f1d" stroke="#1f1f1d" stroke-width="1"/>
+<rect x="110" y="830" width="80" height="7" fill="#ffffff" stroke="#1f1f1d" stroke-width="1"/>
+<rect x="190" y="830" width="80" height="7" fill="#1f1f1d" stroke="#1f1f1d" stroke-width="1"/>
+<rect x="270" y="830" width="80" height="7" fill="#ffffff" stroke="#1f1f1d" stroke-width="1"/>
+<rect x="350" y="830" width="80" height="7" fill="#1f1f1d" stroke="#1f1f1d" stroke-width="1"/>
+<text x="30" y="852" text-anchor="middle" class="kt">0</text>
+<text x="110" y="852" text-anchor="middle" class="kt">1</text>
+<text x="190" y="852" text-anchor="middle" class="kt">2</text>
+<text x="270" y="852" text-anchor="middle" class="kt">3</text>
+<text x="350" y="852" text-anchor="middle" class="kt">4</text>
+<text x="430" y="852" text-anchor="middle" class="kt">5 m</text>
+<text x="774" y="704" class="tb-h">MÍSTNOST</text><text x="1094" y="704" text-anchor="end" class="tb-h">PLOCHA</text>
+<line x1="774" y1="710" x2="1094" y2="710" stroke="#1f1f1d" stroke-width="1"/>
+<rect x="774" y="718.5" width="8" height="8" fill="#f4eee3" stroke="#b9b9b3" stroke-width="0.6"/>
+<text x="790" y="727.5" class="tb">Obývací pokoj</text><text x="1094" y="727.5" text-anchor="end" class="tb">12,5 m²</text>
+<rect x="774" y="736" width="8" height="8" fill="#f4eee3" stroke="#b9b9b3" stroke-width="0.6"/>
+<text x="790" y="745" class="tb">Kuchyň a jídelna</text><text x="1094" y="745" text-anchor="end" class="tb">20,4 m²</text>
+<rect x="774" y="753.5" width="8" height="8" fill="#e8eff3" stroke="#b9b9b3" stroke-width="0.6"/>
+<text x="790" y="762.5" class="tb">Koupelna</text><text x="1094" y="762.5" text-anchor="end" class="tb">6,7 m²</text>
+<rect x="774" y="771" width="8" height="8" fill="#e8eff3" stroke="#b9b9b3" stroke-width="0.6"/>
+<text x="790" y="780" class="tb">WC</text><text x="1094" y="780" text-anchor="end" class="tb">2,4 m²</text>
+<rect x="774" y="788.5" width="8" height="8" fill="#efece6" stroke="#b9b9b3" stroke-width="0.6"/>
+<text x="790" y="797.5" class="tb">Chodba</text><text x="1094" y="797.5" text-anchor="end" class="tb">7,1 m²</text>
+<rect x="774" y="806" width="8" height="8" fill="#f1eef6" stroke="#b9b9b3" stroke-width="0.6"/>
+<text x="790" y="815" class="tb">Ložnice 1</text><text x="1094" y="815" text-anchor="end" class="tb">12,3 m²</text>
+<rect x="774" y="823.5" width="8" height="8" fill="#f1eef6" stroke="#b9b9b3" stroke-width="0.6"/>
+<text x="790" y="832.5" class="tb">Ložnice 2</text><text x="1094" y="832.5" text-anchor="end" class="tb">12,0 m²</text>
+<line x1="774" y1="839.5" x2="1094" y2="839.5" stroke="#1f1f1d" stroke-width="1"/>
+<text x="790" y="853.5" class="tb" style="font-weight:700">Celkem</text><text x="1094" y="853.5" text-anchor="end" class="tb" style="font-weight:700">73,4 m²</text>
+</svg>

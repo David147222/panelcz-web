@@ -1,0 +1,233 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1312 1025" width="1312" height="1025" role="img" aria-labelledby="t d">
+<title id="t">Überdachte Terrasse – Grundriss</title>
+<desc id="d">Grundriss der überdachten Terrasse: 18 Tische mit 144 Plätzen, Tanzfläche, Bühne mit Whirlpool und Kiosk.</desc>
+<defs><pattern id="sraf" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="7" stroke="#cfc8ba" stroke-width="1"/></pattern>
+    <pattern id="prkna" width="8" height="8" patternUnits="userSpaceOnUse"><line x1="0" y1="0.5" x2="8" y2="0.5" stroke="#cdb894" stroke-width="1"/></pattern>
+    <pattern id="parkety" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M0,0 H8 V8 H0 Z M8,8 H16 V16 H8 Z" fill="#dcc59c"/><path d="M0,4 H8 M8,12 H16 M12,0 V8 M4,8 V16" stroke="#c9ad7c" stroke-width=".6"/></pattern>
+    <marker id="sipka" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#1f1f1d"/></marker></defs>
+<style>
+    text{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;fill:#1f1f1d}
+    .naz{font-size:20px;font-weight:700;letter-spacing:2px}
+    .naz-s{font-size:12px;font-weight:700;letter-spacing:1.2px}
+    .naz-m{font-size:9px;font-weight:700;letter-spacing:.8px}
+    .plo{font-size:12px;fill:#3d3d3a}
+    .pozn{font-size:10px;fill:#6b6b67;font-style:italic}
+    .kt{font-size:10px;fill:#3a3a38}
+    .h1{font-size:24px;font-weight:700;letter-spacing:3px}
+    .h2{font-size:13px;fill:#3d3d3a;letter-spacing:.6px}
+    .tb{font-size:11px}
+    .tb-h{font-size:9px;fill:#6b6b67;letter-spacing:1px;font-weight:700}
+    .vchod{font-size:14px;font-weight:700;letter-spacing:.6px}
+    .vchod-pod{font-size:12px;fill:#3d3d3a}
+  </style>
+<rect width="1312" height="1426" fill="#ffffff"/>
+<polygon points="277,53 1169,53 1169,484 1167,484 1167,665.5 55,665.5 55,363 277,363" fill="#f3eee4"/>
+<rect x="50" y="50" width="222.00000000000003" height="308" fill="#e7e2d8"/>
+<rect x="50" y="50" width="222.00000000000003" height="308" fill="url(#sraf)"/>
+<path d="M50,358 V50 H272" fill="none" stroke="#8a8a86" stroke-width="1.2" stroke-dasharray="7 4"/>
+<polygon points="55,478 106.5,435 253.5,435 253.5,665.5 55,665.5" fill="#e6d7bd"/>
+<polygon points="55,478 106.5,435 253.5,435 253.5,665.5 55,665.5" fill="url(#prkna)"/>
+<polyline points="55,478 106.5,435 253.5,435 253.5,665.5" fill="none" stroke="#1f1f1d" stroke-width="2.2"/>
+<rect x="270" y="420" width="450" height="175" fill="#ead9b9"/>
+<rect x="270" y="420" width="450" height="175" fill="url(#parkety)" stroke="#5b5b58" stroke-width="1.2"/>
+<rect x="253.5" y="615.5" width="439" height="50" fill="#ffffff" stroke="#5b5b58" stroke-width="1"/>
+<line x1="253.5" y1="632.17" x2="692.5" y2="632.17" stroke="#5b5b58" stroke-width="1"/>
+<line x1="253.5" y1="648.83" x2="692.5" y2="648.83" stroke="#5b5b58" stroke-width="1"/>
+<g fill="#ffffff" stroke="#5b5b58" stroke-width="1"><rect x="577.5" y="97.5" width="100" height="35" rx="2"/><rect x="577.5" y="77.5" width="100" height="14" rx="2" fill="#e3d6bf"/><rect x="577.5" y="138.5" width="100" height="14" rx="2" fill="#e3d6bf"/><rect x="737.5" y="97.5" width="100" height="35" rx="2"/><rect x="737.5" y="77.5" width="100" height="14" rx="2" fill="#e3d6bf"/><rect x="737.5" y="138.5" width="100" height="14" rx="2" fill="#e3d6bf"/><rect x="900" y="97.5" width="100" height="35" rx="2"/><rect x="900" y="77.5" width="100" height="14" rx="2" fill="#e3d6bf"/><rect x="900" y="138.5" width="100" height="14" rx="2" fill="#e3d6bf"/><rect x="1040" y="97.5" width="100" height="35" rx="2"/><rect x="1040" y="77.5" width="100" height="14" rx="2" fill="#e3d6bf"/><rect x="1040" y="138.5" width="100" height="14" rx="2" fill="#e3d6bf"/><rect x="402.5" y="205" width="100" height="35" rx="2"/><rect x="402.5" y="185" width="100" height="14" rx="2" fill="#e3d6bf"/><rect x="402.5" y="246" width="100" height="14" rx="2" fill="#e3d6bf"/><rect x="577.5" y="205" width="100" height="35" rx="2"/><rect x="577.5" y="185" width="100" height="14" rx="2" fill="#e3d6bf"/><rect x="577.5" y="246" width="100" height="14" rx="2" fill="#e3d6bf"/><rect x="737.5" y="205" width="100" height="35" rx="2"/><rect x="737.5" y="185" width="100" height="14" rx="2" fill="#e3d6bf"/><rect x="737.5" y="246" width="100" height="14" rx="2" fill="#e3d6bf"/><rect x="900" y="205" width="100" height="35" rx="2"/><rect x="900" y="185" width="100" height="14" rx="2" fill="#e3d6bf"/><rect x="900" y="246" width="100" height="14" rx="2" fill="#e3d6bf"/><rect x="1040" y="205" width="100" height="35" rx="2"/><rect x="1040" y="185" width="100" height="14" rx="2" fill="#e3d6bf"/><rect x="1040" y="246" width="100" height="14" rx="2" fill="#e3d6bf"/><rect x="402.5" y="310" width="100" height="35" rx="2"/><rect x="402.5" y="290" width="100" height="14" rx="2" fill="#e3d6bf"/><rect x="402.5" y="351" width="100" height="14" rx="2" fill="#e3d6bf"/><rect x="577.5" y="310" width="100" height="35" rx="2"/><rect x="577.5" y="290" width="100" height="14" rx="2" fill="#e3d6bf"/><rect x="577.5" y="351" width="100" height="14" rx="2" fill="#e3d6bf"/><rect x="737.5" y="310" width="100" height="35" rx="2"/><rect x="737.5" y="290" width="100" height="14" rx="2" fill="#e3d6bf"/><rect x="737.5" y="351" width="100" height="14" rx="2" fill="#e3d6bf"/><rect x="900" y="310" width="100" height="35" rx="2"/><rect x="900" y="290" width="100" height="14" rx="2" fill="#e3d6bf"/><rect x="900" y="351" width="100" height="14" rx="2" fill="#e3d6bf"/><rect x="1040" y="310" width="100" height="35" rx="2"/><rect x="1040" y="290" width="100" height="14" rx="2" fill="#e3d6bf"/><rect x="1040" y="351" width="100" height="14" rx="2" fill="#e3d6bf"/><rect x="760" y="477.5" width="100" height="35" rx="2"/><rect x="760" y="457.5" width="100" height="14" rx="2" fill="#e3d6bf"/><rect x="760" y="518.5" width="100" height="14" rx="2" fill="#e3d6bf"/><rect x="912.5" y="477.5" width="100" height="35" rx="2"/><rect x="912.5" y="457.5" width="100" height="14" rx="2" fill="#e3d6bf"/><rect x="912.5" y="518.5" width="100" height="14" rx="2" fill="#e3d6bf"/><rect x="760" y="585" width="100" height="35" rx="2"/><rect x="760" y="565" width="100" height="14" rx="2" fill="#e3d6bf"/><rect x="760" y="626" width="100" height="14" rx="2" fill="#e3d6bf"/><rect x="912.5" y="585" width="100" height="35" rx="2"/><rect x="912.5" y="565" width="100" height="14" rx="2" fill="#e3d6bf"/><rect x="912.5" y="626" width="100" height="14" rx="2" fill="#e3d6bf"/><rect x="87.5" y="490" width="115" height="115" rx="10"/><rect x="98.5" y="501" width="93" height="93" rx="18" fill="#dfeef3"/><circle cx="112.5" cy="515" r="3" fill="#ffffff"/><circle cx="177.5" cy="515" r="3" fill="#ffffff"/><circle cx="112.5" cy="580" r="3" fill="#ffffff"/><circle cx="177.5" cy="580" r="3" fill="#ffffff"/><rect x="280" y="56" width="90" height="37.5" rx="2"/><rect x="372.5" y="56" width="70" height="37.5" rx="2"/><rect x="445" y="56" width="60" height="37.5" rx="2"/><rect x="1052.5" y="545" width="90" height="120.5" /><line x1="1052.5" y1="559" x2="1142.5" y2="559"/><line x1="1052.5" y1="573" x2="1142.5" y2="573"/><line x1="1052.5" y1="587" x2="1142.5" y2="587"/><line x1="1052.5" y1="601" x2="1142.5" y2="601"/><line x1="1052.5" y1="615" x2="1142.5" y2="615"/><line x1="1052.5" y1="629" x2="1142.5" y2="629"/><line x1="1052.5" y1="643" x2="1142.5" y2="643"/><line x1="1052.5" y1="657" x2="1142.5" y2="657"/></g>
+<line x1="1097.5" y1="552.5" x2="1097.5" y2="658" stroke="#1f1f1d" stroke-width="1.4" marker-end="url(#sipka)"/>
+<circle cx="1097.5" cy="552.5" r="3" fill="#1f1f1d"/>
+<text x="1097.5" y="524" text-anchor="middle" class="vchod">TREPPE</text>
+<text x="1097.5" y="538" text-anchor="middle" class="vchod-pod">zu den Apartments 4 + 5</text>
+<text x="325" y="77.75" text-anchor="middle" class="naz-m" style="font-size:8px">GEFRIERER</text>
+<text x="407.5" y="77.75" text-anchor="middle" class="naz-m" style="font-size:8px">KÜHLSCHR.</text>
+<text x="475" y="77.75" text-anchor="middle" class="naz-m" style="font-size:8px">KÜHLSCHR.</text>
+<text x="145" y="543.5" text-anchor="middle" class="naz-m">WHIRLPOOL</text>
+<text x="145" y="555.5" text-anchor="middle" class="pozn" style="font-style:normal;font-size:9px">eingelassen</text>
+<text x="145" y="566.5" text-anchor="middle" class="pozn" style="font-style:normal;font-size:9px">2,3 × 2,3 m</text>
+<text x="154.5" y="466.5" text-anchor="middle" class="naz-s">BÜHNE</text>
+<text x="154.5" y="480.5" text-anchor="middle" class="plo" style="font-size:11px">Höhe +1,30 m</text>
+<rect x="417" y="487.5" width="156" height="38" rx="3" fill="#ffffff" fill-opacity=".88"/>
+<text x="495" y="505.5" text-anchor="middle" class="naz-s" style="font-size:14px">TANZFLÄCHE</text>
+<text x="495" y="520.5" text-anchor="middle" class="plo" style="font-size:11px">9,0 × 3,5 m</text>
+<text x="543" y="610.5" text-anchor="middle" class="pozn" style="font-style:normal">Stufen an der Fassade · 3 Stufen</text>
+<rect x="218" y="665.5" width="61" height="5" fill="#ffffff" stroke="#1f1f1d" stroke-width="1"/>
+<line x1="218" y1="668" x2="279" y2="668" stroke="#1f1f1d" stroke-width="1"/>
+<rect x="725" y="665.5" width="104" height="5" fill="#ffffff" stroke="#1f1f1d" stroke-width="1"/>
+<line x1="725" y1="668" x2="829" y2="668" stroke="#1f1f1d" stroke-width="1"/>
+<rect x="873" y="665.5" width="150" height="5" fill="#ffffff" stroke="#1f1f1d" stroke-width="1"/>
+<line x1="873" y1="668" x2="1023" y2="668" stroke="#1f1f1d" stroke-width="1"/>
+<rect x="50" y="408" width="5" height="50" fill="#ffffff" stroke="#1f1f1d" stroke-width="1"/>
+<line x1="52.5" y1="408" x2="52.5" y2="458" stroke="#1f1f1d" stroke-width="1"/>
+<rect x="272" y="132.5" width="5" height="75" fill="#ffffff" stroke="#1f1f1d" stroke-width="1"/>
+<line x1="274.5" y1="132.5" x2="274.5" y2="207.5" stroke="#1f1f1d" stroke-width="1"/>
+<line x1="281" y1="132.5" x2="281" y2="207.5" stroke="#1f1f1d" stroke-width="1.2" stroke-dasharray="4 2.5"/>
+<text x="250" y="170" transform="rotate(-90 250 170)" text-anchor="middle" class="pozn" style="font-weight:700;font-style:normal;fill:#1f1f1d">Ausgabefenster</text>
+<text x="263" y="170" transform="rotate(-90 263 170)" text-anchor="middle" class="pozn" style="font-style:normal">elektr. Rollladen</text>
+<rect x="272" y="262.5" width="5" height="75" fill="#ffffff" stroke="#1f1f1d" stroke-width="1"/>
+<line x1="274.5" y1="262.5" x2="274.5" y2="337.5" stroke="#1f1f1d" stroke-width="1"/>
+<line x1="281" y1="262.5" x2="281" y2="337.5" stroke="#1f1f1d" stroke-width="1.2" stroke-dasharray="4 2.5"/>
+<text x="250" y="300" transform="rotate(-90 250 300)" text-anchor="middle" class="pozn" style="font-weight:700;font-style:normal;fill:#1f1f1d">Ausgabefenster</text>
+<text x="263" y="300" transform="rotate(-90 263 300)" text-anchor="middle" class="pozn" style="font-style:normal">elektr. Rollladen</text>
+<path d="M50,665.5H218V670.5H50ZM358.5,665.5H553.5V670.5H358.5ZM685.5,665.5H725V670.5H685.5ZM829,665.5H873V670.5H829ZM1023,665.5H1172V670.5H1023ZM50,358H55V408H50ZM50,458H55V670.5H50ZM50,358H138.5V363H50ZM183.5,358H277V363H183.5ZM272,50H277V132.5H272ZM272,207.5H277V262.5H272ZM272,337.5H277V363H272ZM1167,484H1172V670.5H1167Z" fill="#1f1f1d"/>
+<rect x="272" y="50" width="900" height="3" fill="#ffffff" stroke="#1f1f1d" stroke-width="1"/>
+<rect x="269.75" y="49.25" width="4.5" height="4.5" fill="#1f1f1d"/>
+<rect x="344.75" y="49.25" width="4.5" height="4.5" fill="#1f1f1d"/>
+<rect x="419.75" y="49.25" width="4.5" height="4.5" fill="#1f1f1d"/>
+<rect x="494.75" y="49.25" width="4.5" height="4.5" fill="#1f1f1d"/>
+<rect x="569.75" y="49.25" width="4.5" height="4.5" fill="#1f1f1d"/>
+<rect x="644.75" y="49.25" width="4.5" height="4.5" fill="#1f1f1d"/>
+<rect x="719.75" y="49.25" width="4.5" height="4.5" fill="#1f1f1d"/>
+<rect x="794.75" y="49.25" width="4.5" height="4.5" fill="#1f1f1d"/>
+<rect x="869.75" y="49.25" width="4.5" height="4.5" fill="#1f1f1d"/>
+<rect x="944.75" y="49.25" width="4.5" height="4.5" fill="#1f1f1d"/>
+<rect x="1019.75" y="49.25" width="4.5" height="4.5" fill="#1f1f1d"/>
+<rect x="1094.75" y="49.25" width="4.5" height="4.5" fill="#1f1f1d"/>
+<rect x="1169.75" y="49.25" width="4.5" height="4.5" fill="#1f1f1d"/>
+<rect x="1169" y="50" width="3" height="344" fill="#ffffff" stroke="#1f1f1d" stroke-width="1"/>
+<rect x="1168.25" y="47.75" width="4.5" height="4.5" fill="#1f1f1d"/>
+<rect x="1168.25" y="116.55" width="4.5" height="4.5" fill="#1f1f1d"/>
+<rect x="1168.25" y="185.35" width="4.5" height="4.5" fill="#1f1f1d"/>
+<rect x="1168.25" y="254.14999999999998" width="4.5" height="4.5" fill="#1f1f1d"/>
+<rect x="1168.25" y="322.95" width="4.5" height="4.5" fill="#1f1f1d"/>
+<rect x="1168.25" y="391.75" width="4.5" height="4.5" fill="#1f1f1d"/>
+<path d="M358.5,750 A79.5,79.5 0 0 1 279,670.5" fill="none" stroke="#8a8a86" stroke-width="0.9"/>
+<line x1="358.5" y1="670.5" x2="358.5" y2="750" stroke="#1f1f1d" stroke-width="2.4"/>
+<path d="M553.5,736.5 A66,66 0 0 0 619.5,670.5" fill="none" stroke="#8a8a86" stroke-width="0.9"/>
+<line x1="553.5" y1="670.5" x2="553.5" y2="736.5" stroke="#1f1f1d" stroke-width="2.4"/>
+<path d="M685.5,736.5 A66,66 0 0 1 619.5,670.5" fill="none" stroke="#8a8a86" stroke-width="0.9"/>
+<line x1="685.5" y1="670.5" x2="685.5" y2="736.5" stroke="#1f1f1d" stroke-width="2.4"/>
+<path d="M138.5,408 A45,45 0 0 0 183.5,363" fill="none" stroke="#8a8a86" stroke-width="0.9"/>
+<line x1="138.5" y1="363" x2="138.5" y2="408" stroke="#1f1f1d" stroke-width="2.4"/>
+<text x="495" y="392.5" text-anchor="middle" class="naz">AUSSENTERRASSE</text>
+<text x="495" y="410.5" text-anchor="middle" class="plo">überdacht · 245,3 m² · 144 Plätze an Tischen</text>
+<text x="161" y="200" text-anchor="middle" class="naz-s" style="font-size:15px">KIOSK</text>
+<text x="161" y="217" text-anchor="middle" class="pozn" style="font-style:normal;font-size:11px">Stand</text><text x="161" y="232" text-anchor="middle" class="pozn" style="font-style:normal;font-size:11px">Rezeption · Laden</text>
+<text x="710" y="42" text-anchor="middle" class="pozn">Geländer</text>
+<text x="189" y="389" class="naz-s" style="font-size:11px;letter-spacing:.4px">TÜR 90 L</text>
+<text x="189" y="402" class="pozn" style="font-style:normal">Eingang zum Kiosk</text>
+
+<text x="367.5" y="224.5" text-anchor="middle" class="naz-s" style="font-size:13px;letter-spacing:0"></text>
+<line x1="1284" y1="439" x2="1180" y2="439" stroke="#1f1f1d" stroke-width="2" marker-end="url(#sipka)"/>
+<text x="1194" y="220" transform="rotate(90 1194 220)" text-anchor="middle" class="pozn">Spielplatz und Pool</text>
+<rect x="251.55" y="753" width="134.9" height="38" rx="3" fill="#ffffff"/>
+<text x="319" y="768" text-anchor="middle" class="vchod">LAGER · SPIELRAUM</text>
+<text x="319" y="784" text-anchor="middle" class="vchod">GEMEINSAME WC</text>
+<rect x="548.5" y="753" width="142" height="38" rx="3" fill="#ffffff"/>
+<text x="619.5" y="768" text-anchor="middle" class="vchod">APARTMENT 5</text>
+<text x="619.5" y="784" text-anchor="middle" class="vchod-pod">Gemeinschaftsraum</text>
+<rect x="1171.2" y="414" width="125.60000000000001" height="22" rx="3" fill="#ffffff"/>
+<text x="1234" y="429" text-anchor="middle" class="vchod">HAUPTEINGANG</text>
+<line x1="50" y1="816.5" x2="1172" y2="816.5" stroke="#c9c9c4" stroke-width="1"/>
+<text x="50" y="856.5" class="h1">GRUNDRISS DER TERRASSE</text>
+<text x="50" y="878.5" class="h2">Überdachte Außenterrasse · Tanzfläche · Bühne mit Whirlpool · Kiosk</text>
+<text x="50" y="900.5" class="pozn" style="font-style:normal">Terrassenfläche ohne Kiosk</text>
+<rect x="50" y="934.5" width="100" height="7" fill="#1f1f1d" stroke="#1f1f1d" stroke-width="1"/>
+<rect x="150" y="934.5" width="100" height="7" fill="#ffffff" stroke="#1f1f1d" stroke-width="1"/>
+<rect x="250" y="934.5" width="100" height="7" fill="#1f1f1d" stroke="#1f1f1d" stroke-width="1"/>
+<rect x="350" y="934.5" width="100" height="7" fill="#ffffff" stroke="#1f1f1d" stroke-width="1"/>
+<rect x="450" y="934.5" width="100" height="7" fill="#1f1f1d" stroke="#1f1f1d" stroke-width="1"/>
+<text x="50" y="956.5" text-anchor="middle" class="kt">0</text>
+<text x="150" y="956.5" text-anchor="middle" class="kt">2</text>
+<text x="250" y="956.5" text-anchor="middle" class="kt">4</text>
+<text x="350" y="956.5" text-anchor="middle" class="kt">6</text>
+<text x="450" y="956.5" text-anchor="middle" class="kt">8</text>
+<text x="550" y="956.5" text-anchor="middle" class="kt">10 m</text>
+<text x="702" y="842.5" class="tb-h">AUSSTATTUNG</text><text x="1172" y="842.5" text-anchor="end" class="tb-h">ANZAHL</text>
+<line x1="702" y1="849.5" x2="1172" y2="849.5" stroke="#1f1f1d" stroke-width="1"/>
+<rect x="704" y="857.5" width="26" height="3.5" fill="#e3d6bf" stroke="#5b5b58" stroke-width=".7"/><rect x="704" y="862" width="26" height="8" fill="#fff" stroke="#5b5b58" stroke-width=".7"/><rect x="704" y="871" width="26" height="3.5" fill="#e3d6bf" stroke="#5b5b58" stroke-width=".7"/>
+<text x="742" y="870.5" class="tb">Tisch + 2 Bänke (8 Plätze)</text><text x="1172" y="870.5" text-anchor="end" class="tb">18× · 144 Plätze</text>
+<line x1="702" y1="877.5" x2="1172" y2="877.5" stroke="#e2e2dd" stroke-width="0.8"/>
+<rect x="704" y="879.5" width="26" height="14" fill="url(#parkety)" stroke="#5b5b58" stroke-width=".7"/>
+<text x="742" y="891.5" class="tb">Tanzfläche</text><text x="1172" y="891.5" text-anchor="end" class="tb">31,5 m²</text>
+<line x1="702" y1="898.5" x2="1172" y2="898.5" stroke="#e2e2dd" stroke-width="0.8"/>
+<rect x="704" y="900.5" width="26" height="14" fill="#e6d7bd" stroke="#1f1f1d" stroke-width="1.2"/><rect x="712" y="903.5" width="10" height="8" rx="2" fill="#dfeef3" stroke="#5b5b58" stroke-width=".6"/>
+<text x="742" y="912.5" class="tb">Bühne +1,30 m mit eingelassenem Whirlpool 2,3 × 2,3 m</text><text x="1172" y="912.5" text-anchor="end" class="tb">1×</text>
+<line x1="702" y1="919.5" x2="1172" y2="919.5" stroke="#e2e2dd" stroke-width="0.8"/>
+<rect x="704" y="924.5" width="26" height="5" fill="#fff" stroke="#1f1f1d" stroke-width=".8"/><line x1="704" y1="927" x2="730" y2="927" stroke="#1f1f1d" stroke-width=".6"/><line x1="704" y1="932.5" x2="730" y2="932.5" stroke="#1f1f1d" stroke-width="1" stroke-dasharray="3 2"/>
+<text x="742" y="933.5" class="tb">Ausgabefenster mit elektrischem Rollladen</text><text x="1172" y="933.5" text-anchor="end" class="tb">2×</text>
+<line x1="702" y1="940.5" x2="1172" y2="940.5" stroke="#e2e2dd" stroke-width="0.8"/>
+<rect x="707" y="944.5" width="20" height="10" fill="#fff" stroke="#5b5b58" stroke-width=".7"/>
+<text x="742" y="954.5" class="tb">Kühlschrank / Gefrierer</text><text x="1172" y="954.5" text-anchor="end" class="tb">2× / 1×</text>
+<line x1="702" y1="961.5" x2="1172" y2="961.5" stroke="#e2e2dd" stroke-width="0.8"/>
+<rect x="704" y="968.5" width="26" height="3" fill="#fff" stroke="#1f1f1d" stroke-width=".8"/><rect x="703" y="968" width="4" height="4" fill="#1f1f1d"/><rect x="727" y="968" width="4" height="4" fill="#1f1f1d"/>
+<text x="742" y="975.5" class="tb">Geländer</text><text x="1172" y="975.5" text-anchor="end" class="tb"></text>
+<line x1="702" y1="982.5" x2="1172" y2="982.5" stroke="#e2e2dd" stroke-width="0.8"/>
+<text x="742" y="999.5" class="tb" style="font-weight:700">Terrassenfläche</text><text x="1172" y="999.5" text-anchor="end" class="tb" style="font-weight:700">245,3 m²</text>
+<line x1="50" y1="1039.5" x2="1172" y2="1039.5" stroke="#c9c9c4" stroke-width="1"/>
+
+
+<rect x="90" y="1151.5" width="500.79999999999995" height="224" fill="#e7e2d8"/>
+<rect x="90" y="1151.5" width="500.79999999999995" height="224" fill="url(#sraf)" stroke="#1f1f1d" stroke-width="1.6"/>
+<rect x="80.4" y="1140.3" width="520" height="11.200000000000001" fill="#4a4a48"/>
+<line x1="18" y1="1375.5" x2="662.8" y2="1375.5" stroke="#1f1f1d" stroke-width="2.6"/>
+<line x1="18" y1="1377.5" x2="8.4" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="32.4" y1="1377.5" x2="22.8" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="46.8" y1="1377.5" x2="37.2" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="61.2" y1="1377.5" x2="51.6" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="75.6" y1="1377.5" x2="66" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="90" y1="1377.5" x2="80.4" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="104.4" y1="1377.5" x2="94.8" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="118.8" y1="1377.5" x2="109.2" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="133.2" y1="1377.5" x2="123.6" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="147.6" y1="1377.5" x2="138" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="162" y1="1377.5" x2="152.4" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="176.4" y1="1377.5" x2="166.8" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="190.8" y1="1377.5" x2="181.2" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="205.2" y1="1377.5" x2="195.6" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="219.6" y1="1377.5" x2="210" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="234" y1="1377.5" x2="224.4" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="248.4" y1="1377.5" x2="238.8" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="262.8" y1="1377.5" x2="253.2" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="277.2" y1="1377.5" x2="267.6" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="291.6" y1="1377.5" x2="282" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="306" y1="1377.5" x2="296.4" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="320.4" y1="1377.5" x2="310.8" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="334.8" y1="1377.5" x2="325.2" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="349.2" y1="1377.5" x2="339.6" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="363.6" y1="1377.5" x2="354" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="378" y1="1377.5" x2="368.4" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="392.4" y1="1377.5" x2="382.8" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="406.8" y1="1377.5" x2="397.2" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="421.2" y1="1377.5" x2="411.6" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="435.6" y1="1377.5" x2="426" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="450" y1="1377.5" x2="440.4" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="464.4" y1="1377.5" x2="454.8" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="478.8" y1="1377.5" x2="469.2" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="493.2" y1="1377.5" x2="483.6" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="507.6" y1="1377.5" x2="498" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="522" y1="1377.5" x2="512.4" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="536.4" y1="1377.5" x2="526.8" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="550.8" y1="1377.5" x2="541.2" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="565.2" y1="1377.5" x2="555.6" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="579.6" y1="1377.5" x2="570" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="594" y1="1377.5" x2="584.4" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="608.4" y1="1377.5" x2="598.8" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="622.8" y1="1377.5" x2="613.2" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="637.2" y1="1377.5" x2="627.6" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<line x1="651.6" y1="1377.5" x2="642" y2="1384.5" stroke="#8a8a86" stroke-width=".8"/>
+<rect x="126.8" y="1179.5" width="128" height="20" fill="#d9d5cc" stroke="#1f1f1d" stroke-width="1"/>
+
+<rect x="126.8" y="1199.5" width="4" height="96.00000000000001" fill="#bdb8ae" stroke="#1f1f1d" stroke-width=".6"/>
+<rect x="250.8" y="1199.5" width="4" height="96.00000000000001" fill="#bdb8ae" stroke="#1f1f1d" stroke-width=".6"/>
+<rect x="130.8" y="1199.5" width="120" height="96.00000000000001" fill="#dfeef3" stroke="#1f1f1d" stroke-width="1.3"/>
+<line x1="150.8" y1="1209.1" x2="174.8" y2="1233.1" stroke="#ffffff" stroke-width="3"/>
+<rect x="121.2" y="1295.5" width="139.2" height="4.8" fill="#ffffff" stroke="#1f1f1d" stroke-width="1"/>
+
+
+<rect x="334.8" y="1179.5" width="127.99999999999997" height="20" fill="#d9d5cc" stroke="#1f1f1d" stroke-width="1"/>
+
+<rect x="334.8" y="1199.5" width="4" height="96.00000000000001" fill="#bdb8ae" stroke="#1f1f1d" stroke-width=".6"/>
+<rect x="458.8" y="1199.5" width="4" height="96.00000000000001" fill="#bdb8ae" stroke="#1f1f1d" stroke-width=".6"/>
+<rect x="338.8" y="1199.5" width="119.99999999999997" height="96.00000000000001" fill="#dfeef3" stroke="#1f1f1d" stroke-width="1.3"/>
+<line x1="358.8" y1="1209.1" x2="382.8" y2="1233.1" stroke="#ffffff" stroke-width="3"/>
+<rect x="329.2" y="1295.5" width="139.19999999999996" height="4.8" fill="#ffffff" stroke="#1f1f1d" stroke-width="1"/>
+
+
+
+
+
+
+
+
+
+</svg>
