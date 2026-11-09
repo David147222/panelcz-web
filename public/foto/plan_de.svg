@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2396 1561" width="2396" height="1561" role="img" aria-labelledby="t d">
 <title id="t">Anlage – Lageplan</title>
-<desc id="d">Lageplan der Anlage am Stausee Vranov: überdachte Terrasse, Spielraum und WC, Apartments 1–5, finnische Sauna, Wellness im Untergeschoss, Pool, Kinderspielplatz, Feuerstelle, Parkplatz mit Buswendeplatz und Hang mit 4 Ruderbooten zum Ausleihen.</desc>
+<desc id="d">Lageplan der Anlage am Stausee Vranov: überdachte Terrasse, Spielzimmer und WC, Apartments 1–5, finnische Sauna, Wellness im Untergeschoss, Pool, Kinderspielplatz, Feuerstelle, Parkplatz mit Buswendeplatz und Hang mit 4 Ruderbooten zum Ausleihen.</desc>
 <defs>
     <pattern id="sraf4" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="9" stroke="#c9c4ba" stroke-width="1.2"/></pattern>
     <pattern id="vlny" width="16" height="8" patternUnits="userSpaceOnUse"><path d="M0,4 q4,-3 8,0 t8,0" fill="none" stroke="#9cc7dc" stroke-width="1"/></pattern>
@@ -333,7 +333,7 @@
 <text x="354" y="848.8" text-anchor="middle" class="pod">18 Tische · 144 Plätze · 245,3 m²</text>
 <rect x="688.12" y="1091.6" width="190" height="24" rx="4" fill="#ffffff" fill-opacity=".9" stroke="#d8d4cc" stroke-width=".8"/>
 <text x="783.12" y="1107.6" text-anchor="middle" class="dil">APARTMENT 4</text>
-<text x="224.88" y="1292.8" text-anchor="middle" class="dil-s" style="font-size:13px">SPIELRAUM · WC</text><text x="224.88" y="1308.8" text-anchor="middle" class="pod">Nebenräume · 72,8 m²</text>
+<text x="224.88" y="1292.8" text-anchor="middle" class="dil-s" style="font-size:13px">SPIELZIMMER · WC</text><text x="224.88" y="1308.8" text-anchor="middle" class="pod">Nebenräume · 72,8 m²</text>
 <text x="491.4" y="1292.8" text-anchor="middle" class="dil-s" style="font-size:13px">APARTMENT 5</text><text x="491.4" y="1308.8" text-anchor="middle" class="pod">179,4 m² · 5 Schlafzimmer · Gemeinschaftsraum · 40 Plätze</text>
 <text x="961.8" y="1292.8" text-anchor="middle" class="dil-s" style="font-size:13px">APARTMENT 3</text><text x="961.8" y="1308.8" text-anchor="middle" class="pod">67,6 m² · 2 Schlafzimmer</text>
 <text x="1114.92" y="1292.8" text-anchor="middle" class="dil-s" style="font-size:13px">APARTMENT 2</text><text x="1114.92" y="1308.8" text-anchor="middle" class="pod">73,4 m² · 2 Schlafzimmer</text>
@@ -405,7 +405,7 @@
 </g>
 <line x1="1766" y1="30" x2="1766" y2="1531" stroke="#c9c9c4" stroke-width="1"/>
 <text x="1796" y="80" class="h1" style="font-size:31px;letter-spacing:1.5px">ANLAGE — LAGEPLAN</text>
-<text x="1796" y="115" class="h2" style="font-size:19px" data-pr="1">überdachte Terrasse · Spielraum und WC</text>
+<text x="1796" y="115" class="h2" style="font-size:19px" data-pr="1">überdachte Terrasse · Spielzimmer und WC</text>
 <text x="1796" y="142" class="h2" style="font-size:19px" data-pr="1">Apartments 1–5 · finnische Sauna · Wellness</text>
 <text x="1796" y="169" class="h2" style="font-size:19px" data-pr="1">Pool · Spielplatz · Feuerstelle · Stausee Vranov</text>
 <text x="1796" y="196" class="h2" style="font-size:19px" data-pr="1">Wendeplatz mit Parkplatz · 4 Ruderboote</text>
@@ -414,14 +414,14 @@
 <text x="1796" y="330.4" class="pozn" style="font-style:normal;font-size:16px;fill:#3d3d3a" data-pr="1">vier Ruderboote ausleihen können.</text>
 <text x="1796" y="353.4" class="pozn" style="font-style:normal;font-size:16px;fill:#3d3d3a" data-pr="1">Herzstück der Anlage ist die überdachte Terrasse mit 144 Plätzen,</text>
 <text x="1796" y="376.4" class="pozn" style="font-style:normal;font-size:16px;fill:#3d3d3a" data-pr="1">einem Kiosk mit Zapfanlage, einer Tanzfläche und einer Bühne</text>
-<text x="1796" y="399.4" class="pozn" style="font-style:normal;font-size:16px;fill:#3d3d3a" data-pr="1">mit Whirlpool. Gleich daneben liegt der Spielraum.</text>
+<text x="1796" y="399.4" class="pozn" style="font-style:normal;font-size:16px;fill:#3d3d3a" data-pr="1">mit Whirlpool. Gleich daneben liegt das Spielzimmer.</text>
 <text x="1796" y="422.4" class="pozn" style="font-style:normal;font-size:16px;fill:#3d3d3a" data-pr="1">Zum Übernachten gibt es Apartments; Apartment 5 hat fünf Schlafzimmer</text>
 <text x="1796" y="445.4" class="pozn" style="font-style:normal;font-size:16px;fill:#3d3d3a" data-pr="1">und einen Gemeinschaftsraum mit 40 Plätzen. Zum Entspannen gibt es</text>
 <text x="1796" y="468.4" class="pozn" style="font-style:normal;font-size:16px;fill:#3d3d3a" data-pr="1">eine finnische Sauna, Wellness mit Infrarotsauna, einen Pool,</text>
 <text x="1796" y="491.4" class="pozn" style="font-style:normal;font-size:16px;fill:#3d3d3a" data-pr="1">einen Kinderspielplatz und eine Feuerstelle.</text>
 <text x="1796" y="514.4" class="pozn" style="font-style:normal;font-size:16px;fill:#3d3d3a" data-pr="1">Parken können Sie direkt an der Anlage, Busse wenden am Wendeplatz.</text>
 <text x="1796" y="601.8" class="tb-h" style="font-size:13px">TEIL DER ANLAGE</text><text x="2356" y="601.8" text-anchor="end" class="tb-h" style="font-size:13px">FLÄCHE</text><line x1="1796" y1="610.8" x2="2356" y2="610.8" stroke="#1f1f1d" stroke-width="1.2"/>
-<text x="1796" y="638.8" class="tb" style="font-size:16.5px">Spielraum · WC · Nebenräume</text><text x="2356" y="638.8" text-anchor="end" class="tb" style="font-size:16.5px">72,8 m²</text>
+<text x="1796" y="638.8" class="tb" style="font-size:16.5px">Spielzimmer · WC · Nebenräume</text><text x="2356" y="638.8" text-anchor="end" class="tb" style="font-size:16.5px">72,8 m²</text>
 <text x="1796" y="667.8" class="tb" style="font-size:16.5px">Apartment 1</text><text x="2356" y="667.8" text-anchor="end" class="tb" style="font-size:16.5px">70,7 m²</text>
 <text x="1796" y="696.8" class="tb" style="font-size:16.5px">Apartment 2</text><text x="2356" y="696.8" text-anchor="end" class="tb" style="font-size:16.5px">73,4 m²</text>
 <text x="1796" y="725.8" class="tb" style="font-size:16.5px">Apartment 3</text><text x="2356" y="725.8" text-anchor="end" class="tb" style="font-size:16.5px">67,6 m²</text>

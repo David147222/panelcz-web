@@ -110,7 +110,7 @@
 <line x1="1284" y1="439" x2="1180" y2="439" stroke="#1f1f1d" stroke-width="2" marker-end="url(#sipka)"/>
 <text x="1194" y="220" transform="rotate(90 1194 220)" text-anchor="middle" class="pozn">Spielplatz und Pool</text>
 <rect x="251.55" y="753" width="134.9" height="38" rx="3" fill="#ffffff"/>
-<text x="319" y="768" text-anchor="middle" class="vchod">LAGER · SPIELRAUM</text>
+<text x="319" y="768" text-anchor="middle" class="vchod">LAGER · SPIELZIMMER</text>
 <text x="319" y="784" text-anchor="middle" class="vchod">GEMEINSAME WC</text>
 <rect x="548.5" y="753" width="142" height="38" rx="3" fill="#ffffff"/>
 <text x="619.5" y="768" text-anchor="middle" class="vchod">APARTMENT 5</text>
