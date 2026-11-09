@@ -133,7 +133,7 @@
 <text x="688.35" y="372.65" transform="rotate(-90 688.35 372.65)" text-anchor="middle" class="mal" style="font-weight:700">Kamin</text>
 <text x="677.35" y="320.4" text-anchor="middle" class="mal" >Schornstein</text>
 <text x="669.1" y="479.35" transform="rotate(-90 669.1 479.35)" text-anchor="middle" class="mal" >Trennwand</text>
-<text x="305.55" y="496.4" text-anchor="middle" class="mal" >Tisch + 2 Bänke · 8 Plätze</text>
+<text x="305.55" y="496.4" text-anchor="middle" class="mal" >Tisch + 2 Bänke</text>
 <text x="779.65" y="382" text-anchor="middle" class="mal" >Dusche</text>
 <text x="810.45" y="383.1" transform="rotate(-90 810.45 383.1)" text-anchor="middle" class="mal" style="font-size:7.5px">Glas</text>
 <text x="839.05" y="400.15" text-anchor="middle" class="top" >Heizkörper</text>
@@ -150,7 +150,7 @@
 <text x="675.15" y="772.5" text-anchor="middle" class="mal" >Doppelbett</text>
 <text x="797.25" y="772.5" text-anchor="middle" class="mal" >Bett</text>
 <text x="887.45" y="772.5" text-anchor="middle" class="mal" >Bett</text>
-<text x="494.75" y="327" text-anchor="middle" class="plo" dy="33" style="font-weight:700;font-size:12px">insgesamt 40 Sitzplätze</text>
+<text x="494.75" y="327" text-anchor="middle" class="plo" dy="33" style="font-weight:700;font-size:12px">für ca. 30 Gäste</text>
 <text x="138.35" y="565.15" text-anchor="middle" class="top" >Heizung</text>
 <text x="232.4" y="703.75" transform="rotate(-90 232.4 703.75)" text-anchor="middle" class="top" >Heizung</text>
 <text x="423.25" y="701" transform="rotate(-90 423.25 701)" text-anchor="middle" class="top" >Heizung</text>
@@ -171,7 +171,7 @@
 <text x="30" y="929.25" class="h1">APARTMENT 5</text>
 <text x="30" y="953.25" class="h2">Gemeinschaftsraum mit Küche, Bar, Kamin · 5 Schlafzimmer · Bad · 2× WC</text>
 <text x="30" y="973.25" class="h2">Betten: 4 Doppelbetten + 3 Betten (2 im Zimmer 1, 1 im Zimmer 5)</text>
-<text x="30" y="993.25" class="h2">Gemeinschaftsraum: 5× Tisch mit 2 Bänken · insgesamt 40 Sitzplätze</text>
+<text x="30" y="993.25" class="h2">Gemeinschaftsraum: 5× Tisch mit 2 Bänken · für ca. 30 Gäste</text>
 <text x="30" y="1013.25" class="h2">Eingang von der Terrasse (Bühne) oder über den Vorraum mit Treppe</text>
 <text x="30" y="1035.25" class="pozn" style="font-style:normal">Flächen = Bodenflächen der Räume · <tspan style="fill:#c0392b">rot</tspan> = Heizung</text>
 <rect x="30" y="1061.25" width="55" height="7" fill="#1f1f1d" stroke="#1f1f1d" stroke-width="1"/>

@@ -133,7 +133,7 @@
 <text x="688.35" y="372.65" transform="rotate(-90 688.35 372.65)" text-anchor="middle" class="mal" style="font-weight:700">krb</text>
 <text x="677.35" y="320.4" text-anchor="middle" class="mal" >komín</text>
 <text x="669.1" y="479.35" transform="rotate(-90 669.1 479.35)" text-anchor="middle" class="mal" >zástěna</text>
-<text x="305.55" y="496.4" text-anchor="middle" class="mal" >stůl + 2 lavice · 8 míst</text>
+<text x="305.55" y="496.4" text-anchor="middle" class="mal" >stůl + 2 lavice</text>
 <text x="779.65" y="382" text-anchor="middle" class="mal" >sprcha</text>
 <text x="810.45" y="383.1" transform="rotate(-90 810.45 383.1)" text-anchor="middle" class="mal" style="font-size:7.5px">sklo</text>
 <text x="839.05" y="400.15" text-anchor="middle" class="top" >topný žebřík</text>
@@ -150,7 +150,7 @@
 <text x="675.15" y="772.5" text-anchor="middle" class="mal" >manželská postel</text>
 <text x="797.25" y="772.5" text-anchor="middle" class="mal" >postel</text>
 <text x="887.45" y="772.5" text-anchor="middle" class="mal" >postel</text>
-<text x="494.75" y="327" text-anchor="middle" class="plo" dy="33" style="font-weight:700;font-size:12px">celkem 40 míst k sezení</text>
+<text x="494.75" y="327" text-anchor="middle" class="plo" dy="33" style="font-weight:700;font-size:12px">pro cca 30 hostů</text>
 <text x="138.35" y="565.15" text-anchor="middle" class="top" >topení</text>
 <text x="232.4" y="703.75" transform="rotate(-90 232.4 703.75)" text-anchor="middle" class="top" >topení</text>
 <text x="423.25" y="701" transform="rotate(-90 423.25 701)" text-anchor="middle" class="top" >topení</text>
@@ -171,7 +171,7 @@
 <text x="30" y="929.25" class="h1">APARTMÁN Č. 5</text>
 <text x="30" y="953.25" class="h2">společenská místnost s kuchyní, barem a krbem · 5 ložnic · koupelna · 2× WC</text>
 <text x="30" y="973.25" class="h2">lůžka: 4 manželské postele + 3 postele (2 v ložnici 1, 1 v ložnici 5)</text>
-<text x="30" y="993.25" class="h2">společenská místnost: 5× stůl se 2 lavicemi · celkem 40 míst k sezení</text>
+<text x="30" y="993.25" class="h2">společenská místnost: 5× stůl se 2 lavicemi · pro cca 30 hostů</text>
 <text x="30" y="1013.25" class="h2">vstup ze zastřešené terasy od pódia nebo z předsíně se schody</text>
 <text x="30" y="1035.25" class="pozn" style="font-style:normal">plochy jsou podlahové plochy místností · <tspan style="fill:#c0392b">červeně</tspan> topení</text>
 <rect x="30" y="1061.25" width="55" height="7" fill="#1f1f1d" stroke="#1f1f1d" stroke-width="1"/>

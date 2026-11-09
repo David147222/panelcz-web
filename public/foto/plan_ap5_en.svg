@@ -133,7 +133,7 @@
 <text x="688.35" y="372.65" transform="rotate(-90 688.35 372.65)" text-anchor="middle" class="mal" style="font-weight:700">fireplace</text>
 <text x="677.35" y="320.4" text-anchor="middle" class="mal" >chimney</text>
 <text x="669.1" y="479.35" transform="rotate(-90 669.1 479.35)" text-anchor="middle" class="mal" >screen</text>
-<text x="305.55" y="496.4" text-anchor="middle" class="mal" >table + 2 benches · 8 seats</text>
+<text x="305.55" y="496.4" text-anchor="middle" class="mal" >table + 2 benches</text>
 <text x="779.65" y="382" text-anchor="middle" class="mal" >shower</text>
 <text x="810.45" y="383.1" transform="rotate(-90 810.45 383.1)" text-anchor="middle" class="mal" style="font-size:7.5px">glass</text>
 <text x="839.05" y="400.15" text-anchor="middle" class="top" >radiator</text>
@@ -150,7 +150,7 @@
 <text x="675.15" y="772.5" text-anchor="middle" class="mal" >double bed</text>
 <text x="797.25" y="772.5" text-anchor="middle" class="mal" >bed</text>
 <text x="887.45" y="772.5" text-anchor="middle" class="mal" >bed</text>
-<text x="494.75" y="327" text-anchor="middle" class="plo" dy="33" style="font-weight:700;font-size:12px">40 seats in total</text>
+<text x="494.75" y="327" text-anchor="middle" class="plo" dy="33" style="font-weight:700;font-size:12px">for about 30 guests</text>
 <text x="138.35" y="565.15" text-anchor="middle" class="top" >heating</text>
 <text x="232.4" y="703.75" transform="rotate(-90 232.4 703.75)" text-anchor="middle" class="top" >heating</text>
 <text x="423.25" y="701" transform="rotate(-90 423.25 701)" text-anchor="middle" class="top" >heating</text>
@@ -171,7 +171,7 @@
 <text x="30" y="929.25" class="h1">APARTMENT 5</text>
 <text x="30" y="953.25" class="h2">common room with kitchen, bar and fireplace · 5 bedrooms · bathroom · 2× WC</text>
 <text x="30" y="973.25" class="h2">beds: 4 double beds + 3 beds (2 in bedroom 1, 1 in bedroom 5)</text>
-<text x="30" y="993.25" class="h2">common room: 5× table with 2 benches · 40 seats in total</text>
+<text x="30" y="993.25" class="h2">common room: 5× table with 2 benches · for about 30 guests</text>
 <text x="30" y="1013.25" class="h2">entrance from the terrace by the stage or via the entrance hall</text>
 <text x="30" y="1035.25" class="pozn" style="font-style:normal">areas are room floor areas · <tspan style="fill:#c0392b">red</tspan> = heating</text>
 <rect x="30" y="1061.25" width="55" height="7" fill="#1f1f1d" stroke="#1f1f1d" stroke-width="1"/>
