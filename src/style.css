@@ -94,8 +94,6 @@ input,select,textarea{font:inherit;padding:11px 12px;border:1px solid #b9cbcb;bo
 @keyframes kb{from{transform:scale(1)}to{transform:scale(1.08)}}
 .video .ov{position:absolute;inset:0;display:grid;place-items:center;background:linear-gradient(180deg,rgba(8,30,38,.1),rgba(8,30,38,.55));color:#fff;text-align:center}
 .play{width:84px;height:84px;border-radius:50%;background:rgba(255,255,255,.92);display:grid;place-items:center;margin:0 auto 12px}.play::after{content:"";border-left:26px solid var(--sun);border-top:16px solid transparent;border-bottom:16px solid transparent;margin-left:6px}
-.rv{background:#fff;border:1px dashed #b9cbcb;border-radius:12px;padding:20px;display:grid;gap:8px;color:var(--muted)}.stars{color:#e9a227;letter-spacing:2px;font-size:1.1rem}
-.score{display:flex;align-items:center;gap:18px;flex-wrap:wrap;background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px 22px;margin-bottom:22px}.score b{font-family:var(--d);font-size:2.4rem;color:var(--lake)}
 details{background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px 18px}details+details{margin-top:10px}summary{font-weight:600;cursor:pointer}details p{margin:10px 0 0;color:var(--fg)}
 .faqcat{font-family:var(--d);font-size:1.25rem;margin:30px 0 12px}
 .legal{max-width:78ch}.legal h2{font-size:1.4rem;margin-top:30px}.legal p,.legal li{font-size:.98rem}.legal ol{padding-left:22px}
