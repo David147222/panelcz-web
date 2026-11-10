@@ -19,12 +19,13 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Nainstalovat ImageMagick (zmenšování fotek)
+        run: sudo apt-get install -y -q imagemagick >/dev/null
       - name: Sestavit web
         run: node build.js
       - name: Zmenšit velké fotky (max. 2000 px)
-        run: |
-          sudo apt-get install -y -q imagemagick >/dev/null
-          find dist/foto -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) -exec mogrify -resize '2000x2000>' -quality 82 {} +
+        # jen původní fotky; menší verze v dist/foto/m/ už vyrobil build.js
+        run: find dist/foto -maxdepth 1 -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) -exec mogrify -resize '2000x2000>' -quality 82 {} +
       - name: Přístup do administrace (oauth-config.php)
         env:
           CID: ${{ secrets.OAUTH_CLIENT_ID }}

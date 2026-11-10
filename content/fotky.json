@@ -18,32 +18,50 @@
     {
       "klic": "sv_obrad",
       "popis": "Svatba – obřad",
-      "foto": "/foto/sv_obrad.jpg"
+      "foto": "/foto/sv_obrad.jpg",
+      "alt": "Svatební obřad u vody s bílými židlemi a slavobránou",
+      "alt_de": "Trauung am Wasser mit weißen Stühlen und Hochzeitsbogen",
+      "alt_en": "Wedding ceremony by the water with white chairs and an arch"
     },
     {
       "klic": "sv_pano",
       "popis": "Svatba – panorama terasy",
-      "foto": "/foto/sv_pano.jpg"
+      "foto": "/foto/sv_pano.jpg",
+      "alt": "Krytá terasa připravená na svatbu",
+      "alt_de": "Für eine Hochzeit vorbereitete überdachte Terrasse",
+      "alt_en": "Covered terrace set up for a wedding"
     },
     {
       "klic": "sv_stoly",
       "popis": "Svatba – stoly na terase",
-      "foto": "/foto/sv_stoly.jpg"
+      "foto": "/foto/sv_stoly.jpg",
+      "alt": "Prostřené svatební stoly na kryté terase",
+      "alt_de": "Gedeckte Hochzeitstische auf der überdachten Terrasse",
+      "alt_en": "Tables laid for a wedding on the covered terrace"
     },
     {
       "klic": "sv_hlavni",
       "popis": "Svatba – hlavní stůl",
-      "foto": "/foto/sv_hlavni.jpg"
+      "foto": "/foto/sv_hlavni.jpg",
+      "alt": "Svatební tabule na kryté terase",
+      "alt_de": "Hochzeitstafel auf der überdachten Terrasse",
+      "alt_en": "Wedding tables on the covered terrace"
     },
     {
       "klic": "infra",
       "popis": "Infrasauna",
-      "foto": "/foto/infra.jpg"
+      "foto": "/foto/infra.jpg",
+      "alt": "Infrasauna obložená dřevem",
+      "alt_de": "Mit Holz verkleidete Infrarotsauna",
+      "alt_en": "Wood-panelled infrared sauna"
     },
     {
       "klic": "hero",
       "popis": "Úvodní fotka (velká)",
-      "foto": "/foto/hero.jpg"
+      "foto": "/foto/hero.jpg",
+      "alt": "Areál Panelcz s bazénem, trávníkem a dětským hřištěm",
+      "alt_de": "Die Anlage Panelcz mit Pool, Rasen und Kinderspielplatz",
+      "alt_en": "The Panelcz grounds with the pool, lawn and children's playground"
     },
     {
       "klic": "bazen",
@@ -53,27 +71,42 @@
     {
       "klic": "budova",
       "popis": "Budova",
-      "foto": "/foto/budova.jpg"
+      "foto": "/foto/budova.jpg",
+      "alt": "Panoramatický pohled na areál Panelcz s budovou, ohništěm a krytou terasou",
+      "alt_de": "Panoramablick auf die Anlage Panelcz mit Gebäude, Feuerstelle und überdachter Terrasse",
+      "alt_en": "Panoramic view of the Panelcz grounds with the building, fire pit and covered terrace"
     },
     {
       "klic": "dvur",
       "popis": "Dvůr (pozadí výzev)",
-      "foto": "/foto/dvur.jpg"
+      "foto": "/foto/dvur.jpg",
+      "alt": "Budova areálu Panelcz večer",
+      "alt_de": "Das Gebäude der Anlage Panelcz am Abend",
+      "alt_en": "The Panelcz building in the evening"
     },
     {
       "klic": "dvur2",
       "popis": "Dvůr 2",
-      "foto": "/foto/dvur2.jpg"
+      "foto": "/foto/dvur2.jpg",
+      "alt": "Cesta podél břehu Vranovské přehrady v Chmelnici",
+      "alt_de": "Weg am Ufer des Stausees Vranov in Chmelnice",
+      "alt_en": "Path along the shore of the Vranov reservoir at Chmelnice"
     },
     {
       "klic": "ohniste",
       "popis": "Ohniště",
-      "foto": "/foto/ohniste.jpg"
+      "foto": "/foto/ohniste.jpg",
+      "alt": "Ohniště s grilem a lavicemi v areálu",
+      "alt_de": "Feuerstelle mit Grill und Bänken in der Anlage",
+      "alt_en": "Fire pit with grill and benches on the grounds"
     },
     {
       "klic": "obyvak",
       "popis": "Apartmán – obývák",
-      "foto": "/foto/obyvak.jpg"
+      "foto": "/foto/obyvak.jpg",
+      "alt": "Obývací kout s jídelním stolem a kuchyňkou v apartmánu",
+      "alt_de": "Wohnbereich mit Esstisch und Küchenzeile im Apartment",
+      "alt_en": "Living area with dining table and kitchenette in an apartment"
     },
     {
       "klic": "kuchyn",
@@ -83,7 +116,10 @@
     {
       "klic": "loznice",
       "popis": "Apartmán – ložnice",
-      "foto": "/foto/loznice.jpg"
+      "foto": "/foto/loznice.jpg",
+      "alt": "Ložnice v apartmánu s manželskou postelí a šatní skříní",
+      "alt_de": "Schlafzimmer im Apartment mit Doppelbett und Kleiderschrank",
+      "alt_en": "Apartment bedroom with a double bed and wardrobe"
     },
     {
       "klic": "pokoj",
@@ -93,47 +129,74 @@
     {
       "klic": "sauna1",
       "popis": "Sauna 1",
-      "foto": "/foto/sauna1.jpg"
+      "foto": "/foto/sauna1.jpg",
+      "alt": "Finská sauna s kamny a dřevěnými lavicemi",
+      "alt_de": "Finnische Sauna mit Ofen und Holzbänken",
+      "alt_en": "Finnish sauna with stove and wooden benches"
     },
     {
       "klic": "sauna2",
       "popis": "Sauna 2",
-      "foto": "/foto/sauna2.jpg"
+      "foto": "/foto/sauna2.jpg",
+      "alt": "Dřevěné lavice ve finské sauně",
+      "alt_de": "Holzbänke in der finnischen Sauna",
+      "alt_en": "Wooden benches in the Finnish sauna"
     },
     {
       "klic": "sauna3",
       "popis": "Sauna 3",
-      "foto": "/foto/sauna3.jpg"
+      "foto": "/foto/sauna3.jpg",
+      "alt": "Saunová kamna ve finské sauně",
+      "alt_de": "Saunaofen in der finnischen Sauna",
+      "alt_en": "Sauna stove in the Finnish sauna"
     },
     {
       "klic": "terasa1",
       "popis": "Terasa 1",
-      "foto": "/foto/terasa1.jpg"
+      "foto": "/foto/terasa1.jpg",
+      "alt": "Hosté u stolů na kryté terase",
+      "alt_de": "Gäste an den Tischen auf der überdachten Terrasse",
+      "alt_en": "Guests at the tables on the covered terrace"
     },
     {
       "klic": "terasa2",
       "popis": "Terasa 2 (akce)",
-      "foto": "/foto/terasa2.jpg"
+      "foto": "/foto/terasa2.jpg",
+      "alt": "Živá hudba a tanec na kryté terase",
+      "alt_de": "Live-Musik und Tanz auf der überdachten Terrasse",
+      "alt_en": "Live music and dancing on the covered terrace"
     },
     {
       "klic": "bufet",
       "popis": "Bufet",
-      "foto": "/foto/bufet.jpg"
+      "foto": "/foto/bufet.jpg",
+      "alt": "Krytá terasa s bufetem večer při akci",
+      "alt_de": "Überdachte Terrasse mit Imbiss am Abend bei einer Veranstaltung",
+      "alt_en": "The covered terrace with the snack bar during an evening event"
     },
     {
       "klic": "hriste",
       "popis": "Dětské hřiště",
-      "foto": "/foto/hriste.jpg"
+      "foto": "/foto/hriste.jpg",
+      "alt": "Dětské hřiště a zastřešený bazén v areálu večer",
+      "alt_de": "Kinderspielplatz und überdachter Pool in der Anlage am Abend",
+      "alt_en": "Children's playground and the covered pool in the evening"
     },
     {
       "klic": "spol",
       "popis": "Společenská místnost (nová fotka)",
-      "foto": "/foto/spol1.jpg"
+      "foto": "/foto/spol1.jpg",
+      "alt": "Společenská místnost s barem",
+      "alt_de": "Gemeinschaftsraum mit Bar",
+      "alt_en": "Common room with bar"
     },
     {
       "klic": "wcspol",
       "popis": "Společné WC (nová fotka)",
-      "foto": "/foto/wcspol1.jpg"
+      "foto": "/foto/wcspol1.jpg",
+      "alt": "Společné sociální zařízení",
+      "alt_de": "Gemeinschaftliche Sanitäranlagen",
+      "alt_en": "Shared washrooms"
     },
     {
       "klic": "koupelna",
@@ -168,7 +231,10 @@
     {
       "klic": "park",
       "popis": "Parkování",
-      "foto": "/foto/park.jpg"
+      "foto": "/foto/park.jpg",
+      "alt": "Parkování u areálu Panelcz",
+      "alt_de": "Parkplatz an der Anlage Panelcz",
+      "alt_en": "Parking at the Panelcz grounds"
     },
     {
       "klic": "bus",
@@ -178,7 +244,10 @@
     {
       "klic": "pram1",
       "popis": "Pramice 1",
-      "foto": "/foto/pram1.jpg"
+      "foto": "/foto/pram1.jpg",
+      "alt": "Pramice u břehu Vranovské přehrady v Chmelnici",
+      "alt_de": "Ruderboote am Ufer des Stausees Vranov in Chmelnice",
+      "alt_en": "Rowing boats on the shore of the Vranov reservoir at Chmelnice"
     },
     {
       "klic": "pram2",
@@ -198,17 +267,26 @@
     {
       "klic": "podium",
       "popis": "Pódium",
-      "foto": "/foto/podium.jpg"
+      "foto": "/foto/podium.jpg",
+      "alt": "Krytá terasa s lavicemi a pódiem",
+      "alt_de": "Überdachte Terrasse mit Bänken und Bühne",
+      "alt_en": "Covered terrace with benches and stage"
     },
     {
       "klic": "terasa",
       "popis": "Krytá terasa",
-      "foto": "/foto/terasa.jpg"
+      "foto": "/foto/terasa.jpg",
+      "alt": "Krytá terasa s dřevěnými stoly a lavicemi",
+      "alt_de": "Überdachte Terrasse mit Holztischen und Bänken",
+      "alt_en": "Covered terrace with wooden tables and benches"
     },
     {
       "klic": "terasa3",
       "popis": "Terasa 3 (obchod)",
-      "foto": "/foto/terasa3.jpg"
+      "foto": "/foto/terasa3.jpg",
+      "alt": "Krytá terasa s dlouhými stoly a lavicemi",
+      "alt_de": "Überdachte Terrasse mit langen Tischen und Bänken",
+      "alt_en": "Covered terrace with long tables and benches"
     },
     {
       "klic": "sprcha1",
