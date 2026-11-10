@@ -38,26 +38,36 @@
     a[i].classList.remove('on'); a[(i + 1) % a.length].classList.add('on');
   }, 3500);
 
-  // Záložky rezervace (Celý areál × Apartmány v létě). Adresa s #leto otevře letní záložku.
+  // Záložky rezervace (Celý areál × Apartmány v létě) u všech formulářů na ubytování.
+  // Adresa nebo odkaz s #leto / #cely otevře danou záložku; odkaz na cokoli UVNITŘ záložky (např. #rplus-leto) ji taky otevře.
   document.querySelectorAll('.rtabs').forEach(function (bar) {
     var wrap = bar.parentElement; wrap.classList.add('rtabs-js');
     var tabs = bar.querySelectorAll('.rtab');
-    var panel = function (id) { var p = document.getElementById(id); return p && p.parentElement === wrap && p.classList.contains('rpanel') ? p : null; };
-    var ukaz = function (id, posun) {
+    var panel = function (id) {
+      var el = id && document.getElementById(id); if (!el) return null;
+      var p = el.classList.contains('rpanel') ? el : el.closest('.rpanel');
+      return p && p.parentElement === wrap ? p : null;
+    };
+    var ukaz = function (id) {
       tabs.forEach(function (t) { var on = t.getAttribute('aria-controls') === id; t.classList.toggle('on', on); t.setAttribute('aria-selected', on ? 'true' : 'false'); });
       wrap.querySelectorAll(':scope>.rpanel').forEach(function (p) {
         p.classList.toggle('on', p.id === id);
         if (p.id === id && window.__rplusOtevri) window.__rplusOtevri(p);
       });
-      if (posun) bar.scrollIntoView({ block: 'start' });
+    };
+    var jdiNa = function (id) {
+      var p = panel(id); if (!p) return false;
+      ukaz(p.id);
+      (p.id === id ? bar : document.getElementById(id)).scrollIntoView({ block: 'start' });
+      return true;
     };
     tabs.forEach(function (t) { t.addEventListener('click', function () { ukaz(t.getAttribute('aria-controls')); }); });
     document.addEventListener('click', function (e) {
       var a = e.target.closest && e.target.closest('a[href^="#"]'); if (!a) return;
-      var id = a.getAttribute('href').slice(1); if (!panel(id)) return;
-      e.preventDefault(); ukaz(id, true); if (history.replaceState) history.replaceState(null, '', '#' + id);
+      var id = a.getAttribute('href').slice(1);
+      if (jdiNa(id)) { e.preventDefault(); if (history.replaceState) history.replaceState(null, '', '#' + id); }
     });
-    var zAdresy = function () { var id = location.hash.slice(1); if (id && panel(id)) ukaz(id, true); };
+    var zAdresy = function () { jdiNa(location.hash.slice(1)); };
     zAdresy(); window.addEventListener('hashchange', zAdresy);
   });
 
