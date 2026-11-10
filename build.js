@@ -50,7 +50,8 @@ function page(id, p, L) {
   const t = TX[L];
   const title = id === 'uvod' ? `${S.nazev} – ${p.nadpis}` : `${p.nadpis} · ${S.nazev}`;
   const ogImg = S.domena + (FOTO.hero || '');
-  const notice = S.upozorneni && L === 'cs' ? `<div class="demo">${S.upozorneni}</div>` : '';
+  // Upozornění nahoře: vypínač je české pole v administraci (prázdné = nikde); DE/EN znění je v src/jazyky.json (upozorneni).
+  const notice = S.upozorneni ? `<div class="demo">${L === 'cs' ? S.upozorneni : (t.upozorneni || S.upozorneni)}</div>` : '';
   const alt = LANGS.map(l => `<link rel="alternate" hreflang="${l}" href="${S.domena}${url(id, l)}">`).join('\n') + `\n<link rel="alternate" hreflang="x-default" href="${S.domena}${url(id)}">`;
   const sw = `<div class="lang" aria-label="${t.jazyk}">` + LANGS.map(l => `<a href="${url(id, l)}" hreflang="${l}" lang="${l}"${l === L ? ' class="on" aria-current="true"' : ''}>${l.toUpperCase()}</a>`).join('') + '</div>';
   const tel = n => `<a href="tel:${n.replace(/\s/g, '')}">${n}</a>`;
