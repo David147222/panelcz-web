@@ -129,3 +129,9 @@ footer a{color:#fff}
 .rtab:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
 .rnote{background:#e8f3f5;border-left:4px solid var(--lake2);border-radius:8px;padding:10px 14px;margin:0 0 16px;font-size:.95rem}
 .rtabs-js>.rpanel:not(.on){display:none}
+/* Místo chybějící fotky nápis (David 10. 11. 2026). Text podle jazyka stránky. */
+.card .im.ph::after,.nw.ph::after{content:"Foto připravujeme";position:absolute;color:#fff;font-weight:600;letter-spacing:.03em;text-shadow:0 1px 2px rgba(0,0,0,.35)}
+.card .im.ph::after{inset:0;display:grid;place-items:center;font-size:1rem}
+.nw.ph::after{top:14px;right:14px;background:rgba(8,30,38,.45);padding:4px 12px;border-radius:999px;font-size:.88rem}
+html[lang=de] .card .im.ph::after,html[lang=de] .nw.ph::after{content:"Foto folgt"}
+html[lang=en] .card .im.ph::after,html[lang=en] .nw.ph::after{content:"Photo coming soon"}
