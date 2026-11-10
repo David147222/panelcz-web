@@ -43,10 +43,8 @@ RewriteRule ^wellness/finska-sauna/?$ https://%{HTTP_HOST}/sauna/ [R=301,L]
 RewriteRule ^wellness/(masaze/?)?$ https://%{HTTP_HOST}/areal/ [R=301,L]
 RewriteRule ^contact/?$ https://%{HTTP_HOST}/kontakt/ [R=301,L]
 RewriteRule ^wp-(content|admin|includes)/ https://%{HTTP_HOST}/ [R=301,L]
-# Adresa stranky bez lomitka na konci (napr. /apartmany) -> trvale na /apartmany/
-# (Wedos jinak vraci jen docasne presmerovani 302; cesta z $1, viz poznamka nahore)
-RewriteCond %{REQUEST_FILENAME} -d
-RewriteRule ^(.*[^/])$ https://panelcz.cz/$1/ [L,R=301]
+# Pozn.: adresu bez lomitka (/apartmany) presmeruje na /apartmany/ uz server Wedosu (302),
+# pravidlo v .htaccess se k ni nedostane (overeno 10. 11. 2026). Odkazy na webu maji lomitko vzdy.
 
 # Fotky webu smí načíst i jiné weby (např. Previo při nahrávání galerií)
 <IfModule mod_headers.c>
