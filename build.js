@@ -82,7 +82,7 @@ ${fotky(p.obsah)}
 <footer><div class="in">
   <div><h3>${t.kde}</h3><p>${t.adresa}<br>GPS: ${S.gps}</p></div>
   <div><h3>${t.kontakt}</h3><p>${t.ubytovani}: ${tel(S.telefon_ubytovani)}<br>${t.provoz}: ${tel(S.telefon_provoz)}<br>${t.email}: <a href="mailto:${S.email}">${S.email}</a></p></div>
-  <div><h3>${t.sledujte}</h3><p><a href="${S.facebook}" target="_blank" rel="noopener">Facebook</a> · <a href="${S.instagram}" target="_blank" rel="noopener">Instagram</a></p></div>
+  <div><h3>${t.sledujte}</h3><p>${[['Facebook', S.facebook], ['Instagram', S.instagram]].filter(([, h]) => h).map(([n, h]) => `<a href="${h}" target="_blank" rel="noopener">${n}</a>`).join(' · ')}</p></div>
   <div><h3>${t.provozovatel_h}</h3><p>${t.provozovatel}</p></div>
 </div><div class="in foot-links">${t.paticka.map(([i, n]) => `<a href="${url(i, L)}">${n}</a>`).join('')}</div><div class="in copy">© ${new Date().getFullYear()} Dajpr s.r.o.</div></footer>
 <div class="cookie" id="ck" hidden><p>${t.cookie} <a href="${url('cookies', L)}">${t.vice}</a></p><button class="btn" id="ck-ok">${t.rozumim}</button></div>
