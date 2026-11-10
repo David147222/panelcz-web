@@ -38,13 +38,54 @@
     a[i].classList.remove('on'); a[(i + 1) % a.length].classList.add('on');
   }, 3500);
 
+  // Záložky rezervace (Celý areál × Apartmány v létě). Adresa s #leto otevře letní záložku.
+  document.querySelectorAll('.rtabs').forEach(function (bar) {
+    var wrap = bar.parentElement; wrap.classList.add('rtabs-js');
+    var tabs = bar.querySelectorAll('.rtab');
+    var panel = function (id) { var p = document.getElementById(id); return p && p.parentElement === wrap && p.classList.contains('rpanel') ? p : null; };
+    var ukaz = function (id, posun) {
+      tabs.forEach(function (t) { var on = t.getAttribute('aria-controls') === id; t.classList.toggle('on', on); t.setAttribute('aria-selected', on ? 'true' : 'false'); });
+      wrap.querySelectorAll(':scope>.rpanel').forEach(function (p) {
+        p.classList.toggle('on', p.id === id);
+        if (p.id === id && window.__rplusOtevri) window.__rplusOtevri(p);
+      });
+      if (posun) bar.scrollIntoView({ block: 'start' });
+    };
+    tabs.forEach(function (t) { t.addEventListener('click', function () { ukaz(t.getAttribute('aria-controls')); }); });
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest && e.target.closest('a[href^="#"]'); if (!a) return;
+      var id = a.getAttribute('href').slice(1); if (!panel(id)) return;
+      e.preventDefault(); ukaz(id, true); if (history.replaceState) history.replaceState(null, '', '#' + id);
+    });
+    var zAdresy = function () { var id = location.hash.slice(1); if (id && panel(id)) ukaz(id, true); };
+    zAdresy(); window.addEventListener('hashchange', zAdresy);
+  });
+
   // Reservation+ (Previo): najde všechna místa pro formulář a načte je
   // Jazyk formuláře podle jazyka stránky; cizincům ceny v eurech
   var lang = (document.documentElement.lang || 'cs').slice(0, 2);
   var cur = lang === 'cs' ? 'CZK' : 'EUR';
   var boxes = document.querySelectorAll('[id^="previo-booking-engine-"]');
+  // Formulář ve skryté záložce se načte až při jejím prvním otevření: Previo ve skrytém místě
+  // nedoběhne a natáhne se do výšky (10. 11. 2026). Skript Previa při každém spuštění převezme
+  // čekající nastavení z window.bookingEngineConfig, proto se pro odložený formulář spustí znovu,
+  // ale nikdy dřív, než doběhne předchozí (jinak by druhé spuštění našlo prázdný seznam).
+  var fronta = [], nacitam = false;
+  var nacti = function (cfgs) {
+    fronta = fronta.concat(cfgs);
+    if (nacitam || !fronta.length) return;
+    nacitam = true;
+    window.bookingEngineConfig = fronta; fronta = [];
+    var s = document.createElement('script');
+    s.src = 'https://booking.previo.app/loader/';
+    s.onload = s.onerror = function () { nacitam = false; nacti([]); };
+    document.head.appendChild(s);
+  };
+  window.__rplusOtevri = function (panel) {
+    if (panel && panel.__rplusCfg) { var c = panel.__rplusCfg; panel.__rplusCfg = null; nacti([c]); }
+  };
   if (boxes.length) {
-    window.bookingEngineConfig = window.bookingEngineConfig || [];
+    var hned = [];
     boxes.forEach(function (el) {
       var id = el.id.replace('previo-booking-engine-', '');
       var cfg = { id: id, customSelector: el.id, lang: lang, currency: cur };
@@ -52,13 +93,13 @@
       // Použije se jen dokud je příjezd v budoucnu.
       var a = el.getAttribute('data-prijezd'), d = el.getAttribute('data-odjezd');
       if (a && d && new Date(a + 'T12:00:00') > new Date()) { cfg.arrival = a; cfg.departure = d; }
-      window.bookingEngineConfig.push(cfg);
       new MutationObserver(function () {
         if (el.children.length) el.closest('.rplus').classList.add('loaded');
       }).observe(el, { childList: true });
+      var p = el.closest('.rpanel');
+      if (p && !p.classList.contains('on') && p.parentElement.classList.contains('rtabs-js')) p.__rplusCfg = cfg;
+      else hned.push(cfg);
     });
-    var s = document.createElement('script');
-    s.src = 'https://booking.previo.app/loader/';
-    document.head.appendChild(s);
+    nacti(hned);
   }
 })();

@@ -121,3 +121,11 @@ footer a{color:#fff}
 .cap-a b{font-family:var(--d);color:var(--lake)}.cap-a .cap-n{font-weight:700;color:var(--sun)}.cap-a small{color:var(--muted);font-size:.85rem;line-height:1.35;margin-top:4px}
 .cap .cap-m{margin:12px 0 0;font-size:.95rem}
 .cap.sez{background:#e8f3f5;border-color:#9cc7d0}
+/* Záložky rezervace: Celý areál × Apartmány v létě (10. 11. 2026). Formulář ve skryté záložce se načte až při jejím otevření (site.js). */
+.rtabs{display:flex;gap:8px;margin:0 0 14px}
+.rtab{flex:1 1 0;min-width:0;font:700 1.02rem/1.25 var(--d);color:var(--lake);background:#fff;border:2px solid var(--lake2);border-radius:12px;padding:10px 12px;cursor:pointer;text-align:left}
+.rtab small{display:block;font:400 .85rem var(--b);color:var(--muted);margin-top:3px}
+.rtab.on{background:var(--lake);border-color:var(--lake);color:#fff}.rtab.on small{color:#d7ecf0}
+.rtab:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
+.rnote{background:#e8f3f5;border-left:4px solid var(--lake2);border-radius:8px;padding:10px 14px;margin:0 0 16px;font-size:.95rem}
+.rtabs-js>.rpanel:not(.on){display:none}
