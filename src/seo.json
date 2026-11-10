@@ -1,0 +1,23 @@
+{
+  "_poznamka": "Údaje pro vyhledávače (strukturovaná data na úvodní stránce, doplněk názvu stránek). Kontakty, adresa a GPS se berou z content/nastaveni.json. Tady jen to, co v nastavení není. Nic nevymýšlet: vše musí odpovídat textům na webu.",
+  "misto": { "cs": "Chmelnice u Vranovské přehrady", "de": "Chmelnice am Stausee Vranov", "en": "Chmelnice at the Vranov reservoir" },
+  "prijezd": "15:00",
+  "odjezd": "10:00",
+  "psi": true,
+  "fotky": ["hero", "budova", "terasa", "spol", "sauna1", "obyvak", "loznice"],
+  "vybaveni": [
+    { "cs": "Finská sauna", "de": "Finnische Sauna", "en": "Finnish sauna" },
+    { "cs": "Infrasauna", "de": "Infrarotsauna", "en": "Infrared sauna" },
+    { "cs": "Odpočívárna", "de": "Ruheraum", "en": "Relaxation room" },
+    { "cs": "Vířivka na kryté terase", "de": "Whirlpool auf der überdachten Terrasse", "en": "Hot tub on the covered terrace" },
+    { "cs": "Bazén se slanou vodou (květen–září)", "de": "Salzwasserpool (Mai–September)", "en": "Saltwater pool (May–September)" },
+    { "cs": "Krytá terasa se 144 místy", "de": "Überdachte Terrasse mit 144 Plätzen", "en": "Covered terrace with 144 seats" },
+    { "cs": "Společenská místnost s krbem a barem", "de": "Gemeinschaftsraum mit Kamin und Bar", "en": "Common room with fireplace and bar" },
+    { "cs": "Ohniště s grilem", "de": "Feuerstelle mit Grill", "en": "Fire pit with grill" },
+    { "cs": "Dětské hřiště", "de": "Kinderspielplatz", "en": "Children's playground" },
+    { "cs": "Pramice s vesly zdarma", "de": "Kostenlose Ruderboote", "en": "Free rowing boats" },
+    { "cs": "Wi-Fi v ubytovací části", "de": "WLAN im Unterkunftsbereich", "en": "Wi-Fi in the accommodation" },
+    { "cs": "Parkování zdarma", "de": "Kostenlose Parkplätze", "en": "Free parking" },
+    { "cs": "Nabíjení elektromobilů", "de": "Ladestation für Elektroautos", "en": "EV charging" }
+  ]
+}

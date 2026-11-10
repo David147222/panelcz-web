@@ -1,0 +1,4 @@
+Písma v této složce:
+- Bricolage Grotesque – Copyright The Bricolage Grotesque Project Authors
+- Source Sans 3 – Copyright Adobe
+Obě jsou pod licencí SIL Open Font License 1.1 (https://openfontlicense.org). Staženo z Google Fonts 10. 11. 2026.

@@ -1,4 +1,4 @@
-# Panel Chmelnice - nastaveni pro Wedos (Apache)
+# Panelcz - nastaveni pro Wedos (Apache)
 RewriteEngine On
 # www.panelcz.cz -> panelcz.cz a http -> https
 # Pozor (Wedos): web lezi v podslozce domains/panelcz.cz, takze %{REQUEST_URI} obsahuje
@@ -11,13 +11,17 @@ RewriteRule ^(.*)$ https://panelcz.cz/$1 [L,R=301]
 # Adresy, ktere uz takhle vznikly (zalozky, vyhledavace), vratit na cistou adresu
 RewriteCond %{THE_REQUEST} \s/domains/panelcz\.cz/(\S*)\s [NC]
 RewriteRule ^ https://panelcz.cz/%1 [L,R=301]
-ErrorDocument 404 /index.html
+# Neexistujici adresa: stranka "Tahle stranka tu neni" (vyhledavace ji neindexuji)
+ErrorDocument 404 /404.html
+AddType font/woff2 .woff2
 <IfModule mod_expires.c>
 ExpiresActive On
 ExpiresByType image/jpeg "access plus 30 days"
 ExpiresByType image/png "access plus 30 days"
+ExpiresByType image/svg+xml "access plus 30 days"
 ExpiresByType text/css "access plus 30 days"
 ExpiresByType application/javascript "access plus 30 days"
+ExpiresByType font/woff2 "access plus 1 year"
 </IfModule>
 <Files "oauth-config.php">
 Require all denied
@@ -39,6 +43,10 @@ RewriteRule ^wellness/finska-sauna/?$ https://%{HTTP_HOST}/sauna/ [R=301,L]
 RewriteRule ^wellness/(masaze/?)?$ https://%{HTTP_HOST}/areal/ [R=301,L]
 RewriteRule ^contact/?$ https://%{HTTP_HOST}/kontakt/ [R=301,L]
 RewriteRule ^wp-(content|admin|includes)/ https://%{HTTP_HOST}/ [R=301,L]
+# Adresa stranky bez lomitka na konci (napr. /apartmany) -> trvale na /apartmany/
+# (Wedos jinak vraci jen docasne presmerovani 302; cesta z $1, viz poznamka nahore)
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^(.*[^/])$ https://panelcz.cz/$1/ [L,R=301]
 
 # Fotky webu smí načíst i jiné weby (např. Previo při nahrávání galerií)
 <IfModule mod_headers.c>

@@ -35,6 +35,9 @@ collections:
               - { name: klic, label: "Kód fotky (neměnit)", widget: string }
               - { name: popis, label: "Kde je použitá", widget: string }
               - { name: foto, label: "Fotka", widget: image, choose_url: false }
+              - { name: alt, label: "Popisek fotky pro Google a nevidomé (česky)", widget: string, required: false, hint: "Co je na fotce, jednou větou. Při výměně fotky popisek upravte." }
+              - { name: alt_de, label: "Popisek fotky – německy", widget: string, required: false }
+              - { name: alt_en, label: "Popisek fotky – anglicky", widget: string, required: false }
 
   - name: nastaveni
     label: Kontakty a nastavení
@@ -55,6 +58,8 @@ collections:
           - { name: instagram, label: "Instagram (prázdné = odkaz se na webu neukáže)", widget: string, required: false }
           - { name: provozovatel, label: "Provozovatel (HTML)", widget: string }
           - { name: upozorneni, label: "Upozornění nahoře na webu (prázdné = nezobrazí se)", widget: string, required: false }
+          - { name: google_overeni, label: "Ověřovací kód Google Search Console (nepovinné)", widget: string, required: false, hint: "Vložte kód nebo celý řádek <meta ...> z Google Search Console (metoda Značka HTML)." }
+          - { name: seznam_overeni, label: "Ověřovací kód Seznam Webmaster (nepovinné)", widget: string, required: false, hint: "Vložte kód nebo celý řádek <meta ...> ze Seznam Webmaster." }
 
   - name: stranky
     label: Stránky
@@ -66,8 +71,8 @@ collections:
     identifier_field: nadpis
     summary: "{{nadpis}}"
     fields:
-      - { name: nadpis, label: "Název stránky (v záložce prohlížeče a ve vyhledávání)", widget: string }
-      - { name: popis, label: "Popis pro Google (1–2 věty)", widget: text, required: false }
+      - { name: nadpis, label: "Název stránky (v záložce prohlížeče a ve vyhledávání)", widget: string, hint: "Krátce a výstižně. Web za něj sám přidá název a místo, např. „· Panelcz, Chmelnice u Vranovské přehrady“." }
+      - { name: popis, label: "Popis pro Google (1–2 věty)", widget: text, required: false, hint: "Ukazuje se pod odkazem ve vyhledávání. Ideálně 120–160 znaků, co host na stránce najde." }
       - { name: obsah, label: "Obsah stránky (HTML)", widget: code, default_language: html, output_code_only: true, allow_language_selection: false }
 
   - name: stranky_de
@@ -80,8 +85,8 @@ collections:
     identifier_field: nadpis
     summary: "{{nadpis}}"
     fields:
-      - { name: nadpis, label: "Název stránky (v záložce prohlížeče a ve vyhledávání)", widget: string }
-      - { name: popis, label: "Popis pro Google (1–2 věty)", widget: text, required: false }
+      - { name: nadpis, label: "Název stránky (v záložce prohlížeče a ve vyhledávání)", widget: string, hint: "Krátce a výstižně. Web za něj sám přidá název a místo, např. „· Panelcz, Chmelnice u Vranovské přehrady“." }
+      - { name: popis, label: "Popis pro Google (1–2 věty)", widget: text, required: false, hint: "Ukazuje se pod odkazem ve vyhledávání. Ideálně 120–160 znaků, co host na stránce najde." }
       - { name: obsah, label: "Obsah stránky (HTML)", widget: code, default_language: html, output_code_only: true, allow_language_selection: false }
 
   - name: stranky_en
@@ -94,6 +99,6 @@ collections:
     identifier_field: nadpis
     summary: "{{nadpis}}"
     fields:
-      - { name: nadpis, label: "Název stránky (v záložce prohlížeče a ve vyhledávání)", widget: string }
-      - { name: popis, label: "Popis pro Google (1–2 věty)", widget: text, required: false }
+      - { name: nadpis, label: "Název stránky (v záložce prohlížeče a ve vyhledávání)", widget: string, hint: "Krátce a výstižně. Web za něj sám přidá název a místo, např. „· Panelcz, Chmelnice u Vranovské přehrady“." }
+      - { name: popis, label: "Popis pro Google (1–2 věty)", widget: text, required: false, hint: "Ukazuje se pod odkazem ve vyhledávání. Ideálně 120–160 znaků, co host na stránce najde." }
       - { name: obsah, label: "Obsah stránky (HTML)", widget: code, default_language: html, output_code_only: true, allow_language_selection: false }

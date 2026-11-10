@@ -1,8 +1,18 @@
-// Panel Chmelnice – skripty webu (menu, galerie, cookies, Reservation+ z Previa)
+// Panelcz – skripty webu (menu, galerie, cookies, Reservation+ z Previa)
 (function () {
   // Mobilní menu
   var burger = document.querySelector('.burger');
   if (burger) burger.addEventListener('click', function () { document.body.classList.toggle('mo'); });
+
+  // Fotky na pozadí (dlaždice, galerie, výzvy) se načtou, až se k nim stránka přiblíží – build.js je dává do data-bg
+  var bgs = document.querySelectorAll('[data-bg]');
+  var ukazBg = function (el) { el.style.backgroundImage = "url('" + el.getAttribute('data-bg') + "')"; el.removeAttribute('data-bg'); };
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) { io.unobserve(e.target); ukazBg(e.target); } });
+    }, { rootMargin: '600px 0px' });
+    bgs.forEach(function (el) { io.observe(el); });
+  } else bgs.forEach(ukazBg);
 
   // Zvětšení plánku / fotky
   window.lb = function (src, label) {
