@@ -1,0 +1,19 @@
+# Kontrola navrhované změny před sloučením do main: web se sestaví a zkontroluje (kontrola.js).
+# Nic nenahrává na Wedos, to dělá až nahrat-na-wedos.yml po sloučení.
+name: Kontrola webu
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  kontrola:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Sestavit web
+        run: node build.js
+      - name: Zkontrolovat stránky, odkazy, upozornění, adresu a název
+        run: node kontrola.js

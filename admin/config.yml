@@ -57,7 +57,7 @@ collections:
           - { name: facebook, label: "Facebook (prázdné = odkaz se na webu neukáže)", widget: string, required: false }
           - { name: instagram, label: "Instagram (prázdné = odkaz se na webu neukáže)", widget: string, required: false }
           - { name: provozovatel, label: "Provozovatel (HTML)", widget: string }
-          - { name: upozorneni, label: "Upozornění nahoře na webu (prázdné = nezobrazí se)", widget: string, required: false }
+          - { name: upozorneni, label: "Upozornění nahoře na webu (prázdné = nezobrazí se)", widget: string, required: false, hint: "Celý pruh je odkaz na stránku Rezervace." }
           - { name: google_overeni, label: "Ověřovací kód Google Search Console (nepovinné)", widget: string, required: false, hint: "Vložte kód nebo celý řádek <meta ...> z Google Search Console (metoda Značka HTML)." }
           - { name: seznam_overeni, label: "Ověřovací kód Seznam Webmaster (nepovinné)", widget: string, required: false, hint: "Vložte kód nebo celý řádek <meta ...> ze Seznam Webmaster." }
 
