@@ -162,7 +162,8 @@ function page(id, p, L, opt = {}) {
   const ogKod = (p.obsah.match(/\{\{foto:[a-z0-9_]+\}\}/g) || []).map(s => s.slice(7, -2)).find(k => /\.(jpe?g|png|webp)$/i.test(FOTO[k] || '')) || 'hero';
   const ogAlt = altFotky(ogKod, L);
   // Upozornění nahoře: vypínač je české pole v administraci (prázdné = nikde); DE/EN znění je v src/jazyky.json (upozorneni).
-  const notice = S.upozorneni ? `<div class="demo">${L === 'cs' ? S.upozorneni : (t.upozorneni || S.upozorneni)}</div>` : '';
+  // Celý pruh je odkaz na Rezervaci v jazyce stránky.
+  const notice = S.upozorneni ? `<a class="demo" href="${url('rezervace', L)}">${L === 'cs' ? S.upozorneni : (t.upozorneni || S.upozorneni)}</a>` : '';
   const odkaz = l => url(opt.noindex ? 'uvod' : id, l);
   const alt = LANGS.map(l => `<link rel="alternate" hreflang="${l}" href="${S.domena}${url(id, l)}">`).join('\n') + `\n<link rel="alternate" hreflang="x-default" href="${S.domena}${url(id)}">`;
   const sw = `<div class="lang" aria-label="${t.jazyk}">` + LANGS.map(l => `<a href="${odkaz(l)}" hreflang="${l}" lang="${l}"${l === L ? ' class="on" aria-current="true"' : ''}>${l.toUpperCase()}</a>`).join('') + '</div>';
