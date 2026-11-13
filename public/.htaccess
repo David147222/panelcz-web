@@ -26,6 +26,12 @@ ExpiresByType font/woff2 "access plus 1 year"
 <Files "oauth-config.php">
 Require all denied
 </Files>
+# Obsazenost pro e-chalupy.cz a jine portaly (iCalendar): https://panelcz.cz/obsazenost.ics
+# Pocita ji obsazenost.php z online rezervace Previo, mezivysledek je v obsazenost-cache.ics (verejne nepristupny)
+RewriteRule ^obsazenost\.ics$ obsazenost.php [L]
+<Files "obsazenost-cache.ics">
+Require all denied
+</Files>
 # Zaloha stareho WordPressu neni verejne pristupna
 RewriteRule ^_stary-web(/|$) - [F,L]
 # Presmerovani starych adres puvodniho webu panelcz.cz (stav 3. 11. 2026)
