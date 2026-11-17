@@ -1,6 +1,6 @@
 # Pravidla pro úpravy webu panelcz.cz
 
-Popis struktury je v README.md. Navíc:
+Popis struktury je v README.md. Společná pravidla skupiny a paměť jsou v repozitáři `David147222/weby-skupiny` (CLAUDE.md a složka pamet/), přidej si ho k práci. Navíc:
 
 - Oficiální název je **Panelcz**, adresa **Oslnovice ev. č. 51, osada Chmelnice, 671 07 Uherčice** (potvrdil David 10. 11. 2026). Všude jen Panelcz, i v hovorových spojeních („celý Panelcz“, „Akce na Panelcz“), potvrdil David 10. 11. 2026.
 - Administraci `/admin/` (Decap CMS) nerozbij: každé nové pole v `content/*.json` musí být i v `admin/config.yml` (nepovinná pole s `required: false`).
