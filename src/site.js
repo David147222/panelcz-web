@@ -97,6 +97,7 @@
         jiny: 'Jídlo si zajistíte sami nebo u jiného dodavatele, bez poplatku.',
         uklidPo: function (c) { return 'Terasu, společenskou místnost a okolí po svatbě doúčtujeme podle odpracovaných hodin (' + c + ' za osobu a hodinu), nebo si je uklidíte sami.'; },
         obs: function (l, h) { return 'Obsluha kiosku: ' + l + ' × ' + h + ' h = ' + (l * h) + ' hodin obsluhy, cenu za hodinu vám pošleme.'; },
+        obsR: function (l, h, c) { return 'Obsluha kiosku (' + l + ' × ' + h + ' h × ' + c + ')'; },
         fotky: function (c) { return 'Za fotky od fotografa vám po jejich dodání vrátíme ' + c + '.'; },
         maxSpi: 'Přespat může nejvýš 37 hostů.', vic: 'Doporučujeme 100 až 130 hostů, nejvýš 150.', max: 'Víc než 150 hostů se na terasu nevejde.',
         malo: 'Hostů celkem nemůže být méně než těch, kteří přespí.',
@@ -110,6 +111,7 @@
         jiny: 'Das Essen besorgen Sie selbst oder bei einem anderen Anbieter, ohne Gebühr.',
         uklidPo: function (c) { return 'Terrasse, Gemeinschaftsraum und Umgebung nach der Hochzeit rechnen wir nach geleisteten Stunden ab (' + c + ' pro Person und Stunde), oder Sie räumen selbst auf.'; },
         obs: function (l, h) { return 'Kiosk-Bedienung: ' + l + ' × ' + h + ' h = ' + (l * h) + ' Stunden, den Stundenpreis senden wir Ihnen.'; },
+        obsR: function (l, h, c) { return 'Kioskpersonal (' + l + ' × ' + h + ' Std. × ' + c + ')'; },
         fotky: function (c) { return 'Für die Fotos Ihres Fotografen erstatten wir Ihnen nach Lieferung ' + c + '.'; },
         maxSpi: 'Übernachten können höchstens 37 Gäste.', vic: 'Wir empfehlen 100 bis 130 Gäste, höchstens 150.', max: 'Mehr als 150 Gäste passen nicht auf die Terrasse.',
         malo: 'Die Gesamtzahl der Gäste kann nicht kleiner sein als die der Übernachtenden.',
@@ -123,6 +125,7 @@
         jiny: 'You arrange the food yourself or with another caterer, free of charge.',
         uklidPo: function (c) { return 'We charge cleaning of the terrace, common room and surroundings after the wedding by hours worked (' + c + ' per person per hour), or you clean up yourself.'; },
         obs: function (l, h) { return 'Kiosk staff: ' + l + ' × ' + h + ' h = ' + (l * h) + ' staff hours, we will send you the hourly rate.'; },
+        obsR: function (l, h, c) { return 'Kiosk staff (' + l + ' × ' + h + ' h × ' + c + ')'; },
         fotky: function (c) { return 'For photos from your photographer we refund ' + c + ' once they are delivered.'; },
         maxSpi: 'At most 37 guests can stay overnight.', vic: 'We recommend 100 to 130 guests, 150 at most.', max: 'More than 150 guests do not fit on the terrace.',
         malo: 'The total number of guests cannot be lower than the number staying overnight.',
@@ -166,12 +169,13 @@
       if (pc) { rows.push([T.prip + ': ' + po.textContent.replace(/\s*\(.*\)\s*$/, '').toLowerCase(), kc(pc)]); sum += pc; }
       if (nas) rows.push([T.kiosek, T.vCene]);
       else if (f.kiosek.checked) { var kk = parseFloat(f.kiosek.getAttribute('data-cena')) || 0; rows.push([T.kiosek, kc(kk)]); sum += kk; }
+      var ol = Math.max(0, cislo(f.obs_lidi)), oh = Math.max(0, cislo(f.obs_hod)), osaz = D('obsluha');
+      if (ol > 0 && oh > 0 && osaz) { rows.push([T.obsR(ol, oh, kc(osaz)), kc(ol * oh * osaz)]); sum += ol * oh * osaz; }
       var pn = Math.max(0, cislo(f.postylky)), pcen = parseFloat(f.postylky.getAttribute('data-cena')) || 0;
       if (pn) { rows.push([T.post(pn), kc(pn * pcen)]); sum += pn * pcen; }
       var celkem = (od ? T.od : '') + kc(sum);
       var notes = [nas ? T.nas : T.jiny, T.kauce(kc(D('kauce'))), T.el(kc(D('kwh'))), T.uklidPo(kc(D('uklid-hod')))];
-      var ol = cislo(f.obs_lidi), oh = cislo(f.obs_hod);
-      if (ol > 0 && oh > 0) notes.push(T.obs(ol, oh));
+      if (ol > 0 && oh > 0 && !osaz) notes.push(T.obs(ol, oh));
       if (f.fotky.checked) notes.push(T.fotky(kc(D('fotky'))));
       out.innerHTML = '<table>' + rows.map(function (r) { return '<tr><th>' + esc(r[0]) + '</th><td>' + esc(r[1]) + '</td></tr>'; }).join('') +
         '<tr class="sum"><th>' + esc(T.celkem) + '</th><td>' + esc(celkem) + '</td></tr></table>' +
