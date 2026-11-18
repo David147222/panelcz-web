@@ -81,6 +81,147 @@
     zAdresy(); window.addEventListener('hashchange', zAdresy);
   });
 
+  // Svatby: kalkulačka orientační ceny a nezávazná poptávka (18. 11. 2026).
+  // Ceny a adresy bere z data-* atributů v obsahu stránky (content/*/stranky/svatby.json), tady nejsou žádné částky.
+  // Poptávka jde přes FormSubmit (formsubmit.co) na data-email; při chybě ukáže e-mail a telefon.
+  document.querySelectorAll('.kalk').forEach(function (k) {
+    var f = k.querySelector('.kf'), out = k.querySelector('.ks-out'), ks = k.querySelector('.ks');
+    if (!f || !out) return;
+    var L = (document.documentElement.lang || 'cs').slice(0, 2);
+    var T = {
+      cs: { bal: 'Balíček', od: 'od ', uklid: 'Úklid, předání objektu a ložní prádlo', popl: function (n, noci, c) { return 'Poplatek z pobytu (' + n + ' × ' + noci + ' noci × ' + c + ')'; },
+        prip: 'Přípravný den', kiosek: 'Kiosek na terase', vCene: 'v ceně cateringu', post: function (n) { return 'Dětské postýlky (' + n + ' ks)'; }, celkem: 'Orientačně celkem', bar: 'Orientačně',
+        kauce: function (c) { return 'Vratná kauce ' + c + ' převodem nejpozději 3 dny před příjezdem.'; },
+        el: function (c) { return 'Elektřina podle skutečné spotřeby, ' + c + '/kWh, odečte se z kauce.'; },
+        nas: 'Jídlo nacení Catering Grasel, poptávka na catering@penzion-grasel.cz. Vybavení a kiosek jsou v ceně cateringu.',
+        jiny: 'Jídlo si zajistíte sami nebo u jiného dodavatele, bez poplatku.',
+        uklidPo: function (c) { return 'Terasu, společenskou místnost a okolí po svatbě doúčtujeme podle odpracovaných hodin (' + c + ' za osobu a hodinu), nebo si je uklidíte sami.'; },
+        obs: function (l, h) { return 'Obsluha kiosku: ' + l + ' × ' + h + ' h = ' + (l * h) + ' hodin obsluhy, cenu za hodinu vám pošleme.'; },
+        fotky: function (c) { return 'Za fotky od fotografa vám po jejich dodání vrátíme ' + c + '.'; },
+        maxSpi: 'Přespat může nejvýš 37 hostů.', vic: 'Doporučujeme 100 až 130 hostů, nejvýš 150.', max: 'Víc než 150 hostů se na terasu nevejde.',
+        malo: 'Hostů celkem nemůže být méně než těch, kteří přespí.',
+        ok: 'Děkujeme, poptávka odešla. Ozveme se vám co nejdřív.', posilam: 'Odesílám…', chybi: 'Vyplňte prosím jméno a platný e-mail.',
+        chyba: function (e, t) { return 'Poptávku se nepodařilo odeslat. Napište nám prosím na ' + e + ' nebo zavolejte ' + t + '.'; } },
+      de: { bal: 'Paket', od: 'ab ', uklid: 'Reinigung, Übergabe und Bettwäsche', popl: function (n, noci, c) { return 'Kurtaxe (' + n + ' × ' + noci + ' Nächte × ' + c + ')'; },
+        prip: 'Vorbereitungstag', kiosek: 'Kiosk auf der Terrasse', vCene: 'im Catering inklusive', post: function (n) { return 'Babybetten (' + n + ' St.)'; }, celkem: 'Richtpreis gesamt', bar: 'Richtpreis',
+        kauce: function (c) { return 'Rückzahlbare Kaution ' + c + ' per Überweisung spätestens 3 Tage vor Anreise.'; },
+        el: function (c) { return 'Strom nach tatsächlichem Verbrauch, ' + c + '/kWh, wird von der Kaution abgezogen.'; },
+        nas: 'Das Essen kalkuliert Catering Grasel, Anfragen an catering@penzion-grasel.cz. Ausstattung und Kiosk sind im Catering inklusive.',
+        jiny: 'Das Essen besorgen Sie selbst oder bei einem anderen Anbieter, ohne Gebühr.',
+        uklidPo: function (c) { return 'Terrasse, Gemeinschaftsraum und Umgebung nach der Hochzeit rechnen wir nach geleisteten Stunden ab (' + c + ' pro Person und Stunde), oder Sie räumen selbst auf.'; },
+        obs: function (l, h) { return 'Kiosk-Bedienung: ' + l + ' × ' + h + ' h = ' + (l * h) + ' Stunden, den Stundenpreis senden wir Ihnen.'; },
+        fotky: function (c) { return 'Für die Fotos Ihres Fotografen erstatten wir Ihnen nach Lieferung ' + c + '.'; },
+        maxSpi: 'Übernachten können höchstens 37 Gäste.', vic: 'Wir empfehlen 100 bis 130 Gäste, höchstens 150.', max: 'Mehr als 150 Gäste passen nicht auf die Terrasse.',
+        malo: 'Die Gesamtzahl der Gäste kann nicht kleiner sein als die der Übernachtenden.',
+        ok: 'Vielen Dank, die Anfrage wurde gesendet. Wir melden uns so bald wie möglich.', posilam: 'Wird gesendet…', chybi: 'Bitte geben Sie Ihren Namen und eine gültige E-Mail an.',
+        chyba: function (e, t) { return 'Die Anfrage konnte nicht gesendet werden. Bitte schreiben Sie uns an ' + e + ' oder rufen Sie ' + t + ' an.'; } },
+      en: { bal: 'Package', od: 'from ', uklid: 'Cleaning, handover and bed linen', popl: function (n, noci, c) { return 'Tourist tax (' + n + ' × ' + noci + ' nights × ' + c + ')'; },
+        prip: 'Preparation day', kiosek: 'Terrace kiosk', vCene: 'included with catering', post: function (n) { return 'Cots (' + n + ')'; }, celkem: 'Indicative total', bar: 'Indicative',
+        kauce: function (c) { return 'Refundable deposit of ' + c + ' by bank transfer no later than 3 days before arrival.'; },
+        el: function (c) { return 'Electricity by actual consumption, ' + c + '/kWh, deducted from the deposit.'; },
+        nas: 'Catering Grasel will price the food, enquiries to catering@penzion-grasel.cz. Equipment and the kiosk are included with the catering.',
+        jiny: 'You arrange the food yourself or with another caterer, free of charge.',
+        uklidPo: function (c) { return 'We charge cleaning of the terrace, common room and surroundings after the wedding by hours worked (' + c + ' per person per hour), or you clean up yourself.'; },
+        obs: function (l, h) { return 'Kiosk staff: ' + l + ' × ' + h + ' h = ' + (l * h) + ' staff hours, we will send you the hourly rate.'; },
+        fotky: function (c) { return 'For photos from your photographer we refund ' + c + ' once they are delivered.'; },
+        maxSpi: 'At most 37 guests can stay overnight.', vic: 'We recommend 100 to 130 guests, 150 at most.', max: 'More than 150 guests do not fit on the terrace.',
+        malo: 'The total number of guests cannot be lower than the number staying overnight.',
+        ok: 'Thank you, your enquiry has been sent. We will get back to you as soon as possible.', posilam: 'Sending…', chybi: 'Please fill in your name and a valid e-mail.',
+        chyba: function (e, t) { return 'The enquiry could not be sent. Please write to us at ' + e + ' or call ' + t + '.'; } }
+    }[L === 'de' || L === 'en' ? L : 'cs'];
+    var nb = ' ';
+    var kc = function (n) {
+      var neg = n < 0, s = String(Math.abs(Math.round(n))), g = L === 'en' ? ',' : nb;
+      s = s.replace(/\B(?=(\d{3})+(?!\d))/g, g);
+      return (neg ? '−' : '') + (L === 'en' ? 'CZK' + nb + s : s + nb + (L === 'cs' ? 'Kč' : 'CZK'));
+    };
+    var esc = function (t) { var d = document.createElement('div'); d.textContent = t; return d.innerHTML; };
+    var D = function (n) { return parseFloat(k.getAttribute('data-' + n)) || 0; };
+    var hl = (k.getAttribute('data-hl') || '').split(',');
+    var cislo = function (el) { var v = parseInt(el.value, 10); return isNaN(v) ? 0 : v; };
+    var nazev = function (o) { return o.textContent.replace(/\s*\(.*\)\s*$/, ''); };
+    var bar = document.createElement('a'); bar.className = 'ks-bar'; bar.href = '#kalk-souhrn';
+    if (ks) { ks.id = 'kalk-souhrn'; f.appendChild(bar); }
+    var stav = {};
+    var mesice = function () {
+      var o = f.balicek.options[f.balicek.selectedIndex], ok = (o.getAttribute('data-mesice') || '').split(','), m = f.mesic;
+      for (var i = 0; i < m.options.length; i++) m.options[i].disabled = ok.indexOf(m.options[i].value) < 0;
+      if (m.options[m.selectedIndex].disabled) for (var j = 0; j < m.options.length; j++) if (!m.options[j].disabled) { m.selectedIndex = j; break; }
+    };
+    var spocitej = function () {
+      var o = f.balicek.options[f.balicek.selectedIndex], mes = f.mesic.value, od = o.getAttribute('data-od') === '1';
+      var cena = parseFloat(o.getAttribute(hl.indexOf(mes) >= 0 ? 'data-cena-hl' : 'data-cena')) || 0;
+      var spi = cislo(f.spi), hoste = cislo(f.hoste), noci = D('noci'), warn = [];
+      if (spi > 37) { spi = 37; warn.push(T.maxSpi); }
+      if (spi < 0) spi = 0;
+      if (hoste > 150) warn.push(T.max); else if (hoste > 130) warn.push(T.vic);
+      if (hoste && hoste < spi) warn.push(T.malo);
+      var nas = f.querySelector('[name=catering]:checked').value === 'nas';
+      f.kiosek.disabled = nas; if (nas) f.kiosek.checked = true; else if (stav.nas) f.kiosek.checked = false;
+      var rows = [[T.bal + ' ' + nazev(o), (od ? T.od : '') + kc(cena)], [T.uklid, kc(D('uklid'))]];
+      var sum = cena + D('uklid');
+      var popl = spi * noci * D('poplatek');
+      if (spi) { rows.push([T.popl(spi, noci, kc(D('poplatek'))), kc(popl)]); sum += popl; }
+      var po = f.pripravny.options[f.pripravny.selectedIndex], pc = parseFloat(po.getAttribute('data-cena')) || 0;
+      if (pc) { rows.push([T.prip + ': ' + po.textContent.replace(/\s*\(.*\)\s*$/, '').toLowerCase(), kc(pc)]); sum += pc; }
+      if (nas) rows.push([T.kiosek, T.vCene]);
+      else if (f.kiosek.checked) { var kk = parseFloat(f.kiosek.getAttribute('data-cena')) || 0; rows.push([T.kiosek, kc(kk)]); sum += kk; }
+      var pn = Math.max(0, cislo(f.postylky)), pcen = parseFloat(f.postylky.getAttribute('data-cena')) || 0;
+      if (pn) { rows.push([T.post(pn), kc(pn * pcen)]); sum += pn * pcen; }
+      var celkem = (od ? T.od : '') + kc(sum);
+      var notes = [nas ? T.nas : T.jiny, T.kauce(kc(D('kauce'))), T.el(kc(D('kwh'))), T.uklidPo(kc(D('uklid-hod')))];
+      var ol = cislo(f.obs_lidi), oh = cislo(f.obs_hod);
+      if (ol > 0 && oh > 0) notes.push(T.obs(ol, oh));
+      if (f.fotky.checked) notes.push(T.fotky(kc(D('fotky'))));
+      out.innerHTML = '<table>' + rows.map(function (r) { return '<tr><th>' + esc(r[0]) + '</th><td>' + esc(r[1]) + '</td></tr>'; }).join('') +
+        '<tr class="sum"><th>' + esc(T.celkem) + '</th><td>' + esc(celkem) + '</td></tr></table>' +
+        warn.map(function (w) { return '<p class="warn">' + esc(w) + '</p>'; }).join('') +
+        '<ul>' + notes.map(function (n) { return '<li>' + esc(n) + '</li>'; }).join('') + '</ul>';
+      bar.innerHTML = '<span>' + esc(T.bar) + '</span><b>' + esc(celkem) + '</b>';
+      stav = { balicek: nazev(o), mesic: f.mesic.options[f.mesic.selectedIndex].textContent, spi: spi, hoste: hoste, nas: nas,
+        prip: pc ? po.textContent : '-', kiosek: nas ? T.vCene : (f.kiosek.checked ? 'ano' : 'ne'), obs: ol > 0 && oh > 0 ? ol + ' × ' + oh + ' h' : '-',
+        post: pn, fotky: f.fotky.checked ? 'ano' : 'ne', celkem: celkem };
+    };
+    f.addEventListener('submit', function (e) { e.preventDefault(); });
+    f.addEventListener('input', spocitej);
+    f.addEventListener('change', function (e) { if (e.target === f.balicek) mesice(); spocitej(); });
+    mesice(); spocitej();
+
+    var pf = k.parentElement.querySelector('.pf');
+    if (!pf) return;
+    var ps = pf.querySelector('.pf-stav'), btn = pf.querySelector('button[type=submit]');
+    var email = k.getAttribute('data-email'), tel = k.getAttribute('data-tel');
+    var hlasit = function (cls, html) { ps.className = 'pf-stav ' + cls; ps.innerHTML = html; };
+    var chyba = function () {
+      hlasit('chyba', esc(T.chyba('@@E', '@@T')).replace('@@E', '<a href="mailto:' + email + '">' + email + '</a>').replace('@@T', '<a href="tel:' + tel.replace(/\s/g, '') + '">' + tel + '</a>'));
+      btn.disabled = false;
+    };
+    pf.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var jm = pf.jmeno.value.trim(), em = pf.email.value.trim();
+      if (!jm || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em)) { hlasit('chyba', esc(T.chybi)); return; }
+      if (pf._honey.value) { hlasit('ok', esc(T.ok)); pf.reset(); return; }
+      spocitej();
+      var data = {
+        _subject: 'Poptávka svatby z webu: ' + jm + (pf.termin.value.trim() ? ', ' + pf.termin.value.trim() : ''),
+        _template: 'table', _honey: '', _replyto: em, _url: location.href,
+        'Jméno': jm, 'E-mail': em, 'Telefon': pf.telefon.value.trim() || '-', 'Termín': pf.termin.value.trim() || '-', 'Zpráva': pf.zprava.value.trim() || '-',
+        'Balíček': stav.balicek, 'Měsíc': stav.mesic, 'Hostů celkem': String(stav.hoste), 'Přespí': String(stav.spi),
+        'Jídlo': stav.nas ? 'Catering od nás (Catering Grasel)' : 'Jiný dodavatel nebo vlastní jídlo',
+        'Přípravný den': stav.prip, 'Kiosek': stav.kiosek, 'Obsluha kiosku': stav.obs, 'Dětské postýlky': String(stav.post),
+        'Fotky za odměnu': stav.fotky, 'Orientační cena z kalkulačky': stav.celkem, 'Jazyk stránky': L
+      };
+      btn.disabled = true; hlasit('', esc(T.posilam));
+      fetch('https://formsubmit.co/ajax/' + email, { method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(data) })
+        .then(function (r) { return r.json(); })
+        .then(function (j) {
+          if (j && (j.success === true || j.success === 'true')) { hlasit('ok', esc(T.ok)); pf.reset(); btn.disabled = false; }
+          else chyba();
+        })
+        .catch(chyba);
+    });
+  });
+
   // Reservation+ (Previo): najde všechna místa pro formulář a načte je
   // Jazyk formuláře podle jazyka stránky; cizincům ceny v eurech
   var lang = (document.documentElement.lang || 'cs').slice(0, 2);
