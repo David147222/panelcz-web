@@ -99,6 +99,8 @@
         obs: function (l, h) { return 'Obsluha kiosku: ' + l + ' × ' + h + ' h = ' + (l * h) + ' hodin obsluhy, cenu za hodinu vám pošleme.'; },
         obsR: function (l, h, c) { return 'Obsluha kiosku (' + l + ' × ' + h + ' h × ' + c + ')'; },
         fotky: function (c) { return 'Za fotky od fotografa vám po jejich dodání vrátíme ' + c + '.'; },
+        deti: 'Děti do 18 let poplatek z pobytu neplatí, rozdíl vyrovnáme z kauce.',
+        patek: 'U Páteční svatby je čtvrtek na výzdobu už v ceně, přípravný den by byl ve středu.',
         maxSpi: 'Přespat může nejvýš 37 hostů.', vic: 'Doporučujeme 100 až 130 hostů, nejvýš 150.', max: 'Víc než 150 hostů se na terasu nevejde.',
         malo: 'Hostů celkem nemůže být méně než těch, kteří přespí.',
         ok: 'Děkujeme, poptávka odešla. Ozveme se vám co nejdřív.', posilam: 'Odesílám…', chybi: 'Vyplňte prosím jméno a platný e-mail.',
@@ -113,6 +115,8 @@
         obs: function (l, h) { return 'Kiosk-Bedienung: ' + l + ' × ' + h + ' h = ' + (l * h) + ' Stunden, den Stundenpreis senden wir Ihnen.'; },
         obsR: function (l, h, c) { return 'Kioskpersonal (' + l + ' × ' + h + ' Std. × ' + c + ')'; },
         fotky: function (c) { return 'Für die Fotos Ihres Fotografen erstatten wir Ihnen nach Lieferung ' + c + '.'; },
+        deti: 'Kinder unter 18 Jahren zahlen keine Kurtaxe, die Differenz verrechnen wir mit der Kaution.',
+        patek: 'Bei der Freitagshochzeit ist der Donnerstag zum Dekorieren schon inklusive, ein Vorbereitungstag wäre am Mittwoch.',
         maxSpi: 'Übernachten können höchstens 37 Gäste.', vic: 'Wir empfehlen 100 bis 130 Gäste, höchstens 150.', max: 'Mehr als 150 Gäste passen nicht auf die Terrasse.',
         malo: 'Die Gesamtzahl der Gäste kann nicht kleiner sein als die der Übernachtenden.',
         ok: 'Vielen Dank, die Anfrage wurde gesendet. Wir melden uns so bald wie möglich.', posilam: 'Wird gesendet…', chybi: 'Bitte geben Sie Ihren Namen und eine gültige E-Mail an.',
@@ -127,6 +131,8 @@
         obs: function (l, h) { return 'Kiosk staff: ' + l + ' × ' + h + ' h = ' + (l * h) + ' staff hours, we will send you the hourly rate.'; },
         obsR: function (l, h, c) { return 'Kiosk staff (' + l + ' × ' + h + ' h × ' + c + ')'; },
         fotky: function (c) { return 'For photos from your photographer we refund ' + c + ' once they are delivered.'; },
+        deti: 'Children under 18 do not pay the tourist tax; we settle the difference from the deposit.',
+        patek: 'With the Friday wedding, Thursday for decorating is already included; a preparation day would be Wednesday.',
         maxSpi: 'At most 37 guests can stay overnight.', vic: 'We recommend 100 to 130 guests, 150 at most.', max: 'More than 150 guests do not fit on the terrace.',
         malo: 'The total number of guests cannot be lower than the number staying overnight.',
         ok: 'Thank you, your enquiry has been sent. We will get back to you as soon as possible.', posilam: 'Sending…', chybi: 'Please fill in your name and a valid e-mail.',
@@ -175,6 +181,8 @@
       if (pn) { rows.push([T.post(pn), kc(pn * pcen)]); sum += pn * pcen; }
       var celkem = (od ? T.od : '') + kc(sum);
       var notes = [nas ? T.nas : T.jiny, T.kauce(kc(D('kauce'))), T.el(kc(D('kwh'))), T.uklidPo(kc(D('uklid-hod')))];
+      if (spi) notes.push(T.deti);
+      if (pc && o.value === 'patecni') notes.push(T.patek);
       if (ol > 0 && oh > 0 && !osaz) notes.push(T.obs(ol, oh));
       if (f.fotky.checked) notes.push(T.fotky(kc(D('fotky'))));
       out.innerHTML = '<table>' + rows.map(function (r) { return '<tr><th>' + esc(r[0]) + '</th><td>' + esc(r[1]) + '</td></tr>'; }).join('') +
