@@ -141,3 +141,38 @@ footer a{color:#fff}
 .nw.ph::after{top:14px;right:14px;background:rgba(8,30,38,.45);padding:4px 12px;border-radius:999px;font-size:.88rem}
 html[lang=de] .card .im.ph::after,html[lang=de] .nw.ph::after{content:"Foto folgt"}
 html[lang=en] .card .im.ph::after,html[lang=en] .nw.ph::after{content:"Photo coming soon"}
+/* Svatby: srovnání balíčků, příklad ceny, kalkulačka a poptávka (18. 11. 2026) */
+.tnote{color:var(--muted);font-size:.92rem;margin:10px 0 0}
+table.srov td b{color:var(--lake)}
+table.kt{margin-top:10px}table.kt th{font-weight:400}table.kt tr.sum th,table.kt tr.sum td{font-weight:700;border-bottom:0;background:var(--sand)}
+@media(max-width:700px){
+.tw table.srov{background:none}table.srov thead{display:none}table.srov,table.srov tbody,table.srov tr,table.srov td{display:block}
+table.srov tr{background:#fff;border:1px solid var(--line);border-radius:12px;padding:6px 0;margin:0 0 12px}
+table.srov td{border:0;padding:4px 16px}table.srov td:first-child{font-family:var(--d);font-size:1.1rem;padding-top:8px}
+table.srov td[data-l]::before{content:attr(data-l);display:block;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;font-weight:600;color:var(--muted)}
+}
+.kalk{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:26px;align-items:start}
+.kf{background:#fff;border:1px solid var(--line);border-radius:12px;padding:24px}
+.kr2{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:16px}
+.kalk fieldset,.kp fieldset{border:0;border-top:1px solid var(--line);margin:0;padding:14px 0 0;display:grid;gap:12px;min-width:0}
+.kalk legend{font-family:var(--d);font-weight:700;font-size:1.1rem;padding:0 10px 0 0;color:var(--lake)}
+label.chk{display:flex;gap:10px;align-items:flex-start;font-weight:400;cursor:pointer}
+label.chk input{width:20px;height:20px;margin:4px 0 0;flex:none;accent-color:var(--sun)}
+.kalk input:disabled,.kalk select:disabled{background:#eef3f3;color:var(--muted)}
+.ks{position:sticky;top:140px;background:var(--lake);color:#fff;border-radius:12px;padding:24px}
+.ks h3{color:#fff;font-size:1.25rem;margin-bottom:10px}
+.ks table{background:none;border-radius:0}.ks th,.ks td{color:#fff;border-bottom:1px solid rgba(255,255,255,.18);padding:8px 0;font-size:.95rem}
+.ks th{font-weight:400;padding-right:10px}.ks td{color:#ffe1c2}
+.ks tr.sum th,.ks tr.sum td{font-weight:700;font-size:1.15rem;border-bottom:0;padding-top:12px;color:#fff}
+.ks ul{margin:12px 0 16px;padding-left:18px;font-size:.9rem;color:#d7ecf0}.ks ul li+li{margin-top:4px}
+.ks .warn{background:#fff6e5;color:#6b3d0c;border-radius:8px;padding:8px 12px;font-size:.92rem;margin:10px 0 0}
+.ks .btn{width:100%;text-align:center;box-sizing:border-box}
+.ks-bar{display:none}
+.kp{margin-top:26px}.kp .btn{justify-self:start}
+.hp{position:absolute!important;left:-9999px!important;width:1px;height:1px;overflow:hidden}
+.pf-stav:empty{display:none}.pf-stav{margin:0;padding:10px 14px;border-radius:8px;background:#e8f3f5}.pf-stav.ok{background:#e4f3ec;color:#1d5b3f}.pf-stav.chyba{background:#fdecea;color:#7a1f14}
+@media(max-width:820px){
+.kalk{grid-template-columns:1fr}.ks{position:static}.kf,.box.kp{padding:18px}
+.ks-bar{display:flex;position:sticky;bottom:0;margin:6px -18px -18px;padding:12px 18px;background:var(--lake);color:#fff;border-radius:0 0 12px 12px;justify-content:space-between;align-items:center;gap:10px;font-weight:600;text-decoration:none}
+.ks-bar b{font-family:var(--d);font-size:1.15rem;color:#ffe1c2;white-space:nowrap}
+}
