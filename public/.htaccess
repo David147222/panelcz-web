@@ -31,12 +31,16 @@ RewriteRule ^_stary-web(/|$) - [F,L]
 # Presmerovani starych adres puvodniho webu panelcz.cz (stav 3. 11. 2026)
 RewriteRule ^ubytovani/informace-pro-ubytovane/?$ https://%{HTTP_HOST}/informace/ [R=301,L]
 RewriteRule ^ubytovani/?$ https://%{HTTP_HOST}/apartmany/ [R=301,L]
+# Pronajem celeho objektu ma na novem webu vlastni stranku (Search Console 19. 11. 2026)
+RewriteRule ^ubytovani/cely-objekt/?$ https://%{HTTP_HOST}/cely-objekt/ [R=301,L]
 # Ostatni stare podstranky ubytovani (apartman-c-1 az c-4, ubytovani-pro-delniky...) na Apartmany.
 # Google je hlasil jako 404 v Search Console (19. 11. 2026).
 RewriteRule ^ubytovani/.+$ https://%{HTTP_HOST}/apartmany/ [R=301,L]
 RewriteRule ^tipy-na-vylety/?$ https://%{HTTP_HOST}/vylety/ [R=301,L]
 RewriteRule ^areal/stanek/?$ https://%{HTTP_HOST}/bufet/ [R=301,L]
 RewriteRule ^areal/zabavy/?$ https://%{HTTP_HOST}/hry/ [R=301,L]
+# Stara "Herna" (sipky, stolni fotbalek); Google ji hlasil v Search Console 19. 11. 2026
+RewriteRule ^areal/herna/?$ https://%{HTTP_HOST}/hry/ [R=301,L]
 RewriteRule ^areal/obchod/?$ https://%{HTTP_HOST}/obchod/ [R=301,L]
 RewriteRule ^areal/pujcovna/?$ https://%{HTTP_HOST}/pujcovna/ [R=301,L]
 RewriteRule ^sluzby-2/svatby/?$ https://%{HTTP_HOST}/svatby/ [R=301,L]
