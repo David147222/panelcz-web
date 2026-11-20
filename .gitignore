@@ -1,3 +1,4 @@
 node_modules/
 dist/
 admin/oauth-config.php
+public/obsazenost-cache.ics

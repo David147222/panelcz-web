@@ -21,3 +21,10 @@ Formuláře Reservation+ se vkládají jako `<div id="previo-booking-engine-ID_K
 - **Ověření Google Search Console / Seznam Webmaster:** pole `google_overeni`, `seznam_overeni` v `content/nastaveni.json` (v administraci Kontakty a nastavení).
 - **Rychlost:** písma jsou v `public/fonts/` (žádné Google Fonts), velká úvodní fotka se načítá přednostně, ostatní fotky na pozadí až při posunu stránky (`data-bg` → `src/site.js`), dlaždice a galerie dostávají menší verzi z `dist/foto/m/` (vyrábí `build.js` přes ImageMagick).
 - **Chyba 404:** `dist/404.html` (vyrábí `build.js`), v `.htaccess` `ErrorDocument 404 /404.html`.
+
+## Obsazenost pro portály (e-chalupy.cz)
+
+- **Adresa:** https://panelcz.cz/obsazenost.ics (kalendář ve formátu iCalendar, `.htaccess` ji posílá na `public/obsazenost.php`).
+- **Co ukazuje:** obsazenost **celého areálu** z online rezervace Previo (Reservation+ `01a1a149-…`), stejně jako ji vidí hosté. Na e-chalupy je Panelcz nabízený jako pronájem celého objektu, proto je v kalendáři obsazený každý den, kdy celý areál volný není: rezervace, doba před otevřením a celé léto (v červenci a srpnu se celý areál nepronajímá, jen apartmány; David 20. 11. 2026: lidé z e-chalup si mysleli, že se celý objekt pronajímá i v létě). V Previu se nic nemění.
+- **Jak často:** výsledek se drží 1 hodinu v `obsazenost-cache.ics` (veřejně nepřístupný). Když Previo neodpovídá, pošle se poslední uložená verze.
+- **Kde se používá:** e-chalupy.cz, klientská sekce → Obsazenost → Import kalendáře (ICAL), načítá se zhruba po 4 hodinách.
